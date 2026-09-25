@@ -64,14 +64,14 @@
     </div>
     <div class="flex items-center gap-2 flex-wrap">
       <button onclick="openLeaderboard()" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold px-3 py-1.5 rounded-xl text-xs sm:text-sm transition shadow">
-        🏆 BXH
+        🏆 BXH Chuỗi
       </button>
       <div id="auth-header-status">
         <button onclick="toggleAuthModal()" class="bg-pink-500 hover:bg-pink-600 text-white font-bold px-3 py-1.5 rounded-xl text-xs sm:text-sm transition shadow">
           Đăng nhập
         </button>
       </div>
-      <!-- Nút Quản Lý Đề bị ẩn mặc định, chỉ hiện khi đúng email Admin -->
+      <!-- Nút Quản Lý Đề bảo mật chỉ hiện với Admin -->
       <button id="manage-btn" onclick="toggleManageModal()" class="hidden bg-pink-500 hover:bg-pink-600 text-white font-bold px-3 py-1.5 rounded-xl text-xs sm:text-sm transition shadow relative z-20">
         ⚙️ Quản Lý Đề
       </button>
@@ -103,7 +103,7 @@
 
       <div class="space-y-2 pt-2">
         <h3 class="text-xl font-black text-pink-600">CHỌN CHƯƠNG ÔN TẬP 📚</h3>
-        <p class="text-sm text-gray-500 font-semibold">Hệ thống sẽ tự động tráo thứ tự câu hỏi và đáp án ngẫu nhiên!</p>
+        <p class="text-sm text-gray-500 font-semibold">Làm đúng liên tiếp để leo bảng xếp hạng chuỗi đỉnh cao!</p>
       </div>
 
       <div class="flex flex-col sm:flex-row justify-center items-center gap-3">
@@ -191,11 +191,12 @@
     </div>
   </div>
 
-  <!-- MODAL BẢNG XẾP HẠNG -->
+  <!-- MODAL BẢNG XẾP HẠNG CHUỖI -->
   <div id="leaderboard-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
     <div class="bg-white rounded-3xl p-6 w-full max-w-lg shadow-2xl border-4 border-indigo-300 space-y-4 relative max-h-[80vh] overflow-y-auto">
       <button onclick="closeLeaderboard()" class="absolute top-4 right-4 text-gray-400 hover:text-black font-bold text-xl">&times;</button>
-      <h3 class="text-lg font-black text-indigo-600 text-center">🏆 Bảng Xếp Hạng Sinh Viên TNUT</h3>
+      <h3 class="text-lg font-black text-indigo-600 text-center">🏆 Bảng Xếp Hạng Chuỗi Đúng Đỉnh Cao</h3>
+      <p class="text-center text-xs text-gray-400">Ghi nhận chuỗi câu đúng liên tiếp dài nhất của sinh viên TNUT!</p>
       <div id="leaderboard-list" class="space-y-2 pt-2">
         <p class="text-center text-sm text-gray-400">Đang tải dữ liệu...</p>
       </div>
@@ -313,9 +314,8 @@
     const auth = firebase.auth();
     const db = firebase.firestore();
 
-    // 🛑 ĐIỀN EMAIL GMAIL/TNUT THẬT MÀ MÀY DÙNG ĐỂ ĐĂNG NHẬP VÀO ĐÂY:
+    // 🛑 ĐIỀN EMAIL CHÍNH CHỦ CỦA MÀY ĐỂ MỞ KHÓA NÚT QUẢN LÝ ĐỀ:
     const ADMIN_EMAIL = "K265520216450@tnut.edu.vn"; 
-    // (Nếu lúc nãy mày dùng Gmail cá nhân đăng nhập Google thì đổi thành gmail cá nhân của mày vào trong ngoặc kép nhé!)
 
     const DEFAULT_QUESTIONS = [
       {
@@ -332,7 +332,7 @@
     let currentQIndex = 0;
     let wrongStreak = 0;
     let correctStreak = 0;
-    let totalCorrectScore = 0;
+    let sessionMaxStreak = 0; // Lưu chuỗi đúng cao nhất trong phiên làm việc
     let audioCtx = null;
 
     let streak3Osc1 = null, streak3Osc2 = null, streak3NoiseNode = null, streak3GainNode = null;
@@ -460,7 +460,7 @@
       currentQIndex = 0;
       wrongStreak = 0;
       correctStreak = 0;
-      totalCorrectScore = 0;
+      sessionMaxStreak = 0;
       document.getElementById('streak-count').textContent = wrongStreak;
       document.getElementById('correct-streak-count').textContent = correctStreak;
       document.getElementById('setup-panel').classList.add('hidden');
@@ -508,7 +508,13 @@
         btnEl.classList.add('border-green-500', 'bg-green-100');
         wrongStreak = 0;
         correctStreak++;
-        totalCorrectScore++;
+        
+        // Cập nhật chuỗi cao nhất và đẩy lên Firestore ngay nếu phá kỷ lục trong phiên
+        if (correctStreak > sessionMaxStreak) {
+          sessionMaxStreak = correctStreak;
+          updateStreakToFirestore(sessionMaxStreak);
+        }
+
         document.getElementById('streak-count').textContent = wrongStreak;
         document.getElementById('correct-streak-count').textContent = correctStreak;
         playWaooSound();
@@ -522,6 +528,25 @@
         document.getElementById('correct-streak-count').textContent = correctStreak;
         handleWrongAnswer();
       }
+    }
+
+    // Hàm đẩy chuỗi cao nhất lên Firestore theo dạng lưu max streak mỗi user
+    function updateStreakToFirestore(maxStreak) {
+      const user = auth.currentUser;
+      if (!user) return;
+
+      const userDocRef = db.collection("streak_leaderboard").doc(user.email);
+      userDocRef.get().then(doc => {
+        let existingMax = doc.exists ? (doc.data().maxStreak || 0) : 0;
+        if (maxStreak > existingMax) {
+          userDocRef.set({
+            email: user.email,
+            name: user.displayName || user.email.split('@')[0],
+            maxStreak: maxStreak,
+            timestamp: firebase.firestore.FieldValue.serverTimestamp()
+          }).catch(err => console.error("Lỗi lưu chuỗi:", err));
+        }
+      }).catch(err => console.error(err));
     }
 
     function showCorrectModal() {
@@ -556,22 +581,8 @@
         currentQIndex++;
         renderQuestion();
       } else {
-        saveScoreToFirestore();
-        alert(`🎉 CHÚC MỪNG! BẠN ĐÃ HOÀN THÀNH TẤT CẢ CÂU HỎI!\nĐiểm của bạn: ${totalCorrectScore} / ${currentQuizList.length}`);
+        alert(`🎉 CHÚC MỪNG! BẠN ĐÃ VƯỢT QUA TẤT CẢ CÂU HỎI TRONG CHƯƠNG NÀY!\nChuỗi đúng cao nhất của bạn: ${sessionMaxStreak} câu liên tiếp! 🔥`);
         exitQuiz();
-      }
-    }
-
-    function saveScoreToFirestore() {
-      const user = auth.currentUser;
-      if (user) {
-        db.collection("leaderboard").add({
-          email: user.email,
-          name: user.displayName || user.email.split('@')[0],
-          score: totalCorrectScore,
-          total: currentQuizList.length,
-          timestamp: firebase.firestore.FieldValue.serverTimestamp()
-        }).catch(err => console.error("Lỗi lưu điểm:", err));
       }
     }
 
@@ -672,7 +683,7 @@
       }).catch(err => alert(err.message));
     }
 
-    // Kiểm tra quyền chủ web để ẩn/hiện nút Quản lý đề
+    // Kiểm tra quyền chủ web
     auth.onAuthStateChanged(user => {
       const authStatus = document.getElementById('auth-header-status');
       const manageBtn = document.getElementById('manage-btn');
@@ -683,7 +694,6 @@
             👤 Đăng xuất
           </button>
         `;
-        // Kiểm tra xem email đăng nhập có khớp với ADMIN_EMAIL không
         if (user.email === ADMIN_EMAIL) {
           manageBtn.classList.remove('hidden');
         } else {
@@ -699,14 +709,15 @@
       }
     });
 
+    // Mở bảng xếp hạng chuỗi
     function openLeaderboard() {
       document.getElementById('leaderboard-modal').classList.remove('hidden');
       const listEl = document.getElementById('leaderboard-list');
       listEl.innerHTML = `<p class="text-center text-sm text-gray-400">Đang tải bảng xếp hạng...</p>`;
 
-      db.collection("leaderboard").orderBy("score", "desc").limit(10).get().then(snapshot => {
+      db.collection("streak_leaderboard").orderBy("maxStreak", "desc").limit(10).get().then(snapshot => {
         if (snapshot.empty) {
-          listEl.innerHTML = `<p class="text-center text-sm text-gray-400">Chưa có dữ liệu thi. Hãy là người đầu tiên lên bảng vàng!</p>`;
+          listEl.innerHTML = `<p class="text-center text-sm text-gray-400">Chưa có dữ liệu chuỗi. Hãy làm đúng liên tiếp để lên bảng vàng!</p>`;
           return;
         }
         let html = "";
@@ -720,7 +731,7 @@
                 <span class="font-bold text-base">${medal}</span>
                 <span class="text-sm font-semibold text-gray-700">${d.name || d.email}</span>
               </div>
-              <span class="font-extrabold text-indigo-600 text-sm">${d.score} / ${d.total} câu</span>
+              <span class="font-extrabold text-indigo-600 text-sm">🔥 ${d.maxStreak} câu liên tiếp</span>
             </div>
           `;
           rank++;
