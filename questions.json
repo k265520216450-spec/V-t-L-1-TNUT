@@ -24,12 +24,14 @@
     "correct": "A"
   },
   {
-    "id": "1.3",
+   "id": "1.3",
     "chapter": 1,
     "question": "Trong chuyển động tròn, gia tốc pháp tuyến của chất điểm có độ lớn được xác định bởi biểu thức nào sau đây?",
     "options": {
-      "A": "B.",
-      "C": "D."
+      "A": "an = v² / R",
+      "B": "an = v / R",
+      "C": "an = v² R",
+      "D": "an = ω / R"
     },
     "correct": "A"
   },
@@ -118,12 +120,14 @@
     "correct": "A"
   },
   {
-    "id": "1.11",
+   "id": "1.11",
     "chapter": 1,
-    "question": "Một viên đạn được bắn lên từ mặt đất với vận tốc đầu nòng là 800 m/s theo phương hợp với mặt phẳng ngang một góc 30o. Xác định tầm xa mà viên đạn đạt được. Bỏ qua sức cản không khí, lấy g = 10 m/s2.",
+    "question": "Một viên đạn được bắn lên từ mặt đất với vận tốc đầu nòng là 800 m/s theo phương hợp với mặt phẳng ngang một góc 30 độ. Xác định tầm xa mà viên đạn đạt được. Bỏ qua sức cản không khí, lấy g = 10 m/s².",
     "options": {
-      "A": "46562 m",
-      "B": "55426 m C. 60000 m D. 65345 m"
+      "A": "55426 m",
+      "B": "46562 m",
+      "C": "60000 m",
+      "D": "65345 m"
     },
     "correct": "A"
   },
