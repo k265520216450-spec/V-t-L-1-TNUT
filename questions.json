@@ -1,0 +1,4382 @@
+[
+  {
+    "id": "1.1",
+    "chapter": 1,
+    "question": "Chọn câu trả lời đúng: Trong công thức của chuyển động thẳng chậm dần đều: V= V0 + at.",
+    "options": {
+      "A": "V luôn luôn dương",
+      "B": "a luôn luôn dương",
+      "C": "a luôn cùng dấu với V",
+      "D": "a luôn ngược dấu với V"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.2",
+    "chapter": 1,
+    "question": "Chọn câu trả lời đúng: Trong công thức của chuyển động thẳng nhanh dần đều: V= V0 + at.",
+    "options": {
+      "A": "V luôn luôn dương",
+      "B": "a luôn luôn dương",
+      "C": "a luôn cùng dấu với V",
+      "D": "a luôn ngược dấu với V"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.3",
+    "chapter": 1,
+    "question": "Trong chuyển động tròn, gia tốc pháp tuyến của chất điểm có độ lớn được xác định bởi biểu thức nào sau đây?",
+    "options": {
+      "A": "B.",
+      "C": "D."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.4",
+    "chapter": 1,
+    "question": "Chọn câu trả lời sai: Trong chuyển động thẳng nhanh dần đều, nếu chọn chiều dương là chiều chuyển động thì:",
+    "options": {
+      "A": "Gia tốc là đại lượng véctơ cùng phương chiều với véctơ vận tốc",
+      "B": "Gia tốc là đại lượng véctơ cùng phương ngược chiều với véctơ vận tốc",
+      "C": "Gia tốc là đại lượng véctơ tiếp tuyến với quỹ đạo chuyển động",
+      "D": "Gia tốc là đại lượng véctơ có độ lớn a là một hằng số dương ."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.5",
+    "chapter": 1,
+    "question": "Chọn câu trả lời sai: Khi nói về sự rơi tự do của vật",
+    "options": {
+      "A": "Sự rơi tự do là sự rơi của các vật trong chân không, chỉ dưới tác dụng của trọng lực .",
+      "B": "Các vật rơi tự do tại cùng một nơi thì gia tốc như nhau.",
+      "C": "Trong quá trình rơi tự do vận tốc giảm dần theo thời gian.",
+      "D": "Trong quá trình rơi tự do gia tốc của vật không đổi cả về hướng và độ lớn."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.6",
+    "chapter": 1,
+    "question": "Chọn câu trả lời đúng: khi nói về vận tốc trong chuyển động cong:",
+    "options": {
+      "A": "Véctơ vận tốc tức thời tại mỗi điểm trên quỹ đạo có phương trùng với phương của tiếp tuyến với quỹ đạo tại điểm đó.",
+      "B": "Véctơ vận tốc tức thời tại mỗi điểm trên quỹ đạo có phương vuông góc với phương tiếp tuyến với quỹ đạo tại điểm đó.",
+      "C": "Phương của véctơ vận tốc không đổi theo thời gian.",
+      "D": "Trong quá trình chuyển động vận tốc luôn có giá trị dương."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.7",
+    "chapter": 1,
+    "question": "Phát biểu nào sau đây chỉ tốc độ tức thời?",
+    "options": {
+      "A": "Ôtô chuyển động từ A đến B với tốc độ 40km/h.",
+      "B": "Vận động viên chạm đích với tốc độ 10m/s.",
+      "C": "Xe máy chuyển động với tốc độ 30km/h trong thời gian 2 giờ thì đến TPHCM.",
+      "D": "Tốc độ của người đi bộ là 5 km/h."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.8",
+    "chapter": 1,
+    "question": "Một vật được ném xiên trong trường trọng lực, bỏ qua sức cản không khí. Tại điểm cao nhất của quỹ đạo:",
+    "options": {
+      "A": "vận tốc và gia tốc đều bằng không.",
+      "B": "vận tốc bằng không nhưng gia tốc khác không.",
+      "C": "thành phần vận tốc thẳng đứng bằng không.",
+      "D": "gia tốc bằng không nhưng vận tốc khác không."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.9",
+    "chapter": 1,
+    "question": "Hai viên bi sắt ở cùng một độ cao, viên A thả rơi tự do, viên B bắn theo phương ngang. Nếu bỏ qua sức cản không khí thì",
+    "options": {
+      "A": "viên A chạm đất trước.",
+      "B": "viên B chạm đất trước.",
+      "C": "hai viên bi chạm đất cùng lúc.",
+      "D": "viên có khối lượng lớn hơn chạm đất trước."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.10",
+    "chapter": 1,
+    "question": "Chọn phát biểu đúng về chuyển động của viên đạn sau khi ra khỏi nòng súng (bỏ qua sức cản không khí):",
+    "options": {
+      "A": "Tầm xa của đạn sẽ lớn nhất nếu nòng súng nằm ngang.",
+      "B": "Tầm xa của đạn sẽ lớn nhất nếu nòng súng nghiêng góc 60o so với phương ngang.",
+      "C": "Nếu mục tiêu (ở mặt đất) nằm trong tầm bắn thì có 2 góc ngắm để trúng đích.",
+      "D": "Độ cao cực đại mà viên đạn đạt được sẽ lớn nhất khi nòng súng nghiêng một góc 450."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.11",
+    "chapter": 1,
+    "question": "Một viên đạn được bắn lên từ mặt đất với vận tốc đầu nòng là 800 m/s theo phương hợp với mặt phẳng ngang một góc 30o. Xác định tầm xa mà viên đạn đạt được. Bỏ qua sức cản không khí, lấy g = 10 m/s2.",
+    "options": {
+      "A": "46562 m",
+      "B": "55426 m C. 60000 m D. 65345 m"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.12",
+    "chapter": 1,
+    "question": "Một viên đạn được bắn lên từ mặt đất với vận tốc đầu nòng là 800m/s theo phương hợp với mặt phẳng ngang một góc 30o. Xác định độ cao cực đại mà viên đạn đạt được. Bỏ qua sức cản không khí, lấy g = 10 m/s2.",
+    "options": {
+      "A": "2000m",
+      "B": "4000 m",
+      "C": "8000 m",
+      "D": "16000 m"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.13",
+    "chapter": 1,
+    "question": "Từ mặt đất một vật được bắn lên với vận tốc ban đầu V0= 20m/s hợp với phương nằm ngang một góc α = 600. Lấy g = 10m/s2. Hãy xác định thời gian chuyển động của vật.",
+    "options": {
+      "A": "3,46 s",
+      "B": "2,04 s",
+      "C": "21,65 s",
+      "D": "2,55 s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.14",
+    "chapter": 1,
+    "question": "Một người thợ xây ném một viên gạch theo phương thẳng đứng cho một người khác ở trên tầng cao 4 m. Người này chỉ việc giơ tay ngang ra là bắt được viên gạch. Lấy g = 10 m/s2. Để cho viên gạch lúc người kia bắt được bằng không thì vận tốc ném bằng bao nhiêu?",
+    "options": {
+      "A": "6,32 m/s. B. 8,94 m/s2.",
+      "C": "6,32 m/s2.",
+      "D": "8,94 m/s."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.15",
+    "chapter": 1,
+    "question": "Một quả bóng được ném từ đỉnh một tòa nhà có độ cao 20 m so với mặt đất với vận tốc ban đầu theo phương ngang. Bỏ qua sức cản không khí, lấy . Thời gian chuyển động của quả bóng là:",
+    "options": {
+      "A": "1 s",
+      "B": "2 s",
+      "C": "3 s",
+      "D": "4 s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.16",
+    "chapter": 1,
+    "question": "Người ta ném một vật từ mặt đất lên cao theo phương thẳng đứng với vận tốc 4,0 m/s. Lấy g = 10 m/s2. Thời gian vật chuyển động đến độ cao cực đại và độ cao cực đại vật đạt được là :",
+    "options": {
+      "A": "t = 0,4 s; H = 0,8 m.",
+      "B": "t = 0,4 s; H = 1,6 m.",
+      "C": "t = 0,8 s; H = 3,2 m.",
+      "D": "t = 0,8 s; H = 0,8 m."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.17",
+    "chapter": 1,
+    "question": "Một quả bóng được ném từ đỉnh một tòa nhà có độ cao 20 m so với mặt đất với vận tốc ban đầu theo phương ngang. Bỏ qua sức cản không khí, lấy . Tầm xa của quả bóng là:",
+    "options": {
+      "A": "B.",
+      "C": "D."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.20",
+    "chapter": 1,
+    "question": "Một ô tô chuyển động thẳng chậm dần đều, tốc độ giảm từ 12 m/s xuống 4 m/s. Tốc độ trung bình của ô tô trong khoảng thời gian đó là:",
+    "options": {
+      "A": "6 m/s",
+      "B": "8 m/s",
+      "C": "10 m/s",
+      "D": "4 m/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.21",
+    "chapter": 1,
+    "question": "Ô tô chuyển động thẳng, nhanh dần đều, lần lượt đi qua A và B với tốc độ vA = 2 m/s và vB = 8 m/s. Tốc độ trung bình của ôtô trên quãng đường AB là:",
+    "options": {
+      "A": "5 m/s",
+      "B": "4 m/s",
+      "C": "6 m/s",
+      "D": "3 m/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.22",
+    "chapter": 1,
+    "question": "Một canô xuôi dòng từ bến A đến bến B với tốc độ v1 = 30 km/h; rồi ngược dòng từ B về A với tốc độ v2 = 20 km/h. Tính tốc độ trung bình trên lộ trình đi – về của canô.",
+    "options": {
+      "A": "25 km/h B. 26 km/h",
+      "C": "24 km/h",
+      "D": "0 km/h"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.23",
+    "chapter": 1,
+    "question": "Một ôtô dự định chuyển động từ A đến B với vận tốc 30km/h. Nhưng sau khi đi được 1/3 đoạn đường, xe bị chết máy. Tài xế phải dừng 30 phút để sửa xe, sau đó đi tiếp với vận tốc 40km/h và đến B đúng giờ qui định. Tính thời gian dự định chuyển động ban đầu của ôtô.",
+    "options": {
+      "A": "2 giờ",
+      "B": "3 giờ",
+      "C": "2,5 giờ",
+      "D": "3,5 giờ"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.24",
+    "chapter": 1,
+    "question": "Một ôtô dự định chuyển động từ A đến B với vận tốc 30km/h. Nhưng sau khi đi được 1/3 đoạn đường, xe bị chết máy. Tài xế phải dừng 30 phút để sửa xe, sau đó đi tiếp với vận tốc 40km/h và đến B đúng giờ qui định. Tính quãng đường AB.",
+    "options": {
+      "A": "60 km",
+      "B": "80 km",
+      "C": "90 km",
+      "D": "100 km"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.25",
+    "chapter": 1,
+    "question": "Một môtơ bắt đầu khởi động nhanh dần đều, sau 2 giây đạt tốc độ ổn định 300 vòng/phút. Tính gia tốc góc của môtơ.",
+    "options": {
+      "A": "10π rad/s2",
+      "B": "5π rad/s2",
+      "C": "15π rad/s2",
+      "D": "20π rad/s2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.26",
+    "chapter": 1,
+    "question": "Một bánh xe có bán kính 0,25m quay đều quanh trục với tốc độ 500 vòng/phút. Gia tốc hướng tâm của điểm trên vành bánh xe có giá trị:",
+    "options": {
+      "A": "334,3 m/s2",
+      "B": "190,8 m/s2",
+      "C": "686,4 m/s2",
+      "D": "1800 m/s2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.27",
+    "chapter": 1,
+    "question": "Một môtơ bắt đầu khởi động nhanh dần đều, sau 2 giây đạt tốc độ ổn định 300 vòng/phút. Tính góc quay của môtơ trong thời gian đó.",
+    "options": {
+      "A": "10 π rad",
+      "B": "5 π rad",
+      "C": "15 π rad",
+      "D": "20 π rad"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.28",
+    "chapter": 1,
+    "question": "Một bánh mài đang quay với vận tốc 300 vòng/phút thì bị ngắt điện và nó quay chậm dần đều. Sau đó một phút, vận tốc còn 180 vòng/phút. Tính số vòng nó đã quay trong thời gian đó.",
+    "options": {
+      "A": "120 vòng",
+      "B": "240 vòng",
+      "C": "60 vòng",
+      "D": "180 vòng"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.29",
+    "chapter": 1,
+    "question": "Một đồng hồ có kim giờ dài 3cm, kim phút dài 4cm. Gọi ωP, ωg là vận tốc góc và vp , vg là vận tốc dài của đầu kim phút , kim giờ. Quan hệ nào sau đây là đúng?",
+    "options": {
+      "A": "ωp = 12ωg ; vp = 16 vg",
+      "B": "ωp = 12ωg ; vg = 16vp",
+      "C": "ωg = 12ωp ; vp = 16vg",
+      "D": "ωg = 12ωp ; vg = 9vp"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.30",
+    "chapter": 1,
+    "question": "Một dây cuaroa truyền động, vòng qua vô lăng I và bánh xe II (hình vẽ). Bán kính của vô lăng và bánh xe là R1 = 10cm và R2 = 50cm. Vô lăng đang quay với vận tốc 720 vòng/phút thì bị ngắt điện, nó quay chậm dần đều, sau đó 30 giây vận tốc chỉ còn 180 vòng/phút. Vận tốc quay của bánh xe ngay trước khi ngắt điện là:",
+    "options": {
+      "A": "720 vòng/phút B. 144 vòng/phút",
+      "C": "3600 vòng/phút D. 180 vòng/phút"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.31",
+    "chapter": 1,
+    "question": "Một dây cuaroa truyền động, vòng qua vô lăng I và bánh xe II (hình vẽ). Bán kính của vô lăng và bánh xe là R1 = 10cm và R2 = 50cm. Vô lăng đang quay với vận tốc 720 vòng/phút thì bị ngắt điện, nó quay chậm dần đều, sau đó 30 giây vận tốc chỉ còn 180 vòng/phút. Tính số vòng quay của vô lăng trong khoảng thời gian 30 giây đó.",
+    "options": {
+      "A": "540 vòng",
+      "B": "270 vòng",
+      "C": "225 vòng",
+      "D": "45 vòng"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.32",
+    "chapter": 1,
+    "question": "Một dây cuaroa truyền động, vòng qua vô lăng I và bánh xe II (hình vẽ). Bán kính của vô lăng và bánh xe là R1 = 10cm và R2 = 50cm. Vô lăng đang quay với vận tốc 720 vòng/phút thì bị ngắt điện, nó quay chậm dần đều, sau đó 30 giây vận tốc chỉ còn 180 vòng/phút. Sau bao lâu kể từ lúc ngắt điện, hệ thống sẽ dừng?",
+    "options": {
+      "A": "40 giây B. 50 giây",
+      "C": "60 giây",
+      "D": "80 giây"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.33",
+    "chapter": 1,
+    "question": "Một dây cuaroa truyền động, vòng qua vô lăng I và bánh xe II (hình vẽ). Bán kính của vô lăng và bánh xe là R1 = 10cm và R2 = 50cm. Vô lăng đang quay với vận tốc 720 vòng/phút thì bị ngắt điện, nó quay chậm dần đều, sau đó 30 giây vận tốc chỉ còn 180 vòng/phút. Tính số vòng quay của bánh xe trong khoảng thời gian 30 giây đó.",
+    "options": {
+      "A": "540 vòng",
+      "B": "144 vòng",
+      "C": "225 vòng",
+      "D": "45 vòng"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.34",
+    "chapter": 1,
+    "question": "Một dây cuaroa truyền động, vòng qua vô lăng I và bánh xe II (hình vẽ). Bán kính của vô lăng và bánh xe là R1 = 10cm và R2 = 50cm. Vô lăng đang quay với vận tốc 720 vòng/phút thì bị ngắt điện, nó quay chậm dần đều, sau đó 30 giây vận tốc chỉ còn 180 vòng/phút. Tính số vòng quay của bánh xe kể từ lúc ngắt điện cho đến khi dừng lại.",
+    "options": {
+      "A": "480 vòng",
+      "B": "240 vòng",
+      "C": "45 vòng",
+      "D": "48 vòng"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.35",
+    "chapter": 1,
+    "question": "Một dây cuaroa truyền động, vòng qua vô lăng I và bánh xe II (hình vẽ). Bán kính của vô lăng và bánh xe là R1 = 10cm và R2 = 50cm. Vô lăng đang quay với vận tốc 720 vòng/phút thì bị ngắt điện, nó quay chậm dần đều, sau đó 30 giây vận tốc chỉ còn 180 vòng/phút. Tính số vòng quay của vô lăng kể từ lúc ngắt điện cho đền khi dừng lại.",
+    "options": {
+      "A": "480 vòng",
+      "B": "240 vòng",
+      "C": "225 vòng",
+      "D": "48 vòng"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.36",
+    "chapter": 1,
+    "question": "Một vật chuyển động nhanh dần đều với vận tốc ban đầu Trong giây thứ nhất vật đi được quãng đường S1 = 3m. Gia tốc chuyển động của vật bằng:",
+    "options": {
+      "A": "6 m/s2.",
+      "B": "9 m/s2.",
+      "C": "8 m/s2.",
+      "D": "7 m/s2."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.37",
+    "chapter": 1,
+    "question": "Một ô tô đang chuyển động với vận tốc 36 km/h thì hãm phanh, chuyển động chậm dần đều và dừng lại sau 10 s. Chọn chiều dương là chiều chuyển động của ô tô. Gia tốc chuyển động của ô tô là:",
+    "options": {
+      "A": "0,5 m/s2. B. 1 m/s2.",
+      "C": "1,5 m/s2.",
+      "D": "2 m/s2."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.38",
+    "chapter": 1,
+    "question": "Một vật chuyển động nhanh dần đều với vận tốc ban đầu v0 = 0. Trong giây thứ nhất vật đi được quãng đường S1 = 3m. Trong giây thứ hai vật đi được quãng đường S2 bằng bao nhiêu?",
+    "options": {
+      "A": "3 m",
+      "B": "36 m",
+      "C": "6 m",
+      "D": "9 m"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.39",
+    "chapter": 1,
+    "question": "Một ô tô đang chuyển động với vận tốc 54 km/h thì hãm phanh, chuyển động chậm dần đều và dừng lại sau 10 s. Chọn chiều dương là chiểu chuyển động của ô tô. Vận tốc của ô tô sau khi hãm phanh được 6s là:",
+    "options": {
+      "A": "2,5 m/s. B. 6 m/s",
+      "C": "7,5 m/s.",
+      "D": "9 m/s."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.40",
+    "chapter": 1,
+    "question": "Một chiếc xe hơi giảm tốc chậm dần đều từ 54 km/h còn 36 km/h trên quãng đường thẳng dài 125 m. Độ lớn gia tốc của xe là:",
+    "options": {
+      "A": "1,5 m/s2 B. 0,7 m/s2",
+      "C": "0,5 m/s2",
+      "D": "1 m/s2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.41",
+    "chapter": 1,
+    "question": "Một đoàn tàu đang chạy với vận tốc 36 km/h thì hãm phanh, sau 5s thì dừng lại hẳn. Quãng đường đoàn tàu chạy sau 3s từ lúc hãm phanh là bao nhiêu?",
+    "options": {
+      "A": "21 m",
+      "B": "25,2 m",
+      "C": "52 m",
+      "D": "2,52 m"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.42",
+    "chapter": 1,
+    "question": "Hai viên bi sắt được thả rơi cùng độ cao cách nhau một khoảng thời gian 0,5 s. Lấy g = 10 m/s2. Khoảng cách giữa hai viên bi sau khi viên thứ nhất rơi được 1,5 s là bao nhiêu?",
+    "options": {
+      "A": "6,25 m. B. 12,5 m.",
+      "C": "5,0 m.",
+      "D": "2,5 m."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.43",
+    "chapter": 1,
+    "question": "Một xe ô tô chuyển động chậm dần đều với vận tốc ban đầu v0 = 20 m/s và gia tốc 3 m/s2. Vận tốc của xe khi đi thêm 50 m và quãng đường đi được cho đến khi dừng lại hẳn lần lượt có giá trị là:",
+    "options": {
+      "A": "12,37 m/s; 150 m",
+      "C": "13,72 m/s; 150 m",
+      "B": "17,32 m/s; 200 m",
+      "D": "13,27 m/s; 200 m"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.44",
+    "chapter": 1,
+    "question": "Tình huống quạt công nghiệp. Một quạt thông gió công nghiệp đang quay với tốc độ thì bị ngắt điện. Sau khi ngắt điện, quạt quay chậm dần đều do mômen cản tổng hợp không đổi. Sau tốc độ còn . Kể từ lúc ngắt điện:",
+    "options": {
+      "A": "quạt dừng sau và quay được vòng.",
+      "B": "quạt dừng sau và quay được vòng.",
+      "C": "quạt dừng sau và quay được vòng.",
+      "D": "quạt dừng sau và quay được vòng."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "1.45",
+    "chapter": 1,
+    "question": "Tình huống an toàn giao thông. Một ô tô đang chạy với tốc độ . Người lái phát hiện một vật cản cách xe . Thời gian phản ứng của người lái là ; trong thời gian phản ứng, coi xe vẫn chuyển động đều với tốc độ ban đầu. Sau đó xe hãm chậm dần đều với gia tốc có độ lớn . Nhận định nào sau đây đúng?",
+    "options": {
+      "A": "Xe dừng trước vật cản .",
+      "B": "Xe vừa dừng đúng tại vật cản.",
+      "C": "Xe va vào vật cản với tốc độ xấp xỉ .",
+      "D": "Xe va vào vật cản với tốc độ . Chương II Động lực học chất điểm"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.1",
+    "chapter": 2,
+    "question": "Phát biểu nào sau đây là sai?",
+    "options": {
+      "A": "Quán tính là xu hướng bảo toàn gia tốc của vật.",
+      "B": "Khối lượng đặc trưng cho mức quán tính.",
+      "C": "Định luật I Newton còn gọi là định luật quán tính.",
+      "D": "Chuyển động thẳng đều được gọi là chuyển động theo quán tính."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.2",
+    "chapter": 2,
+    "question": "Trọng lực có đặc điểm nào sau đây?",
+    "options": {
+      "A": "Luôn có chiều hướng về tâm của trái đất",
+      "B": "Phụ thuộc vào toạ độ địa lí.",
+      "C": "Có biểu thức , , với m là khối lượng của vật và g là gia tốc trọng trường.",
+      "D": "Tất cả đều là các đặc điểm của trong lực."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.3",
+    "chapter": 2,
+    "question": "Theo định luật III Newton, lực và phản lực không có đặc điểm nào sau đây?",
+    "options": {
+      "A": "Cùng bản chất.",
+      "B": "Cùng tồn tại và cùng mất đi đồng thời.",
+      "C": "Cùng điểm đặt",
+      "D": "Cùng phương nhưng ngược chiều"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.4",
+    "chapter": 2,
+    "question": "Phát biểu nào sau đây là đúng?",
+    "options": {
+      "A": "Trọng lượng là đại lượng đặc trưng cho mức độ quán tính của vật.",
+      "B": "Khi hai xe va chạm, xe nhỏ hơn sẽ chịu lực tác dụng mạnh hơn.",
+      "C": "Gia tốc của vật luôn tỉ lệ nghịch với khối lượng.",
+      "D": "Đội kéo co chiến thắng là đội tác dụng một lực lớn hơn vào sợi dây."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.5",
+    "chapter": 2,
+    "question": "Phát biểu nào sau đây là đúng?",
+    "options": {
+      "A": "Lực và phản lực có chung điểm đặt.",
+      "B": "Cặp lực trực đối thì triệt tiêu nhau.",
+      "C": "Cặp lực trực đối thì luôn ngược hướng.",
+      "D": "Lực pháp tuyến và trọng lực là hai lực trực đối của nhau."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.6",
+    "chapter": 2,
+    "question": "Động lượng của một hệ chất điểm không có đặc điểm nào sau đây:",
+    "options": {
+      "A": "Là tổng động lượng của các chất điểm trong hệ.",
+      "B": "Không thay đổi theo thời gian, nếu hệ kín.",
+      "C": "Đạo hàm của nó theo thời gian bằng tổng các ngoại lực tác dụng lên hệ.",
+      "D": "Đặc trưng cho tính chất nhanh, chậm của khối tâm của hệ."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.7",
+    "chapter": 2,
+    "question": "Trong biểu thức của định II Newton là , là:",
+    "options": {
+      "A": "Tổng hợp ngoại lực tác dụng lên vật.",
+      "B": "Là trọng lực.",
+      "C": "Là lực đẩy tác dụng lên vật.",
+      "D": "Là lực kéo tác dụng lên vật."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.8",
+    "chapter": 2,
+    "question": "Đại lượng đặc trưng cho mức quán tính của một vật là:",
+    "options": {
+      "A": "trọng lương.",
+      "B": "khối lượng.",
+      "C": "vận tốc.",
+      "D": "lực."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.9",
+    "chapter": 2,
+    "question": "Điều nào sau đây là sai khi nói về lực và phản lực?",
+    "options": {
+      "A": "Lực và phản lực luôn xuất hiện và mất đi đồng thời.",
+      "B": "Lực và phản lực luôn đặt vào hai vật khác nhau.",
+      "C": "Lực và phản lực luôn cùng hướng với nhau.",
+      "D": "Lực và phản lực không cân bằng nhau."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.10",
+    "chapter": 2,
+    "question": "Chọn câu phát biểu sai :",
+    "options": {
+      "A": "Động lượng của vật là đại lượng đặc trưng cho khả năng truyền chuyển động của vật.",
+      "B": "Động lượng là đại lượng véc tơ đo bằng tích giữa khối lượng và véc tơ vận tốc của vật.",
+      "C": "Véc tơ động lượng của vật luôn cùng phương, cùng chiều với véc tơ vận tốc của vật.",
+      "D": "Véc tơ động lượng của vật luôn cùng phương, ngược chiều với véc tơ vận tốc của vật."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.11",
+    "chapter": 2,
+    "question": "Theo định luật II Newton, khi hợp lực tác dụng lên vật khác không, vectơ gia tốc của vật:",
+    "options": {
+      "A": "cùng hướng với hợp lực tác dụng lên vật.",
+      "B": "luôn cùng hướng với vận tốc của vật.",
+      "C": "luôn ngược hướng với vận tốc của vật.",
+      "D": "vuông góc với hợp lực tác dụng lên vật."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.12",
+    "chapter": 2,
+    "question": "Đặc điểm nào sau đây không phải của lực ma sát trượt?",
+    "options": {
+      "A": "Xuất hiện khi vật trượt trên bề mặt vật khác.",
+      "B": "Luôn ngược chiều với chiều chuyển động.",
+      "C": "Tỉ lệ với áp lực vuông góc với mặt tiếp xúc.",
+      "D": "Luôn cân bằng với thành phần tiếp tuyến với mặt tiếp xúc của ngoại lực."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.13",
+    "chapter": 2,
+    "question": "Theo định luật III Newton, các vật tương tác với nhau bằng các cặp lực trực đối gọi là lực và phản lực.Vậy một vật đặt nằm yên trên mặt bàn nằm ngang thì phản lực của trọng lực P là lực nào?",
+    "options": {
+      "A": "Phản lực N của mặt bàn.",
+      "B": "Áp lực Q mà vật đè lên bàn.",
+      "C": "Lực ma sát giữa mặt bàn và vật.",
+      "D": "Lực mà vật hút Trái Đất."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.14",
+    "chapter": 2,
+    "question": "Các giọt mưa rơi được xuống đất là do nguyên nhân nào sau đây?",
+    "options": {
+      "A": "Quán tính.",
+      "B": "Lực đẩy Ác-si-mét của không khí.",
+      "C": "Lực hấp dẫn của Trái Đất.",
+      "D": "Gió."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.15",
+    "chapter": 2,
+    "question": "Trường hợp nào sau đây vật chịu tác dụng của lực ma sát nghỉ?",
+    "options": {
+      "A": "Vật đứng yên trên mặt đường, không có xu hướng chuyển động.",
+      "B": "Vật đứng yên trên mặt đường, nhưng có xu hướng chuyển động.",
+      "C": "Vật trượt đều trên mặt đường.",
+      "D": "Cả ba trường hợp đều xuất hiện lực ma sát nghỉ."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.16",
+    "chapter": 2,
+    "question": "Động lượng của một chất điểm không có đặc điểm nào sau đây:",
+    "options": {
+      "A": "Là một vectơ bằng tích của khối lượng với vectơ vận tốc.",
+      "B": "Luôn tiếp tuyến với quĩ đạo và hướng theo chiều chuyển động.",
+      "C": "Không thay đổi, khi chất điểm va chạm với chất điểm khác.",
+      "D": "Có đơn vị đo là (kg.m/s)."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.17",
+    "chapter": 2,
+    "question": "Một người có khối lượng 55kg đứng trên mặt đất. Lực mà mặt đất tác dụng lên người đó có độ lớn?",
+    "options": {
+      "A": "bằng 500 N.",
+      "B": "nhỏ hơn 500 N.",
+      "C": "Lớn hơn 500 N.",
+      "D": "phụ thuộc vào nơi mà người đó đứng trên Trái Đất."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.18",
+    "chapter": 2,
+    "question": "Trong chuyển động thẳng chậm dần đều thì hợp lực tác dụng vào vật",
+    "options": {
+      "A": "Cùng chiều với chuyển động.",
+      "B": "Cùng chiều với chuyển động và có độ lớn không đổi.",
+      "C": "Ngược chiều với chuyển động và có độ lớn nhỏ dần.",
+      "D": "Ngược chiều với chuyển động và có độ lớn không đổi."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.19",
+    "chapter": 2,
+    "question": "Phân tích lực F thành 2 lực thành phần F1 và F2 vuông góc với nhau. Biết độ lớn của F=500N , F1=300N , độ lớn của F2 là :",
+    "options": {
+      "A": "200 N.",
+      "B": "400 N.",
+      "C": "350 N.",
+      "D": "450 N."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.20",
+    "chapter": 2,
+    "question": "Trường hợp nào sau đây có hợp lực nhỏ nhất?",
+    "options": {
+      "A": "Hình A",
+      "B": "Hình B",
+      "C": "Hình C",
+      "D": "Hình D"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.21",
+    "chapter": 2,
+    "question": "Trường hợp nào sau đây có hợp lực lớn nhất?",
+    "options": {
+      "A": "Hình A",
+      "B": "Hình B",
+      "C": "Hình C",
+      "D": "Hình D"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.22",
+    "chapter": 2,
+    "question": "Cho 2 lực đồng quy có độ lớn 300N. Hỏi góc giữa 2 lực bằng bao nhiêu thì hợp lực cũng có độ lớn bằng 300N?",
+    "options": {
+      "A": "0o.",
+      "B": "90o.",
+      "C": "120o.",
+      "D": "180o."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.23",
+    "chapter": 2,
+    "question": "Tác dụng vào một vật đồng thời hai lực 1F  và 2F  trong đó F1 = 30N và F2 = 40N. Nhận xét nào sau đây là đúng?",
+    "options": {
+      "A": "Hợp lực tác dụng lên vật có độ lớn 70N. B. Hợp lực tác dụng lên vật có độ lớn 10N.",
+      "C": "Hợp lực tác dụng lên vật có độ lớn 50N. D. Chưa tính được độ lớn của tổng hợp lực"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.24",
+    "chapter": 2,
+    "question": "Cho hai lực đồng qui có độ lớn F1 = F2 = 30N. Góc tạo bởi hai vecto lực là 120o. Độ lớn của hợp lực là:",
+    "options": {
+      "A": "60 N",
+      "B": "30 2 N.",
+      "C": "30 N.",
+      "D": "15 3 N"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.25",
+    "chapter": 2,
+    "question": "Tính trọng lượng của một vật có khối lượng 73 kg khi đặt ở trên mặt trăng có g = 1,7 m/s2.",
+    "options": {
+      "A": "715 N.",
+      "B": "124 N.",
+      "C": "730 N.",
+      "D": "635 N."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.26",
+    "chapter": 2,
+    "question": "Để làm cho một lò xo giãn một đoạn 1 cm thì phải tác dụng một lực kéo F = 250 N dọc theo trục của lò xo. Dộ cứng của lò xo là:",
+    "options": {
+      "A": "2500 N/m",
+      "B": "50 N/m",
+      "C": "25000 N/m",
+      "D": "50000 N/m"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.27",
+    "chapter": 2,
+    "question": "Một quả bóng có khối lượng 500 g đang nằm yên trên mặt đất thì bị một cầu thủ đá bằng một lực 100 N. Bỏ qua mọi ma sát. Tính gia tốc của quả bóng?",
+    "options": {
+      "A": "0,02 m/s2.",
+      "B": "2 m/s2.",
+      "C": "0.2 m/s2",
+      "D": "200 m/s2."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.28",
+    "chapter": 2,
+    "question": "Một quả bóng có khối lượng 500 g đang nằm yên trên mặt đất thì bị một cầu thủ đá bằng một lực 50 N. Bỏ qua mọi ma sát. Quãng đường quả bóng đi được sau 2 giây là :",
+    "options": {
+      "A": "50 m.",
+      "B": "100 m.",
+      "C": "150 m.",
+      "D": "200 m."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.29",
+    "chapter": 2,
+    "question": "Một lực không đổi tác dụng vào một vật có khối lượng 5kg làm vận tốc của nó tăng dần từ 2m/s đến 8m/s trong 3s. Độ lớn của lực tác dụng vào vật là:",
+    "options": {
+      "A": "2 N.",
+      "B": "5 N.",
+      "C": "10 N.",
+      "D": "50 N."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.30",
+    "chapter": 2,
+    "question": "Một hợp lực 1 N tác dụng vào một vật có khối lượng 2kg lúc đầu đứng yên, trong khoảng thời gian 2s. Quãng đường mà vật đi được trong khoảng thời gian đó là:",
+    "options": {
+      "A": "0,5 m.",
+      "B": "1 m.",
+      "C": "2 m.",
+      "D": "3 m."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.31",
+    "chapter": 2,
+    "question": "Một ôtô có khối lượng 1 tấn đang chuyển động với v = 54 km/h thì tắt máy, hãm phanh, chuyển động chậm dần đều. Biết độ lớn lực hãm 3000N. Xác định quãng đường xe đi được cho đến khi dừng lại.",
+    "options": {
+      "A": "18,75 m. B. 486 m.",
+      "C": "0,486 m.",
+      "D": "37,5 m."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.32",
+    "chapter": 2,
+    "question": "Một xe tải chở hàng có tổng khối lượng xe và hàng là 3 tấn, khởi hành với gia tốc 0,4 m/s2. Khi không chở hàng xe tải khởi hành với gia tốc 0,6 m/s2. Biết rằng lực tác dụng vào ô tô trong hai trường hợp đều bằng nhau. Khối lượng của xe lúc không chở hàng là:",
+    "options": {
+      "A": "1 tấn",
+      "B": "2 tấn",
+      "C": "3 tấn",
+      "D": "4 tấn"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.33",
+    "chapter": 2,
+    "question": "Một ô tô khối lượng 1 tấn đang chuyển động với tốc độ 72km/h thì hãm phanh, đi thêm được 500m rồi dừng lại. Chọn chiều dương là chiều chuyển động. Lực hãm tác dụng lên xe là:",
+    "options": {
+      "A": "800 N.",
+      "B": "- 800 N.",
+      "C": "400 N.",
+      "D": "-400 N."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.34",
+    "chapter": 2,
+    "question": "Một tảng băng nặng 1 tấn được đẩy trên mặt sàn trơn nhẵn không ma sát bằng một lực F = 500 N theo phương ngang. Gia tốc của tảng băng là:",
+    "options": {
+      "A": "0,75 m/s2.",
+      "B": "0,5 m/s2.",
+      "C": "1 m/s2.",
+      "D": "1,5 m/s2."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.35",
+    "chapter": 2,
+    "question": "Một thùng hàng khối lượng được kéo trên sàn ngang bằng lực nằm ngang . Hệ số ma sát trượt giữa thùng và sàn là . Lấy . Gia tốc của thùng là:",
+    "options": {
+      "A": "B.",
+      "C": "D."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.36",
+    "chapter": 2,
+    "question": "Một vật có khối lượng 2 kg chuyển động thẳng nhanh dần đều từ trạng thái nghỉ và không đổi chiều chuyển động. Vật đó đi được 200 cm trong thời gian 2 s. Độ lớn hợp lực tác dụng vào nó có độ lớn bằng bao nhiêu?",
+    "options": {
+      "A": "4 N.",
+      "B": "1 N.",
+      "C": "2 N.",
+      "D": "100 N."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.37",
+    "chapter": 2,
+    "question": "Một vật có khối lượng 50 kg chuyển động nhanh dần đều với vận tốc ban đầu 0,2 m/s và khi đi được quãng đường 50 cm vận tốc đạt được 0,9 m/s thì lực tác dụng có độ lớn bằng bao nhiêu?",
+    "options": {
+      "A": "38,5 N. B. 38 N.",
+      "C": "24,5 N.",
+      "D": "34,5 N."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.38",
+    "chapter": 2,
+    "question": "Một người kéo vali nặng 25 kg bằng một lực 20 N với góc lệch lên phía trên 20o đi qua cửa soát vé. Gia tốc của vali khi không có ma sát bằng bao nhiêu?",
+    "options": {
+      "A": "0,27 m/s2 B. 0,75 m/s2",
+      "C": "0,8 m/s2",
+      "D": "170 m/s2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.39",
+    "chapter": 2,
+    "question": "Những người thợ kéo một hòn đá nặng 2 tấn trên một mặt phẳng nằm ngang với góc kéo 10o. Biết hệ số ma sát động là 0,1. Lấy g = 9,8 m/s2. Lực kéo tối thiểu để di chuyển khối đá bằng:",
+    "options": {
+      "A": "1956 N B. 1000N",
+      "C": "200 N",
+      "D": "100 N"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.40",
+    "chapter": 2,
+    "question": "Một sinh viên đặt một quyển sách nằm trên bàn rồi từ từ nâng cho bàn nghiêng đi. Cho hệ số ma sát tĩnh của bàn với sách là 0,2. Góc nghiêng của bàn khi quyển sách bắt đầu trượt bằng bao nhiêu?",
+    "options": {
+      "A": "0,4o",
+      "B": "21,8o",
+      "C": "66o",
+      "D": "11,3o"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.41",
+    "chapter": 2,
+    "question": "Thả một vật trượt trên một mặt phẳng nghiêng góc 30o so với phương ngang. Cho hệ số ma sát giữa vật và mặt phẳng là 0,4. Tính gia tốc chuyển động của vật. Cho g = 9,8 m/s2.",
+    "options": {
+      "A": "8,8 m/s2 B. 4,41 m/s2",
+      "C": "2,4 m/s2",
+      "D": "1,5 m/s2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.42",
+    "chapter": 2,
+    "question": "Vật có khối lượng m = 2 kg, đang đứng yên trên mặt phẳng ngang thì chịu một lực kéo F = 5N hướng xiên lên một góc α = 30o so với phương ngang. Hệ số ma sát trượt và hệ số ma sát nghỉ giữa vật và mặt phẳng ngang lần lượt là µ = 0,20 và µn = 0,25. Lấy g = 10 m/s2. Tính lực ma sát tác dụng lên vật.",
+    "options": {
+      "A": "4,33N",
+      "B": "3,92N",
+      "C": "3,50N",
+      "D": "2,50N"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.43",
+    "chapter": 2,
+    "question": "Một chiếc phà chạy xuôi dòng từ A đến B mất 3 giờ, khi chạy về mất 4 giờ. Nếu phà tắt máy trôi theo dòng nước từ A đến B thì mất bao nhiêu thời gian?",
+    "options": {
+      "A": "13 giờ.",
+      "B": "12 giờ.",
+      "C": "24 giờ.",
+      "D": "7 giờ."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.44",
+    "chapter": 2,
+    "question": "Một chiếc thuyền chuyển động thẳng đều, xuôi chiều dòng nước với vận tốc 7 km/h đối với nước. Vận tốc chảy của dòng nước là 1,5 km/h. Vận tốc của thuyền so với bờ là",
+    "options": {
+      "A": "8,5 km/h.",
+      "B": "5,5 km/h.",
+      "C": "7,2 km/h.",
+      "D": "6,8 km/h."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.45",
+    "chapter": 2,
+    "question": "Một chiếc xà lan chạy xuôi đòng sông từ A đến B mất 2 giờ. A, B cách nhau 36 km. Nước chảy với vận tốc 4 km/h. Vận tốc của xà lan đối với nước bằng bao nhiêu?",
+    "options": {
+      "A": "32 km/h B. 16 km/h",
+      "C": "12 km/h",
+      "D": "8 km/h"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.46",
+    "chapter": 2,
+    "question": "Các giọt nước mưa rơi đều thẳng đứng với vận tốc v1. Một xe lửa chuyển động thẳng đều theo phương ngang với vận tốc v2 = 10 m/s. Các giọt mưa rơi bám vào cửa kính và chạy dọc theo cửa kính theo hướng hợp góc 450 so với phương thẳng đứng. Vận tốc rơi đều của các giọt mưa là?",
+    "options": {
+      "A": "34,6 m/s B. 30 m/s.",
+      "C": "11,5 m/s",
+      "D": "10 m/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.47",
+    "chapter": 2,
+    "question": "Các giọt nước mưa rơi thẳng đứng với vận tốc 5 m/s so với mặt đất. Một ôtô tải đang đi với vận tốc 36 km/h trên đường. Hỏi để cần che mưa, người ngồi trên thùng xe tải không mui phải cầm cán ô nghiêng góc bao nhiêu so với phương thẳng đứng ?",
+    "options": {
+      "A": "510 32/",
+      "B": "740 15/",
+      "C": "600",
+      "D": "630 26/"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.48",
+    "chapter": 2,
+    "question": "Chất điểm khối lượng 100g, chuyển động với vận tốc 36km/h. Xác định động lượng của chất điểm.",
+    "options": {
+      "A": "1000 kgm/s",
+      "B": "1 kgm/s",
+      "C": "3,6 kgm/s",
+      "D": "5 kgm/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.49",
+    "chapter": 2,
+    "question": "Từ mặt đất một mũi tên có khối lượng m=150g, được bắn lên với vận tốc ban đầu V0 = 10m/s hợp với phương nằm ngang một góc  = 300. Lấy g = 10m/s2. Mômen lực tác dụng lên vật tại thời điểm chạm đất?",
+    "options": {
+      "A": "10,25 m B. 11,55 m",
+      "C": "13,865 m",
+      "D": "12,975 m"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.50",
+    "chapter": 2,
+    "question": "Chất điểm khối lượng m, chuyển động trên quĩ đạo tròn bán kính R với vận tốc góc 𝜔. Vectơ mômen động lượng của chất điểm có dạng nào sau đây?",
+    "options": {
+      "A": "= mR2",
+      "B": "= mR",
+      "C": "= mR2",
+      "D": "= mR2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.51",
+    "chapter": 2,
+    "question": "Chất điểm khối lượng m = 0,5kg chuyển động tròn đều với vận tốc 5 vòng/s. Tính mômen động lượng của chất điểm, biết bán kính quĩ đạo là 2m.",
+    "options": {
+      "A": "5 kgm2/s",
+      "B": "10 kgm2/s",
+      "C": "31,4 kgm2/s",
+      "D": "62,8 kgm2/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.52",
+    "chapter": 2,
+    "question": "Coi Trái Đất như một chất điểm chuyển động tròn đều quanh Mặt Trời. Tính mômen động lượng của Trái Đất, biết: chu kì quay của Trái Đất quanh Mặt Trời T = 365 ngày, khối lượng Trái Đất m = 6.1024kg và bán kính quĩ đạo R = 1,5.1011m.",
+    "options": {
+      "A": "2,7.1040 kgm2/s",
+      "B": "2,8.1043 kgm2/s C. 3,3.1038 kgm2/s D. 1,4.1040 kgm2/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.53",
+    "chapter": 2,
+    "question": "Trong môn quay tạ, một vận động viên quay dây sao cho cả dây và tạ chuyển động gần như tròn đều trong mặt phẳng nằm ngang. Muốn tạ chuyển động trên đường tròn bán kính 2 m với tốc độ dài 2 m/s thì người ấy phải giữ dây với một lực bằng 10 N. Hỏi khối lượng của tạ bằng bao nhiêu?",
+    "options": {
+      "A": "7,5 kg.",
+      "B": "5 kg.",
+      "C": "12 kg.",
+      "D": "8,35 kg."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.54",
+    "chapter": 2,
+    "question": "Treo vật có khối lượng 300 g vào một lò xo thẳng đứng có độ dài 25 cm. Biết lò xo có độ cứng 100 N/m, gia tốc trọng trường g = 10 m/s2. Chiều dài của lò xo khi vật đứng cân bằng là:",
+    "options": {
+      "A": "4 cm.",
+      "B": "21 cm.",
+      "C": "28 cm.",
+      "D": "29 cm."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.55",
+    "chapter": 2,
+    "question": "Một ô tô đang chuyển động thì gặp chướng ngại vật nên người lái phanh gấp. Xe chuyển động chậm dần với gia tốc có độ lớn 2 m/s2. Một hành khách khối lượng 60 kg đang ngồi yên so với xe. Lực quán tính tác dụng lên hành khách có độ lớn:",
+    "options": {
+      "A": "F = 240 N và hướng về phía trước",
+      "B": "F = 240 N và hướng về phía sau",
+      "C": "F = 120 N và hướng về phía trước",
+      "D": "F = 120 N và hướng về phía sau"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.56",
+    "chapter": 2,
+    "question": "Thang máy bắt đầu đi xuống nhanh dần từ tầng cao với gia tốc có độ lớn 2 m/s2. Người có khối lượng 60 kg đứng trong thang máy sẽ có cảm giác nhẹ hẫng vì lực quán tính tác dụng lên người này có độ lớn:",
+    "options": {
+      "A": "F = 60 N và hướng lên",
+      "B": "F = 60 N và hướng xuống",
+      "C": "F = 120 N và hướng lên",
+      "D": "F = 120 N và hướng xuống"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.57",
+    "chapter": 2,
+    "question": "Một sợi dây nhẹ, không co giãn, vắt qua ròng rọc nhẹ, cố định, hai đầu dây buộc chặt hai vật nhỏ khối lượng m1 = 3 kg và m2 = 2kg. Thả cho hai vật chuyển động theo phương thẳng đứng. Biết dây không giãn và không trượt trên ròng rọc. Bỏ qua ma sát ở trục ròng rọc, lấy g = 10 m/s2. Xác định gia tốc của các vật.",
+    "options": {
+      "A": "4 m/s2",
+      "B": "1m/s2",
+      "C": "2 m/s2",
+      "D": "3 m/s2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.58",
+    "chapter": 2,
+    "question": "Một sợi dây nhẹ, không co giãn, vắt qua ròng rọc nhẹ, cố định, hai đầu dây buộc chặt hai vật nhỏ khối lượng m1 = 3kg và m2 = 2kg. Thả cho hai vật chuyển động theo phương thẳng đứng. Biết dây không giãn và không trượt trên ròng rọc. Bỏ qua ma sát ở trục ròng rọc, lấy g = 10 m/s2. Tính lực căng dây.",
+    "options": {
+      "A": "10 N",
+      "B": "20 N",
+      "C": "24 N",
+      "D": "30 N"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.59",
+    "chapter": 2,
+    "question": "Cho cơ hệ như hình vẽ. Biết m1 = 1kg, m2 = 4kg. Bỏ qua: khối lượng dây, ròng rọc, ma sát giữa vật m2 và mặt ngang, ma sát ở trục ròng rọc. Dây không co giãn và không trượt trên rãnh ròng rọc. Lấy g = 10m/s2. Gia tốc của vật m1 có giá trị nào sau đây?",
+    "options": {
+      "A": "2,5 m/s2",
+      "B": "2 m/s2",
+      "C": "1,7 m/s2",
+      "D": "0 m/s2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.60",
+    "chapter": 2,
+    "question": "Cho cơ hệ như hình vẽ. Biết m1 = 1kg, m2 = 4kg. Bỏ qua: khối lượng dây, ròng rọc, ma sát giữa vật m2 và mặt ngang, ma sát ở trục ròng rọc. Dây không co giãn và không trượt trên rãnh ròng rọc. Lấy g = 10m/s2. Lực căng dây có giá trị nào sau đây?",
+    "options": {
+      "A": "10 N",
+      "B": "12 N",
+      "C": "8 N",
+      "D": "7,5 N"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.61",
+    "chapter": 2,
+    "question": "Cho cơ hệ như hình vẽ. Biết m1 = 1kg, m2 = 3kg. Bỏ qua: khối lượng dây, ròng rọc, ma sát ở trục ròng rọc. Dây không co giãn và không trượt trên rãnh ròng rọc. Hệ số ma sát trượt giữa vật m2 và mặt ngang là µ = 0,2. Lấy g = 10m/s2. Gia tốc của các vật có giá trị nào sau đây?",
+    "options": {
+      "A": "a = 2 m/s2",
+      "B": "a = 2,5 m/s2",
+      "C": "a = 1 m/s2",
+      "D": "a = 0 (vật đứng yên)"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.62",
+    "chapter": 2,
+    "question": "Cho cơ hệ như hình vẽ. Biết m1 = 1kg, m2 = 3kg. Bỏ qua: khối lượng dây, ròng rọc, ma sát ở trục ròng rọc. Dây không co giãn và không trượt trên rãnh ròng rọc. Hệ số ma sát trượt giữa vật m2 và mặt ngang là µ = 0,2. Lấy g = 10m/s2. Lực căng dây có giá trị nào sau đây?",
+    "options": {
+      "A": "10 N",
+      "B": "10,8 N",
+      "C": "9 N",
+      "D": "20 N"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.63",
+    "chapter": 2,
+    "question": "Cho cơ hệ như hình vẽ. Biết m1 = 6kg; m2 =6kg; α = 30o. Bỏ qua: ma sát ở trục ròng rọc, khối lượng dây và ròng rọc. Biết dây không giãn và không trượt trên rãnh ròng rọc. Lấy g = 10 m/s2. Tính hệ số ma sát nghỉ µ giữa vật m1 với mặt nghiêng để hệ đứng yên.",
+    "options": {
+      "A": " = 0,364",
+      "B": "C.   0,7",
+      "D": "  0 (vì m1 = m2)"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.64",
+    "chapter": 2,
+    "question": "Cho cơ hệ như hình vẽ. Biết m1 = 7kg, m2 = 3kg, α = 300, bỏ qua khối lượng dây và ròng rọc, dây không giãn và không trượt trên rãnh ròng rọc, bỏ qua ma sát giữa m1 và mặt phẳng nghiêng. Ban đầu hệ được giữ cân bằng, buông tay ra, vật m2 sẽ chuyển động như thế nào?",
+    "options": {
+      "A": "Đi lên.",
+      "B": "Đi xuống.",
+      "C": "Đứng yên.",
+      "D": "Đi lên thẳng đều."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "2.65",
+    "chapter": 2,
+    "question": "Cho cơ hệ như hình vẽ. Biết m1 = 3kg; m2 = 2kg; α = 30o. Bỏ qua: mọi ma sát, khối lượng dây và ròng rọc. Biết dây không giãn và không trượt trên rãnh ròng rọc. Lấy g = 10 m/s2. Xác định gia tốc và chiều chuyển động của m2.",
+    "options": {
+      "A": "m2 đi lên; a = 0,5 m/s2",
+      "B": "m2 đi xuống; a = 0,5m/s2",
+      "C": "m2 đi lên; a = 1m/s2",
+      "D": "m2 đi xuống; a = 1m/s2 Chương III Cơ học hệ chất điểm – Vật rắn"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.1",
+    "chapter": 3,
+    "question": "Khi vật rắn quay quanh trục Δ cố định với vận tốc góc ω thì các điểm trên vật rắn sẽ vạch ra:",
+    "options": {
+      "A": "các đường tròn đồng tâm với cùng vận tốc góc ω.",
+      "B": "các đường tròn đồng trục Δ với cùng vận tốc góc ω.",
+      "C": "các dạng quĩ đạo khác nhau.",
+      "D": "các đường tròn đồng trục Δ với các vận tốc góc khác nhau."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.2",
+    "chapter": 3,
+    "question": "Khi vật rắn chỉ có chuyển động tịnh tiến thì có tính chất nào sau đây?",
+    "options": {
+      "A": "Các điểm trên vật rắn đều không có cùng một dạng quĩ đạo.",
+      "B": "Các điểm trên vật rắn đều có cùng vectơ vận tốc.",
+      "C": "Gia tốc của một điểm bất kì trên vật rắn khác với gia tốc của khối tâm vật rắn.",
+      "D": "Tất cả các phương án đều đúng."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.3",
+    "chapter": 3,
+    "question": "Chuyển động lăn của bánh xe đạp trên mặt phẳng ngang là dạng chuyển động:",
+    "options": {
+      "A": "tịnh tiến.",
+      "B": "quay quanh trục bánh xe.",
+      "C": "tròn.",
+      "D": "tịnh tiến của trục bánh xe và quay quanh trục bánh xe."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.4",
+    "chapter": 3,
+    "question": "Trường hợp nào sau đây, thành phần lực nào thực sự có tác dụng làm vật rắn quay quanh trục?",
+    "options": {
+      "A": "Thành phần lực cắt trục quay.",
+      "B": "Thành phần lực song song với trục quay.",
+      "C": "Không có thành phần nào.",
+      "D": "Thành phần lực tiếp tuyến với quỹ đạo chuyển động."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.5",
+    "chapter": 3,
+    "question": "Khối tâm của con chuồn chuồn tre nằm ở:",
+    "options": {
+      "A": "Đầu cánh bên phải",
+      "B": "Mũi nhọn đặt lên ngón tay",
+      "C": "Đuôi",
+      "D": "Đầu cánh bên trái"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.6",
+    "chapter": 3,
+    "question": "Một chiếc gậy bóng chày được cắt đôi qua trọng tâm của nó như trên hình vẽ. Kết luận nào sau đây là đúng?",
+    "options": {
+      "A": "Phần bên phải có khối lượng lớn hơn",
+      "B": "Phần bên trái có khối lượng lớn hơn",
+      "C": "Hai phần có khối lượng bằng nhau",
+      "D": "Chưa đủ dữ kiện để so sánh khối lượng hai phần"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.7",
+    "chapter": 3,
+    "question": "Ban đầu một vận động viên trượt băng nghệ thuật dang rộng 2 tay đang thực hiện động tác quay quanh 1 trục thẳng đứng đi qua trọng tâm của người. Sau đó vận động viên khép tay lại thì chuyển động quay sẽ:",
+    "options": {
+      "A": "Quay nhanh hơn",
+      "B": "Quay chậm hơn",
+      "C": "Dừng lại ngay lập tức",
+      "D": "Không thay đổi"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.8",
+    "chapter": 3,
+    "question": "Tác dụng một momen lực không đổi lên một vật rắn và làm vật quay xung quanh một trục quay cố định. Đại lượng nào của vật sau đây không đổi:",
+    "options": {
+      "A": "Vận tốc góc",
+      "B": "Gia tốc góc",
+      "C": "Momen động lượng",
+      "D": "Động năng"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.9",
+    "chapter": 3,
+    "question": "Một vòng kim loại bán kính R, khối lượng m phân bố đều. Mômen quán tính đối với trục quay vuông góc với mặt phẳng vòng dây tại tâm vòng dây là:",
+    "options": {
+      "A": "mR2",
+      "B": "½ mR2",
+      "C": "2mR2",
+      "D": "2/5 mR2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.10",
+    "chapter": 3,
+    "question": "Một đĩa mài kim loại bán kính R, khối lượng m phân bố đều. Mômen quán tính đối với trục quay vuông góc với mặt phẳng đĩa tại tâm đĩa là:",
+    "options": {
+      "A": "mR2",
+      "B": "½ mR2",
+      "C": "2mR2",
+      "D": "2/5 mR2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.11",
+    "chapter": 3,
+    "question": "Một trục khuỷu có dạng thanh mảnh AB = a, đồng chất, khối lượng m phân bố đều. Tính mômen quán tính của trục khuỷu này đối với trục quay đi qua trung điểm của trục khuỷu.",
+    "options": {
+      "A": "1/12 ma2",
+      "B": "1/4 ma2",
+      "C": "1/3 ma2",
+      "D": "½ ma2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.12",
+    "chapter": 3,
+    "question": "Một viên bi kim loại bán kính R, khối lượng m phân bố đều. Mômen quán tính đối với trục quay đi qua tâm viên bi là:",
+    "options": {
+      "A": "mR2",
+      "B": "½ mR2",
+      "C": "2/3 mR2",
+      "D": "2/5 mR2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.13",
+    "chapter": 3,
+    "question": "Một quả bóng đá bán kính R, khối lượng m phân bố đều trên mặt cầu. Mômen quán tính của quả bóng đối với trục quay đi qua tâm là:",
+    "options": {
+      "A": "mR2",
+      "B": "½ mR2",
+      "C": "2/3 mR2",
+      "D": "2/5 mR2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.14",
+    "chapter": 3,
+    "question": "Một quả cầu đặc và một quả cầu rỗng có cùng bán kính và khối lượng, quay xung quanh trục quay đi qua khối tâm với cùng vận tốc góc. Kết luận nào sau đây là đúng?",
+    "options": {
+      "A": "Quả cầu đặc có mômen động lượng lớn hơn",
+      "B": "Quả cầu rỗng có mômen động lượng lớn hơn",
+      "C": "Hai quả cầu có mômen động lượng bằng nhau",
+      "D": "Chưa đủ dữ kiện để so sánh mômen động lượng của hai quả cầu"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.15",
+    "chapter": 3,
+    "question": "Một hình trụ đặc và một hình trụ rỗng có cùng bán kính và khối lượng, quay xung quanh trục quay trùng với trục hình trụ với cùng vận tốc góc. Kết luận nào sau đây là đúng?",
+    "options": {
+      "A": "Hình trụ đặc có mômen động lượng lớn hơn",
+      "B": "Hình trụ rỗng có mômen động lượng lớn hơn",
+      "C": "Hai hình trụ có mômen động lượng bằng nhau",
+      "D": "Chưa đủ dữ kiện để so sánh mômen động lượng của hai hình trụ"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.16",
+    "chapter": 3,
+    "question": "Một vòng tròn mảnh và một đĩa tròn đồng chất có cùng khối lượng và cùng bán kính . Mômen quán tính đối với trục qua tâm và vuông góc với mặt phẳng của chúng thỏa mãn:",
+    "options": {
+      "A": "B.",
+      "C": "D."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.17",
+    "chapter": 3,
+    "question": "Một đĩa đồng chất khối lượng m, bán kính R có thể quay xung quanh trục quay đi qua điểm O trên vành đĩa và vuông góc với đĩa. Mômen quán tính của đĩa đối với trục quay qua O là:",
+    "options": {
+      "A": "½ mR2",
+      "B": "3/2 mR2",
+      "C": "2/3 mR2",
+      "D": "2/5 mR2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.18",
+    "chapter": 3,
+    "question": "Một quả cầu đặc bán kính R, khối lượng m phân bố đều. Mômen quán tính của quả cầu đối với trục quay đi qua trung điểm của một bán kính là:",
+    "options": {
+      "A": "½ mR2",
+      "B": "13/20 mR2",
+      "C": "2/3 mR2",
+      "D": "2/5 mR2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.19",
+    "chapter": 3,
+    "question": "Một trục khuỷu có dạng thanh mảnh AB = a, đồng chất, khối lượng m phân bố đều. Tính mômen quán tính của trục khuỷu này đối với trục quay đi qua đầu A và vuông góc với AB.",
+    "options": {
+      "A": "1/12 ma2",
+      "B": "1/4 ma2",
+      "C": "1/3 ma2",
+      "D": "½ ma2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.20",
+    "chapter": 3,
+    "question": "Một bánh đà đồng chất, khối lượng phân bố đều, có đường kính 1 m, nặng 250 kg. Mômen quán tính của bánh đà đối với trục quay đi qua tâm và vuông góc với bánh đà là:",
+    "options": {
+      "A": "62,5 kgm2",
+      "B": "125 kgm2",
+      "C": "31,25 kgm2",
+      "D": "250 kgm2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.21",
+    "chapter": 3,
+    "question": "Bánh xe đạp được coi như một vành tròn có bán kính 40 cm, nặng 2 kg. Mômen quán tính của bánh xe đối với trục bánh xe là:",
+    "options": {
+      "A": "1600 kgm2",
+      "B": "0,16 kgm2",
+      "C": "0,32 kgm2",
+      "D": "3200 kgm2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.22",
+    "chapter": 3,
+    "question": "Hệ cơ học gồm 1 thanh AB có chiều dài L, khối lượng không đáng kể . Đầu A gắn 1 chất điểm có khối lượng m và đầu B gắn chất điểm có khối lượng 3m. Mômen quán tính của hệ đối với 1 trục vuông góc với AB và đi qua trung điểm của AB là:",
+    "options": {
+      "A": "mL2",
+      "B": "mL2",
+      "C": "mL2",
+      "D": "mL2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.23",
+    "chapter": 3,
+    "question": "Hai quả cầu đặc, đồng chất, có cùng khối lượng nhưng có bán kính hơn kém nhau 2 lần. Mômen quán tính đối với trục quay đi qua khối tâm của quả cầu nhỏ là I thì momen quán tính đối với trục quay đi qua khối tâm của quả cầu lớn là:",
+    "options": {
+      "A": "4I",
+      "B": "8I",
+      "C": "16I",
+      "D": "32I"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.24",
+    "chapter": 3,
+    "question": "Hai quả cầu đặc, đồng chất, cùng làm từ một loại thép nhưng có bán kính hơn kém nhau 2 lần. Mômen quán tính đối với trục quay đi qua khối tâm của quả cầu nhỏ là I thì momen quán tính đối với trục quay đi qua khối tâm của quả cầu lớn là:",
+    "options": {
+      "A": "4I",
+      "B": "8I",
+      "C": "16I",
+      "D": "32I"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.25",
+    "chapter": 3,
+    "question": "Một bánh xe bán kính lăn không trượt trên mặt đường. Gọi là vận tốc của khối tâm và là vận tốc góc của bánh xe. Quan hệ đúng là:",
+    "options": {
+      "A": "B.",
+      "C": "D."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.26",
+    "chapter": 3,
+    "question": "Một bánh xe có bán kính R, lăn không trượt trên mặt đường. Quãng đường mà khối tâm G của bánh xe đã đi được khi bánh xe quay một vòng quanh trục của nó là:",
+    "options": {
+      "A": "s = 2πR",
+      "B": "s = πR",
+      "C": "s = R",
+      "D": "s = 8R"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.27",
+    "chapter": 3,
+    "question": "Thanh AB mảnh, đồng chất dài 60 cm khối lượng m. Vật nhỏ có khối lượng 2m được gắn ở đầu A. Khối tâm của hệ cách đầu B của thanh một khoảng là:",
+    "options": {
+      "A": "10 cm",
+      "B": "20 cm",
+      "C": "50 cm",
+      "D": "15 cm"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.28",
+    "chapter": 3,
+    "question": "Một người gánh một thúng lúa và một thúng gạo, thúng lúa nặng 10kg, thúng gạo nặng 15kg. Đòn gánh dài 1,5m, hai thúng đặt ở hai đầu mút của đòn gánh. Vị trí đòn gánh đặt trên vai để hai thúng cân bằng là:",
+    "options": {
+      "A": "cách đầu gánh thúng gạo một đoạn 90cm.",
+      "B": "cách đầu gánh thúng lúa một đoạn 80cm.",
+      "C": "cách đầu gánh thúng gạo một đoạn 60cm.",
+      "D": "cách đầu gánh thúng lúa một đoạn 60cm."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.29",
+    "chapter": 3,
+    "question": "Một lực có độ lớn 100 N tác dụng lên một vật rắn quay quanh một trục cố định, biết khoảng cách từ giá của lực đến trục quay là 20 cm. Mômen của lực tác dụng lên vật có giá trị là:",
+    "options": {
+      "A": "200 N.m.",
+      "B": "200 N/m.",
+      "C": "20 N.m.",
+      "D": "2 N/m."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.30",
+    "chapter": 3,
+    "question": "Biết a = 10 cm và b = 25 cm, độ lớn tổng momen ngoại lực tác dụng lên bánh xe như hình vẽ là:",
+    "options": {
+      "A": "3,55 Nm",
+      "B": "4,75 Nm",
+      "C": "5,95 Nm",
+      "D": "3,71 Nm"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.31",
+    "chapter": 3,
+    "question": "Một lực có độ lớn 10 N tác dụng lên một cờ lê để mở một đai ốc như hình vẽ, biết khoảng cách r = 15 cm, góc  = 60o. Mômen của lực tác dụng lên cờ lê có giá trị là:",
+    "options": {
+      "A": "1,3 N.m.",
+      "B": "2 N.m.",
+      "C": "N.m.",
+      "D": "1 N.m."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.32",
+    "chapter": 3,
+    "question": "Một đĩa tròn đồng chất có khối lượng , bán kính , quay quanh trục qua tâm. Một mômen lực không đổi tác dụng lên đĩa. Bỏ qua ma sát. Gia tốc góc của đĩa là:",
+    "options": {
+      "A": "B.",
+      "C": "D."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.33",
+    "chapter": 3,
+    "question": "Một mômen lực không đổi 30 N.m tác dụng vào 1 bánh đà có mômen quán tính 6 kgm2. Thời gian cần thiết để bánh đà đạt tới tốc độ góc 60 rad/s từ trạng thái nghỉ là:",
+    "options": {
+      "A": "10 s",
+      "B": "11 s",
+      "C": "12 s",
+      "D": "13 s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.34",
+    "chapter": 3,
+    "question": "Một vô lăng hình đĩa tròn đồng chất, có khối lượng m = 10 kg, bán kính R = 20 cm, đang quay với vận tốc 240 vòng/phút thì bị hãm đều và dừng lại sau 20 giây. Độ lớn của mômen hãm là:",
+    "options": {
+      "A": "0,13 Nm",
+      "B": "0,50 Nm",
+      "C": "0,25 Nm",
+      "D": "1 Nm"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.35",
+    "chapter": 3,
+    "question": "Một vô lăng hình đĩa tròn đồng chất, có khối lượng m = 10 kg, bán kính R = 20 cm, đang quay với vận tốc 240 vòng/phút thì bị hãm đều và dừng lại sau 20 giây. Độ lớn của mômen hãm là:",
+    "options": {
+      "A": "0,13 Nm",
+      "B": "0,50 Nm",
+      "C": "0,25 Nm",
+      "D": "1 Nm"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.36",
+    "chapter": 3,
+    "question": "Bánh mài hình đĩa đồng chất, khối lượng m = 500g, bán kính R = 20cm đang quay với vận tốc 480 vòng/phút thì bị hãm đều lại. Tính mômen của lực hãm để bánh mài quay thêm 100 vòng nữa thì dừng hẳn.",
+    "options": {
+      "A": "1Nm",
+      "B": "0,1Nm",
+      "C": "10Nm",
+      "D": "0,02Nm"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.37",
+    "chapter": 3,
+    "question": "Một quả cầu rỗng, thành mỏng, đường kính 1m, chịu tác dụng bởi mômen quay 960Nm và nó quay với gia tốc góc 6 rad/s2, quanh một trục đi qua tâm quả cầu. Khối lượng quả cầu là:",
+    "options": {
+      "A": "160 kg",
+      "B": "200 kg",
+      "C": "240 kg",
+      "D": "960 kg."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.38",
+    "chapter": 3,
+    "question": "Một quả cầu đặc, thành mỏng, bán kính R = 1m, chịu tác dụng bởi mômen quay 960Nm và nó quay với gia tốc góc 6 rad/s2, quanh một trục đi qua tâm quả cầu. Tính khối lượng quả cầu.",
+    "options": {
+      "A": "160 kg",
+      "B": "400 kg",
+      "C": "240 kg",
+      "D": "400kg."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.39",
+    "chapter": 3,
+    "question": "Bánh xe đạp được coi như một vành tròn có bán kính 40 cm, nặng 2 kg, đang quay với tốc độ 60 vòng/phút. Lấy π = 3,14. Mômen động lượng của bánh xe đối với trục bánh xe là:",
+    "options": {
+      "A": "80 kgm2/s",
+      "B": "0,32 kgm2/s",
+      "C": "2 kgm2/s",
+      "D": "1 kgm2/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.40",
+    "chapter": 3,
+    "question": "Một bánh đà đồng chất, khối lượng phân bố đều, có đường kính 1 m, nặng 250 kg, đang quay với tốc độ 240 vòng/phút. Mômen động lượng của bánh đà đối với trục quay đi qua tâm và vuông góc với bánh đà là:",
+    "options": {
+      "A": "500 kgm2/s",
+      "B": "6.104 kgm2/s",
+      "C": "750π kgm2/s",
+      "D": "250π kgm2/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.41",
+    "chapter": 3,
+    "question": "Một vật có khối lượng 2 kg chuyển động về phía trước với tốc độ 4 m/s va chạm vào vật thứ hai đứng yên. Sau va chạm, vật thứ nhất chuyển động ngược chiều với tốc độ 1 m/s còn vật thứ hai chuyển động với tốc độ 2 m/s. Vật thứ hai có khối lượng bao nhiêu?",
+    "options": {
+      "A": "0,5 kg.",
+      "B": "4,5 kg.",
+      "C": "6 kg.",
+      "D": "5 kg."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.42",
+    "chapter": 3,
+    "question": "Hai vật A và B va chạm mềm với nhau trên mặt phẳng nằm ngang không ma sát. Vật A có khối lượng 1 kg và tốc độ 20 m/s. Vật B có khối lượng 4 kg và chuyển động ngược chiều với tốc độ 5 m/s. Tính tốc độ sau va chạm của hai vật?",
+    "options": {
+      "A": "0",
+      "B": "4 m/s",
+      "C": "1 m/s",
+      "D": "8 m/s."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.43",
+    "chapter": 3,
+    "question": "Một khẩu súng có khối lượng M = 400 kg được đặt trên mặt đất nằm ngang, bắn ra một viên đạn có khối lượng m = 400 g theo phương nằm ngang với vận tốc có độ lớn 500 m/s. Vận tốc giật lại của súng là:",
+    "options": {
+      "A": "– 5 m/s",
+      "B": "0",
+      "C": "– 50 cm/s",
+      "D": "– 50 m/s."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.44",
+    "chapter": 3,
+    "question": "Khẩu pháo có khối lượng M = 450 kg, nhả đạn theo phương hợp với phương ngang góc 60o. Đạn có khối lượng m = 10kg, rời nòng với vận tốc v = 450 m/s. Khi bắn, pháo bị giật lùi về phía sau với tốc độ bao nhiêu? (Coi nền đất tuyệt đối cứng).",
+    "options": {
+      "A": "10 m/s",
+      "B": "5m/s",
+      "C": "7,5m/s",
+      "D": "2,5m/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.44",
+    "chapter": 3,
+    "question": "Khẩu pháo có khối lượng M = 450 kg, nhả đạn theo phương ngang. Đạn có khối lượng m = 5kg, rời nòng với vận tốc v = 450 m/s. Sau khi bắn, súng giật lùi một đoạn 45 cm. Tính lực cản trung bình của mặt đường tác dụng lên khẩu pháo.",
+    "options": {
+      "A": "50000 N",
+      "B": "10000 N",
+      "C": "12000 N",
+      "D": "12500 N"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.46",
+    "chapter": 3,
+    "question": "Hai vật có khối lượng m1 = 3 kg và m2 = 2 kg đang chuyển động ngược chiều với vận tốc có độ lớn lần lượt là 4 m/s và 5 m/s trên một mặt phẳng nằm ngang không ma sát thì va chạm trực diện đàn hồi. Sau va chạm, vật 1 bị bật trở lại với tốc độ 2 m/s. Tốc độ sau va chạm của vật 2 là :",
+    "options": {
+      "A": "1 m/s",
+      "B": "2 m/s",
+      "C": "3 m/s",
+      "D": "4 m/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.47",
+    "chapter": 3,
+    "question": "Một đầu máy xe lửa có khối lượng 100 tấn chuyển động thẳng đều theo phương ngang với vận tốc có độ lớn v1=1,5 m/s để ghép vào một đoàn tàu gồm 10 toa, mỗi toa 20 tấn đang đứng yên trên đường ray. Giả sử sau va chạm đầu tàu được gắn vào các toa, bỏ qua ma sát. Sau va chạm, vận tốc của đoàn tàu bằng bao nhiêu?",
+    "options": {
+      "A": "0,2 m/s",
+      "B": "0,75 m/s",
+      "C": "1 m/s",
+      "D": "0,5 m/s."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.48",
+    "chapter": 3,
+    "question": "Một dây mảnh, nhẹ, không co giãn, quấn quanh một trụ đặc đồng chất khối lượng m0 = 2kg. Đầu kia của dây nối với vật m = 1kg (hình). Bỏ qua ma sát ở trục quay, lấy g = 10m/s2. Tính gia tốc của vật.",
+    "options": {
+      "A": "a = 3,3m/s2",
+      "B": "a = 5m/s2",
+      "C": "a = 6,6 m/s2",
+      "D": "a = 0 (vật đứng yên)"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.49",
+    "chapter": 3,
+    "question": "Một dây mảnh, nhẹ, không co giãn, quấn quanh một trụ đặc đồng chất khối lượng m0 = 2kg. Đầu kia của dây nối với vật m = 1kg. Bỏ qua ma sát ở trục quay, lấy g = 10m/s2. Tính lực căng dây nối vật m.",
+    "options": {
+      "A": "10 N",
+      "B": "5 N",
+      "C": "7,7 N",
+      "D": "6,6 N"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.50",
+    "chapter": 3,
+    "question": "Một dây mảnh, nhẹ, không co giãn, quấn quanh một trụ rỗng đồng chất khối lượng m1 = 2kg. Đầu kia của dây nối với vật m2 = 3 kg (hình vẽ). Bỏ qua ma sát ở trục quay, lấy g = 10m/s2. Tính gia tốc của vật.",
+    "options": {
+      "A": "a = 7,5 m/s2",
+      "B": "a = 6 m/s2",
+      "C": "a = 5 m/s2",
+      "D": "a = 0 (vật đứng yên)"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.51",
+    "chapter": 3,
+    "question": "Một dây mảnh, nhẹ, không co giãn, quấn quanh một trụ rỗng đồng chất khối lượng m1 = 2 kg. Đầu kia của dây nối với vật m2 = 3kg (hình). Bỏ qua ma sát ở trục quay, lấy g = 10m/s2. Tính lực căng dây treo vật m2.",
+    "options": {
+      "A": "T = 6 N",
+      "B": "T = 12 N",
+      "C": "T = 18 N",
+      "D": "T = 10 N"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.52",
+    "chapter": 3,
+    "question": "Trên một hình trụ rỗng, thành mỏng, khối lượng m = 4kg, có quấn một sợi dây rất nhẹ, không co giãn. Đầu ra của sợi dây buộc chặt vào điểm cố định. Thả nhẹ cho hình trụ lăn xuống dưới. Tính gia tốc tịnh tiến của hình trụ, bỏ qua lực cản không khí, lấy g = 10m/s2.",
+    "options": {
+      "A": "a = 10 m/s2",
+      "B": "a = 5 m/s2",
+      "C": "a = 4 m/s2",
+      "D": "a = 6,6 m/s2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.53",
+    "chapter": 3,
+    "question": "Trên một hình trụ rỗng, thành mỏng, khối lượng m = 4kg, có quấn một sợi dây rất nhẹ, không co giãn. Đầu ra của sợi dây buộc chặt vào điểm cố định. Thả nhẹ cho hình trụ lăn xuống dưới. Tính lực căng dây, bỏ qua lực cản không khí, lấy g = 10m/s2.",
+    "options": {
+      "A": "T = 20 N",
+      "B": "T = 40 N",
+      "C": "T = 33 N",
+      "D": "T = 0 N"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.54",
+    "chapter": 3,
+    "question": "Trên một hình trụ đặc, khối lượng m = 4kg, có quấn một sợi dây rất nhẹ, không co giãn. Đầu ra của sợi dây buộc chặt vào điểm cố định. Thả nhẹ cho hình trụ lăn xuống dưới. Tính gia tốc tịnh tiến của hình trụ, bỏ qua lực cản không khí, lấy g = 10m/s2.",
+    "options": {
+      "A": "a = 10 m/s2",
+      "B": "a = 6,67 m/s2",
+      "C": "a = 5 m/s2",
+      "D": "a = 4 m/s2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.55",
+    "chapter": 3,
+    "question": "Trên một hình trụ đặc, thành mỏng, khối lượng m = 4kg, có quấn một sợi dây rất nhẹ, không co giãn. Đầu ra của sợi dây buộc chặt vào điểm cố định. Thả nhẹ cho hình trụ lăn xuống dưới. Tính lực căng dây, bỏ qua lực cản không khí, lấy g = 10m/s2.",
+    "options": {
+      "A": "T = 13,3 N",
+      "B": "T = 40 N",
+      "C": "T = 26,7 N",
+      "D": "T = 20 N"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.56",
+    "chapter": 3,
+    "question": "Một sợi dây nhẹ, không co giãn, vắt qua ròng rọc có dạng đĩa tròn đồng chất, khối lượng M = 800g, hai đầu dây buộc chặt hai vật nhỏ khối lượng m1 = 2,6kg và m2 = 1kg (hình vẽ). Thả cho hai vật chuyển động theo phương thẳng đứng. Bỏ qua ma sát ở trục ròng rọc, biết dây không trượt trên ròng rọc, lấy g = 10 m/s2. Xác định gia tốc của các vật?",
+    "options": {
+      "A": "4 m/s2",
+      "B": "4,4 m/s2",
+      "C": "3,8 m/s2",
+      "D": "2,2 m/s2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.57",
+    "chapter": 3,
+    "question": "Một sợi dây nhẹ, không co giãn, vắt qua ròng rọc có dạng đĩa tròn đồng chất, khối lượng m = 800g (hình vẽ), hai đầu dây buộc chặt hai vật nhỏ khối lượng m1 = 2,6 kg và m2 = 1 kg. Thả cho hai vật chuyển động theo phương thẳng đứng, biết dây không trượt trên ròng rọc. Bỏ qua ma sát ở trục ròng rọc, lấy g = 10 m/s2. Tính lực căng dây treo vật m1?",
+    "options": {
+      "A": "T1 = 15,6 N",
+      "B": "T1 = 14 N",
+      "C": "T1 = 6 N",
+      "D": "T1 = 16,5 N"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.58",
+    "chapter": 3,
+    "question": "Một sợi dây nhẹ, không co giãn, vắt qua ròng rọc có dạng đĩa tròn đồng chất, khối lượng m = 800g, hai đầu dây buộc chặt hai vật nhỏ khối lượng m1 = 2,6 kg và m2 = 1 kg (hình vẽ). Thả cho hai vật chuyển động theo phương thẳng đứng, biết dây không trượt trên ròng rọc. Bỏ qua ma sát ở trục ròng rọc, lấy g = 10 m/s2. Lực căng dây treo vật m2 là:",
+    "options": {
+      "A": "T2 = 15,6 N",
+      "B": "T2 = 14 N",
+      "C": "T2 = 6 N",
+      "D": "T2 = 16,5 N"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.59",
+    "chapter": 3,
+    "question": "Một sợi dây nhẹ, không co giãn, vắt qua ròng rọc có dạng đĩa tròn đồng chất, khối lượng m = 600g (hình vẽ), hai đầu dây buộc chặt hai vật nhỏ khối lượng m1 = 2,5 kg và m2 = 1 kg. Thả cho hai vật chuyển động theo phương thẳng đứng, biết dây không trượt trên ròng rọc. Bỏ qua ma sát ở trục ròng rọc, lấy g = 10 m/s2. Độ lệch lực căng giữa hai bên ròng rọc là?",
+    "options": {
+      "A": "1,62 N",
+      "B": "1,18 N",
+      "C": "2,4 N",
+      "D": "0,8 N"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.60",
+    "chapter": 3,
+    "question": "Một hình trụ đặc, đồng chất, bán kính R lăn không trượt trên mặt đường nằm ngang dưới tác dụng của một lực F nằm ngang như trên hình vẽ. Gia tốc khối tâm của hình trụ là:",
+    "options": {
+      "A": "4 3 F m B. F m",
+      "C": "3 F m",
+      "D": "2 F m"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.61",
+    "chapter": 3,
+    "question": "Cho cơ hệ như hình vẽ. Biết m1 = 3kg; m2 = 2kg; α = 30o. Ròng rọc là một đĩa tròn có khối lượng m = 1kg. Bỏ qua ma sát giữa m1 và mặt sàn. Biết dây không giãn, khối lượng không đáng kể và không trượt trên rãnh ròng rọc. Lấy g = 10 m/s2. Xác định gia tốc và chiều chuyển động của m2.",
+    "options": {
+      "A": "m2 đi lên; a = 0,9 m/s2",
+      "B": "m2 đi xuống; a = 0,9m/s2",
+      "C": "m2 đi lên; a = 1m/s2",
+      "D": "m2 đi xuống; a = 1m/s2"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.62",
+    "chapter": 3,
+    "question": "Cho cơ hệ như hình vẽ. Biết m1 = 3kg; m2 = 2kg; α = 30o. Ròng rọc là một đĩa tròn có khối lượng m = 1kg. Bỏ qua ma sát giữa m1 và mặt sàn. Biết dây không giãn, khối lượng không đáng kể và không trượt trên rãnh ròng rọc. Lấy g = 10 m/s2. Lực căng dây treo m2 là:",
+    "options": {
+      "A": "13,6 N",
+      "B": "18,2 N",
+      "C": "15 N",
+      "D": "20 N"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "3.63",
+    "chapter": 3,
+    "question": "Một chiếc bàn xoay đang quay đều với tốc độ góc 5 vòng/phút. Người phục vụ đặt nhẹ nhàng một đĩa đồ ăn lên một điểm cách tâm bàn 40 cm. Biết khối lượng đĩa đồ ăn là 1 kg và momen quán tính của bàn đối với trục quay qua tâm là 1,2 Nm2. Tốc độ góc của bàn ngay sau khi người phục vụ đặt đĩa đồ ăn lên mặt bàn là:",
+    "options": {
+      "A": "4,41 vòng/phút",
+      "B": "5 vòng/phút",
+      "C": "37,5 vòng/phút",
+      "D": "3,75 vòng/phút Chương IV Trường lực thế và trường hấp dẫn"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.1",
+    "chapter": 4,
+    "question": "Trong va chạm giữa hai quả cầu (coi hệ là kín), đại lượng nào của hệ được bảo toàn?",
+    "options": {
+      "A": "Động năng",
+      "B": "Động lượng",
+      "C": "Cơ năng",
+      "D": "Vận tốc"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.2",
+    "chapter": 4,
+    "question": "Chọn câu trả lời đúng: Động năng của quả cầu đặc chuyển động quay",
+    "options": {
+      "A": "Tỷ lệ nghịch với momen quán tính",
+      "B": "Tỷ lệ thuận với bình phương khối lượng",
+      "C": "Tỷ lệ thuận với bình phương vận tốc góc",
+      "D": "Tỷ lệ nghịch với bán kính"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.3",
+    "chapter": 4,
+    "question": "Chọn câu trả lời đúng: Một vật được thả rơi tự do, trong quá trình rơi:",
+    "options": {
+      "A": "Động năng của vật không thay đổi.",
+      "B": "Thế năng của vật không thay đổi",
+      "C": "Tổng động năng và thế năng của vật không thay đổi.",
+      "D": "Tổng động năng và thế năng của vật thay đổi."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.4",
+    "chapter": 4,
+    "question": "Chọn câu trả lời đúng: Khi vật chịu tác dụng của lực thế:",
+    "options": {
+      "A": "Cơ năng của vật được bảo toàn.",
+      "B": "Thế năng của vật được bảo toàn.",
+      "C": "Động năng của vật được bảo toàn.",
+      "D": "Công được bảo toàn."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.5",
+    "chapter": 4,
+    "question": "Chọn câu trả lời đúng: Công của trọng lực",
+    "options": {
+      "A": "Không phụ thuộc vào quỹ đạo chuyển động.",
+      "B": "Phụ thuộc vào quỹ đạo chuyển động.",
+      "C": "Không phụ thuộc vào vị trí đầu của quỹ đạo chuyển động.",
+      "D": "Không phụ thuộc vào vị trí cuối của quỹ đạo chuyển động."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.6",
+    "chapter": 4,
+    "question": "Xét một vật chuyển động thẳng biến đổi đều theo phương nằm ngang. Đại lượng nào sau đây không đổi?",
+    "options": {
+      "A": "Động năng.",
+      "B": "Động lượng.",
+      "C": "Thế năng.",
+      "D": "Vận tốc."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.7",
+    "chapter": 4,
+    "question": "Phát biểu nào sau đây sai? Thế năng hấp dẫn và thế năng đàn hồi",
+    "options": {
+      "A": "cùng là một dạng năng lượng.",
+      "B": "có dạng biểu thức khác nhau.",
+      "C": "đều phụ thuộc vào điểm đầu và điểm cuối.",
+      "D": "đều là đại lượng vô hướng, có thể dương, âm hoặc bằng không."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.8",
+    "chapter": 4,
+    "question": "Phát biểu nào sau đây là sai khi nói về thế năng trọng trường?",
+    "options": {
+      "A": "Luôn có giá trị dương.",
+      "B": "Tỉ lệ với khối lượng của vật.",
+      "C": "Hơn kém nhau một hằng số khác nhau đối với 2 mốc thế năng khác nhau.",
+      "D": "Có giá trị tuỳ thuộc vào mặt phẳng chọn làm mốc thế năng."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.9",
+    "chapter": 4,
+    "question": "Trong quá trình rơi tự do, đại lượng nào sau đây của vật không đổi:",
+    "options": {
+      "A": "Động năng",
+      "B": "Thế năng",
+      "C": "Động lượng",
+      "D": "Cơ năng"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.10",
+    "chapter": 4,
+    "question": "Chọn câu trả lời đúng: Khi vật chịu tác dụng của lực không phải là lực thế:",
+    "options": {
+      "A": "Cơ năng của vật được bảo toàn.",
+      "B": "Động năng của vật được bảo toàn.",
+      "C": "Thế năng của vật được bảo toàn.",
+      "D": "Năng lượng toàn phần của vật được bảo toàn."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.11",
+    "chapter": 4,
+    "question": "Chọn câu trả lời đúng: Khi một vật chuyển động dưới tác dụng của lực thì",
+    "options": {
+      "A": "Động lượng là đại lượng đặc trưng cho chuyển động về mặt động học.",
+      "B": "Động lượng là đại lượng đặc trưng cho chuyển động về mặt động lực học.",
+      "C": "Xung lượng của lực là đại lượng đặc trưng cho tác dụng của lực.",
+      "D": "vận tốc là đại lượng đặc trưng cho chuyển động của vật về mặt động lực học."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.12",
+    "chapter": 4,
+    "question": "Phát biểu nào sau đây là đúng? Đối với chất điểm, độ biến thiên thế năng bằng về độ lớn nhưng trái dấu với.",
+    "options": {
+      "A": "độ biến thiên năng lượng toàn phần.",
+      "B": "độ biến thiên cơ năng.",
+      "C": "công toàn phần.",
+      "D": "công thực hiện bởi các lực thế."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.14",
+    "chapter": 4,
+    "question": "Trong va chạm đàn hồi, xuyên tâm giữa hai quả cầu giống hệt nhau về kích thước và khối lượng, nếu lúc đầu có một quả cầu đứng yên thì ngay sau va chạm:",
+    "options": {
+      "A": "sẽ có một quả cầu đứng yên.",
+      "B": "hai quả cầu chuyển động ngược chiều.",
+      "C": "hai quả cầu chuyển động cùng chiều.",
+      "D": "hai quả cầu chuyển động theo hai hướng vuông góc nhau."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.15",
+    "chapter": 4,
+    "question": "Trong va chạm đàn hồi, không xuyên tâm giữa hai quả cầu giống hệt nhau về kích thước và khối lượng, nếu lúc đầu có một quả cầu đứng yên thì ngay sau va chạm:",
+    "options": {
+      "A": "sẽ có một quả cầu đứng yên.",
+      "B": "hai quả cầu chuyển động ngược chiều.",
+      "C": "hai quả cầu chuyển động cùng chiều.",
+      "D": "hai quả cầu chuyển động theo hai hướng khác nhau."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.16",
+    "chapter": 4,
+    "question": "Chọn câu trả lời đúng: Một vật rắn quay xung quanh một trục cố định thì đạo hàm theo thời gian của mômen động lượng bằng",
+    "options": {
+      "A": "Hợp lực tác dụng lên vật.",
+      "B": "Động năng của vật.",
+      "C": "Mô men của các lực tác dụng lên vật.",
+      "D": "Mô men quán tính của vật."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.17",
+    "chapter": 4,
+    "question": "Chọn phát biểu sai? Khi một vật từ độ cao z, với cùng vận tốc đầu, bay xuống đất theo những con đường khác nhau thì",
+    "options": {
+      "A": "độ lớn vận tốc chạm đất bằng nhau.",
+      "B": "thời gian rơi bằng nhau.",
+      "C": "công của trọng lực bằng nhau.",
+      "D": "gia tốc rơi bằng nhau."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.18",
+    "chapter": 4,
+    "question": "Một người mang một kiện hàng từ tầng một lên tầng ba theo hai cầu thang có hình dạng và chiều dài khác nhau nhưng cùng độ chênh cao. Công của trọng lực tác dụng lên kiện hàng:",
+    "options": {
+      "A": "lớn hơn khi đi theo cầu thang dài hơn.",
+      "B": "nhỏ hơn khi đi theo cầu thang dài hơn.",
+      "C": "bằng nhau trong hai trường hợp.",
+      "D": "phụ thuộc vào thời gian người đó di chuyển."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.19",
+    "chapter": 4,
+    "question": "Một quả cầu khối lượng 16 kg đang lăn không trượt với vận tốc tịnh tiến của khối tâm là v = 9km/h. Động lượng của quả cầu là:",
+    "options": {
+      "A": "144 kgm/s",
+      "B": "40 kgm/s",
+      "C": "50 kgm/s",
+      "D": "100 kgm/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.20",
+    "chapter": 4,
+    "question": "Động năng của một vật nhỏ có khối lượng 2 kg, chuyển động với vận tốc v = 4 m/s là bao nhiêu?",
+    "options": {
+      "A": "32 J",
+      "B": "4 J",
+      "C": "8 J",
+      "D": "16 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.21",
+    "chapter": 4,
+    "question": "Động năng của một vật nhỏ có khối lượng 16 kg, chuyển động với vận tốc v = 9km/h là:",
+    "options": {
+      "A": "648 J",
+      "B": "50 J",
+      "C": "72 J",
+      "D": "100 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.22",
+    "chapter": 4,
+    "question": "Vật rắn khối lượng 20kg, tịnh tiến với vận tốc 36km/h thì động năng là bao nhiêu?",
+    "options": {
+      "A": "12960 J",
+      "B": "720 J",
+      "C": "1000 J",
+      "D": "200 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.23",
+    "chapter": 4,
+    "question": "Quả cầu đặc, đồng chất, khối lượng 20kg, lăn không trượt trên mặt đường, vận tốc của khối tâm là v = 10m/s. Động năng của quả cầu là:",
+    "options": {
+      "A": "1 kJ",
+      "B": "400 J",
+      "C": "600 J",
+      "D": "1400J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.24",
+    "chapter": 4,
+    "question": "Một cái đĩa đồng chất, khối lượng 4 kg, đang lăn không trượt với vận tốc 2 m/s. Động năng của đĩa là:",
+    "options": {
+      "A": "6 J",
+      "B": "12 J",
+      "C": "16 J",
+      "D": "8 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.25",
+    "chapter": 4,
+    "question": "Một cái đĩa đồng chất, khối lượng 4 kg, đang lăn không trượt trên mặt ngang. Động năng của đĩa là 12J. Vận tốc tịnh tiến của khối tâm đĩa là:",
+    "options": {
+      "A": "2,45 m/s",
+      "B": "2 m/s",
+      "C": "1,73 m/s",
+      "D": "8 m/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.26",
+    "chapter": 4,
+    "question": "Một cái đĩa tròn đồng chất đang lăn không trượt thì động năng quay chiếm bao nhiêu phần trăm động năng toàn phần của đĩa?",
+    "options": {
+      "A": "25%",
+      "B": "33%",
+      "C": "55%",
+      "D": "75%"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.27",
+    "chapter": 4,
+    "question": "Một cái đĩa tròn đồng chất đang lăn không trượt thì động năng tịnh tiến chiếm bao nhiêu phần trăm động năng toàn phần của đĩa?",
+    "options": {
+      "A": "47%",
+      "B": "50%",
+      "C": "67%",
+      "D": "77%"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.28",
+    "chapter": 4,
+    "question": "Một cái vòng sắt, khối lượng 10 kg, đang lăn không trượt trên sàn ngang. Vận tốc của khối tâm là 2 m/s. Cần phải tốn một công bao nhiêu để làm cho nó dừng lại:",
+    "options": {
+      "A": "10 J",
+      "B": "20 J",
+      "C": "30 J",
+      "D": "40 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.29",
+    "chapter": 4,
+    "question": "Một cái vòng sắt, khối lượng 2 kg, đang lăn không trượt trên sàn ngang. Để làm cho nó dừng lại, cần phải tốn một công là 40 J. Vận tốc tịnh tiến của khối tâm vòng là:",
+    "options": {
+      "A": "2,45 m/s",
+      "B": "4,47 m/s",
+      "C": "1,73 m/s",
+      "D": "6,32 m/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.30",
+    "chapter": 4,
+    "question": "Một cái ống hình trụ rỗng, thành mỏng đang lăn không trượt thì động năng tịnh tiến chiếm bao nhiêu phần trăm động năng toàn phần của nó?",
+    "options": {
+      "A": "77%",
+      "B": "25%",
+      "C": "50%",
+      "D": "67%"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.31",
+    "chapter": 4,
+    "question": "Một bánh xe khối lượng 10 kg phân bố chủ yếu ở vành bánh xe, bán kính 50cm. Bánh xe quay quanh trục của nó với vận tốc 180 vòng/phút. Để hãm bánh xe dừng lại trong 10 giây, thì công suất trung bình của lực hãm là bao nhiêu? Lấy π2 = 10.",
+    "options": {
+      "A": "– 22 W",
+      "B": "– 45 W",
+      "C": "– 90 W",
+      "D": "– 135 W"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.32",
+    "chapter": 4,
+    "question": "Bánh đà có dạng hình trụ đặc đồng chất có khối lượng là 75 kg, bán kính 40 cm, quay với vận tốc 300 vòng/phút xung quanh trục quay đi qua khối tâm. Momen động lượng của bánh đà là:",
+    "options": {
+      "A": "188,4 kgm2/s",
+      "B": "376,8 kgm2/s",
+      "C": "9000 kgm2/s",
+      "D": "4500 kgm2/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.33",
+    "chapter": 4,
+    "question": "Bánh mài của máy mài hình đĩa, khối lượng 1kg, bán kính R = 20cm đang quay với vận tốc 480 vòng/phút thì bị hãm dừng lại bởi lực có mômen không đổi. Lấy π2 = 10. Tính công của lực hãm.",
+    "options": {
+      "A": "– 5,12 J",
+      "B": "– 4,12 J",
+      "C": "– 23,04 J",
+      "D": "– 25,6 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.34",
+    "chapter": 4,
+    "question": "Bánh đà có dạng hình trụ đặc đồng chất, dùng để dự trữ năng lượng cho động cơ đốt trong. Bánh đà có khối lượng là 50 kg, bán kính 40cm, quay với vận tốc 300 vòng/phút. Tính phần cơ năng dự trữ ở bánh đà. (π2 = 10)",
+    "options": {
+      "A": "2000 J",
+      "B": "1000 J",
+      "C": "500 J",
+      "D": "4000 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.35",
+    "chapter": 4,
+    "question": "Thanh đồng chất dài 60cm, khối lượng 4kg, quay đều với vận tốc 5vòng/s quanh trục cố định đi qua một đầu thanh và vuông góc với thanh. Động năng quay của thanh gần đúng với giá trị nào sau đây?",
+    "options": {
+      "A": "120 J",
+      "B": "480 J",
+      "C": "60 J",
+      "D": "240 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.36",
+    "chapter": 4,
+    "question": "Một cái đĩa và một quả cầu đặc, đồng chất, bán kính khác nhau, nhưng cùng khối lượng m và cùng lăn không trượt trên đường với cùng vận tốc tịnh tiến v. Động năng E của vật nào lớn hơn?",
+    "options": {
+      "A": "Eđĩa = Eqcầu",
+      "B": "Eđĩa < Eqcầu",
+      "C": "Eđĩa > Eqcầu",
+      "D": "Chưa khẳng định được."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.37",
+    "chapter": 4,
+    "question": "Một cái vòng, một cái đĩa và một quả cầu đặc, đồng chất, bán kính khác nhau, nhưng cùng khối lượng m và cùng lăn không trượt trên đường với cùng vận tốc tịnh tiến v. Động năng E của vật nào lớn hơn?",
+    "options": {
+      "A": "Evòng = Eđĩa = Eqcầu",
+      "B": "Evòng < Eđĩa < Eqcầu",
+      "C": "Evòng > Eđĩa > Eqcầu",
+      "D": "Evòng > Eqcầu > Eđĩa"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.38",
+    "chapter": 4,
+    "question": "Một toa xe có khối lượng là 1 tấn (không kể bánh xe). Đang chuyển động với vận tốc 72 km/h. Toa xe có 6 bánh xe (coi như hình trụ đặc), khối lượng mỗi bánh là 20kg. Tính động năng toàn phần của toa xe.",
+    "options": {
+      "A": "200 kJ",
+      "B": "204 kJ",
+      "C": "260 kJ",
+      "D": "236 kJ"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.39",
+    "chapter": 4,
+    "question": "Tính động năng toàn phần của một toa xe chuyển động với vận tốc 36 km/h. Toa xe gồm 4 bánh giống nhau, mỗi bánh có khối lượng 10kg coi như hình trụ đặc. Khối lượng của toa xe không kể 4 bánh xe là 1 tấn.",
+    "options": {
+      "A": "53 kJ",
+      "B": "50 kJ",
+      "C": "52 kJ",
+      "D": "51,5 kJ"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.40",
+    "chapter": 4,
+    "question": "Một viên bi khối lượng m đặt trên mặt bàn có độ cao h so với mặt đất. Gọi g là gia tốc trọng trường. Thế năng của viên bi so với mặt bàn là:",
+    "options": {
+      "A": "mgh",
+      "B": "½ mgh",
+      "C": "0",
+      "D": "- mgh"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.41",
+    "chapter": 4,
+    "question": "Thả vật nhỏ khối lượng m = 200g, trượt không ma sát theo máng nghiêng góc α = 30o so với phương ngang. Tính độ biến thiên động năng của vật khi nó trượt xuống được một đoạn s = 2 m. Lấy g = 10m/s2.",
+    "options": {
+      "A": "200 J",
+      "B": "0 J",
+      "C": "2 J",
+      "D": "4J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.42",
+    "chapter": 4,
+    "question": "Một chất điểm khối lượng m rơi tự do từ độ cao h so với mặt đất, công của trọng lực thực hiện lên vật trong chuyển động này bằng bao nhiêu?",
+    "options": {
+      "A": "mgh.",
+      "B": "–mgh.",
+      "C": "mh. D. 0."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.43",
+    "chapter": 4,
+    "question": "Tính công của lực ma sát đã thực hiện, khi thả viên gạch có khối lượng m = 500g trượt đều xuống dốc dài 10m, nghiêng 30o so với phương ngang. Cho g = 10 m/s2",
+    "options": {
+      "A": "– 50 J",
+      "B": "– 43,3 J",
+      "C": "– 25J",
+      "D": "0 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.44",
+    "chapter": 4,
+    "question": "Một thác nước cao 30m đổ xuống phía dưới 104kg nước trong mỗi giây. Lấy g = 10m/s2, công suất thực hiện bởi thác nước bằng bao nhiêu?",
+    "options": {
+      "A": "2000kW.",
+      "B": "3000kW.",
+      "C": "4000kW.",
+      "D": "5000kW."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.45",
+    "chapter": 4,
+    "question": "Trong công viên một xe trượt máng monorail có khối lượng m = 80kg chạy trên quỹ đạo như hình vẽ, biết zA = 20m; zB = 10m; zC = 15m; zD = 5m; zE = 18m; g = 9,8m/s2. Độ biến thiên thế năng trọng trường của xe khi xe di chuyển từ A đến B là bao nhiêu?",
+    "options": {
+      "A": "7840J.",
+      "B": "8000J.",
+      "C": "- 7840J.",
+      "D": "-4000J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.46",
+    "chapter": 4,
+    "question": "Trong công viên một xe trượt máng monorail có khối lượng m = 80kg chạy trên quỹ đạo như hình vẽ, biết zA = 20m; zB = 10m; zC = 15m; zD = 5m; zE = 18m; g = 9,8m/s2. Độ biến thiên thế năng trọng trường của xe khi xe di chuyển từ B đến C là:",
+    "options": {
+      "A": "-4000J.",
+      "B": "- 3920J",
+      "C": "3920J",
+      "D": "-7840J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.47",
+    "chapter": 4,
+    "question": "Trong công viên một xe trượt máng monorail có khối lượng m = 80kg chạy trên quỹ đạo như hình vẽ, biết zA = 20m; zB = 10m; zC = 15m; zD = 5m; zE = 18m; g = 9,8m/s2. Độ biến thiên thế năng trọng trường của xe khi xe di chuyển từ A đến E là:",
+    "options": {
+      "A": "- 1568J.",
+      "B": "1586J.",
+      "C": "- 3136J.",
+      "D": "1760J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.48",
+    "chapter": 4,
+    "question": "Một cần cẩu nâng một contenơ khối lượng 3000kg từ mặt đất lên độ cao 2m (tính theo sự di chuyển của trọng tâm contenơ), sau đó đổi hướng và hạ xuống sàn một ô tô tải ở độ cao cách mặt đất 1,2m. Lấy g = 9,8m/s2, chọn mốc thế năng ở mặt đất. Độ biến thiên thế năng khi nó hạ từ độ cao 2m xuống sàn ô tô là:",
+    "options": {
+      "A": "48000J.",
+      "B": "- 47000J",
+      "C": "- 23520J",
+      "D": "32530J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.49",
+    "chapter": 4,
+    "question": "Một buồng cáp treo chở người có khối lượng tổng cộng 800kg đi từ vị trí xuất phát cách mặt đất 10m tới một trạm dừng trên núi ở độ cao 550m sau đó lại tiếp tục tới một trạm khác ở độ cao 1300m. Công do trọng lực thực hiện khi buồng cáp treo di chuyển từ vị trí xuất phát tới trạm dừng thứ nhất là bao nhiêu? Cho g = 10 m/s2.",
+    "options": {
+      "A": "- 432. 104J",
+      "B": "- 8,64. 106J",
+      "C": "6. 106J",
+      "D": "-6. 106J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.50",
+    "chapter": 4,
+    "question": "Một buồng cáp treo chở người có khối lượng tổng cộng 800kg đi từ vị trí xuất phát cách mặt đất 10m tới một trạm dừng trên núi ở độ cao 550m sau đó lại tiếp tục tới một trạm khác ở độ cao 1300m. Công do trọng lực thực hiện khi buồng cáp treo di chuyển từ trạm dừng thứ nhất đến trạm dừng thứ hai là bao nhiêu? Cho g = 10 m/s2.",
+    "options": {
+      "A": "4,64. 106J",
+      "B": "– 4,64. 106J",
+      "C": "- 6. 106J",
+      "D": "6. 106J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.51",
+    "chapter": 4,
+    "question": "Một vật có khối lượng m = 30kg di chuyển từ nơi có độ cao zA = 200m đến nơi có độ cao zB = 140m, cho g = 9,8m/s2. Độ giảm thế năng trọng trường của vật khi di chuyển từ A đến B",
+    "options": {
+      "A": "24,82 KJ",
+      "B": "17,64 KJ",
+      "C": "15,3 KJ",
+      "D": "30,6 KJ"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.52",
+    "chapter": 4,
+    "question": "Một tảng đá khối lượng 50 kg đang nằm trên sườn núi tại vị trí M có độ cao 300 m so với mặt đường thì bị lăn xuống đáy vực tại vị trí N có độ sâu 30 m. Lấy g = 10 m/s2. khi chọn gốc thế năng là mặt đường. Thế năng của tảng đá tại các vị trí M và N lần lượt là",
+    "options": {
+      "A": "15 kJ ;-15 kJ.",
+      "B": "150 kJ ; -15 kJ.",
+      "C": "1500 kJ ; 15 kJ.",
+      "D": "150 kJ ; - 150 kJ."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.53",
+    "chapter": 4,
+    "question": "Một tảng đá khối lượng 50 kg đang nằm trên sườn núi tại vị trí M có độ cao 300 m so với mặt đường thì bị lăn xuống đáy vực tại vị trí N có độ sâu 30 m. Lấy g = 10 m/s2. Khi chọn gốc thế năng là đáy vực. Thế năng của tảng đá tại các vị trí M và N lần lượt là:",
+    "options": {
+      "A": "165 kJ ; 0 kJ.",
+      "B": "150 kJ ; 0 kJ.",
+      "C": "1500 kJ ; 15 kJ.",
+      "D": "1650 kJ ; 0 kJ."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.54",
+    "chapter": 4,
+    "question": "Cho cơ hệ như hình vẽ, dây nhẹ không dãn, ròng rọc nhẹ không ma sát, m1 trượt không ma sát trên mặt phẳng ngang, m2 có trọng lượng 80N. Khi thế năng của hệ thay đổi một lượng 64J thì m1 đã đi được một đoạn bằng bao nhiêu?",
+    "options": {
+      "A": "8m.",
+      "B": "4m",
+      "C": "0,8m",
+      "D": "không tính được vì thiếu dữ kiện."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.55",
+    "chapter": 4,
+    "question": "Một thanh mảnh OA đồng chất, khối lượng M , chiều dài L , có thể quay xung quanh trục quay đi qua đầu O. Chọn gốc thế năng ở O. Thế năng của thanh khi thanh ở vị trí thẳng đứng là:",
+    "options": {
+      "A": "MgL",
+      "B": "MgL",
+      "C": "MgL",
+      "D": ""
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.56",
+    "chapter": 4,
+    "question": "Một thanh mảnh OA đồng chất, khối lượng M , chiều dài L , có thể quay xung quanh trục quay đi qua đầu O. Chọn gốc thế năng ở A khi A ở điểm thấp nhất trong quá trình chuyển động. Thế năng của thanh khi thanh ở vị trí thẳng đứng là:",
+    "options": {
+      "A": "MgL",
+      "B": "MgL",
+      "C": "MgL",
+      "D": ""
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.57",
+    "chapter": 4,
+    "question": "Từ mặt đất một vật được bắn lên với vận tốc ban đầu V0= 20m/s hợp với phương nằm ngang một góc 300. Lấy g = 10m/s2. Hãy xác định vận tốc của vật tại thời điểm chạm đất.",
+    "options": {
+      "A": "20 m/s",
+      "B": "15 m/s",
+      "C": "25 m/s",
+      "D": "30 m/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.58",
+    "chapter": 4,
+    "question": "Một máy bay bay theo phương ngang ở độ cao 10 km với vận tốc 720 km/h, thả một quả bom. Cho g =10 m/s2. Vận tốc quả bom khi tới mục tiêu tại mặt đất là:",
+    "options": {
+      "A": "200 m/s",
+      "B": "450 m/s",
+      "C": "245 m/s",
+      "D": "490 m/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.59",
+    "chapter": 4,
+    "question": "Một hình trụ rỗng khối lượng 1,5kg, bắt đầu lăn không trượt trên mặt phẳng nghiêng xuống dốc. Lúc đầu, tâm hình trụ ở độ cao h = 4m so với mặt phẳng ngang ở chân dốc. Hãy tìm động năng của hình trụ khi nó lăn hết dốc. Lấy g = 10m/s2.",
+    "options": {
+      "A": "60 J",
+      "B": "52 J",
+      "C": "40 J",
+      "D": "15"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.60",
+    "chapter": 4,
+    "question": "Một hình trụ đặc, đồng chất bán kính R = 5 cm bắt đầu lăn không trượt trên mặt phẳng nghiêng xuống dốc. Lúc đầu, hình trụ ở độ cao h = 4,85 m so với mặt phẳng ngang ở chân dốc. Hãy tìm vận tốc của khối tâm khi nó lăn hết dốc. Lấy g = 10 m/s2.",
+    "options": {
+      "A": "4 m/s",
+      "B": "6,32 m/s",
+      "C": "8,04 m/s",
+      "D": "9,8 m/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.61",
+    "chapter": 4,
+    "question": "Một hình trụ đặc, đồng chất bán kính R = 4 cm bắt đầu lăn không trượt trên mặt phẳng nghiêng xuống dốc. Lúc đầu, tâm hình trụ ở độ cao h = 2,74m so với mặt phẳng ngang ở chân dốc. Hãy tìm vận tốc góc của hình trụ khi nó lăn hết dốc. Lấy g = 10m/s2.",
+    "options": {
+      "A": "150 rad/s",
+      "B": "6 rad/s",
+      "C": "184 rad/s",
+      "D": "50 rad/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.62",
+    "chapter": 4,
+    "question": "Một hình trụ rỗng, đồng chất bán kính R = 5 cm bắt đầu lăn không trượt trên mặt phẳng nghiêng xuống dốc. Lúc đầu, hình trụ ở độ cao h = 4,85 m so với mặt phẳng ngang ở chân dốc. Hãy tìm vận tốc của khối tâm khi nó lăn hết dốc. Lấy g = 10 m/s2.",
+    "options": {
+      "A": "4 m/s",
+      "B": "6,96 m/s",
+      "C": "8,94 m/s",
+      "D": "9,8 m/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.63",
+    "chapter": 4,
+    "question": "Một hình trụ rỗng, đồng chất bán kính R = 4 cm bắt đầu lăn không trượt trên mặt phẳng nghiêng xuống dốc. Lúc đầu, tâm hình trụ ở độ cao h = 4,85 m so với mặt phẳng ngang ở chân dốc. Hãy tìm vận tốc góc của hình trụ khi nó lăn hết dốc. Lấy g = 10m/s2.",
+    "options": {
+      "A": "174 rad/s",
+      "B": "696 rad/s",
+      "C": "184 rad/s",
+      "D": "50 rad/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.64",
+    "chapter": 4,
+    "question": "Một quả cầu rỗng, đồng chất bán kính R = 5 cm bắt đầu lăn không trượt trên mặt phẳng nghiêng xuống dốc. Lúc đầu, quả cầu ở độ cao h = 4,85 m so với mặt phẳng ngang ở chân dốc. Hãy tìm vận tốc của khối tâm khi nó lăn hết dốc. Lấy g = 10 m/s2.",
+    "options": {
+      "A": "9,8 m/s",
+      "B": "6,96 m/s",
+      "C": "8,32 m/s",
+      "D": "7,62 m/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.65",
+    "chapter": 4,
+    "question": "Một quả cầu rỗng, đồng chất bán kính R = 4 cm bắt đầu lăn không trượt trên mặt phẳng nghiêng xuống dốc. Lúc đầu, tâm quả cầu ở độ cao h = 4,85 m so với mặt phẳng ngang ở chân dốc. Hãy tìm vận tốc góc của quả cầu khi nó lăn hết dốc. Lấy g = 10m/s2.",
+    "options": {
+      "A": "174 rad/s",
+      "B": "696 rad/s",
+      "C": "184 rad/s",
+      "D": "190 rad/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.66",
+    "chapter": 4,
+    "question": "Một quả cầu đặc, đồng chất bán kính R = 5 cm bắt đầu lăn không trượt trên mặt phẳng nghiêng xuống dốc. Lúc đầu, quả cầu ở độ cao h = 4,85 m so với mặt phẳng ngang ở chân dốc. Hãy tìm vận tốc của khối tâm khi nó lăn hết dốc. Lấy g = 10 m/s2.",
+    "options": {
+      "A": "7,62 m/s",
+      "B": "6,32 m/s",
+      "C": "8,32 m/s",
+      "D": "9,8 m/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.67",
+    "chapter": 4,
+    "question": "Một quả cầu đặc, đồng chất bán kính R = 4 cm bắt đầu lăn không trượt trên mặt phẳng nghiêng xuống dốc. Lúc đầu, tâm quả cầu ở độ cao h = 4,85 m so với mặt phẳng ngang ở chân dốc. Hãy tìm vận tốc góc của quả cầu khi nó lăn hết dốc. Lấy g = 10m/s2.",
+    "options": {
+      "A": "174 rad/s",
+      "B": "696 rad/s",
+      "C": "208 rad/s",
+      "D": "190 rad/s"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.68",
+    "chapter": 4,
+    "question": "Tình huống thiết kế máng vận chuyển an toàn. Một nhóm sinh viên cần thiết kế bề mặt cho một máng vận chuyển hàng dài , nghiêng góc so với phương ngang. Một kiện hàng được đặt đứng yên ở đầu trên của máng rồi thả nhẹ. Yêu cầu thiết kế: • kiện hàng phải tự trượt xuống được; • tốc độ khi tới cuối máng phải nằm trong khoảng từ đến để không gây hư hỏng; • coi hệ số ma sát nghỉ và hệ số ma sát trượt giữa kiện hàng và mặt máng bằng nhau, tức là . Lấy . Nhóm có thể lựa chọn loại bề mặt có hệ số ma sát nào phù hợp nhất trong bốn loại sau:",
+    "options": {
+      "A": "B.",
+      "C": "D."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.69",
+    "chapter": 4,
+    "question": "Một quả cầu đặc được thả lăn không trượt từ đỉnh một mặt phẳng nghiêng có độ cao h, góc nghiêng . Thời gian vật đến chân mặt phẳng nghiêng là:",
+    "options": {
+      "A": "B.",
+      "C": "D."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "4.70",
+    "chapter": 4,
+    "question": "Một thanh mảnh OA đồng chất, chiều dài L = 30 cm, có thể quay xung quanh trục quay đi qua đầu O. Bỏ qua ma sát ở trục quay. Thả nhẹ nhàng thanh từ vị trí nằm ngang. Lấy . Vận tốc của điểm A khi nó ở vị trí thấp nhất là:",
+    "options": {
+      "A": "3 m/s",
+      "B": "m/s",
+      "C": "10 m/s",
+      "D": "m/s Chương V Nhiệt động lực học"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.1",
+    "chapter": 5,
+    "question": "Nén đẳng nhiệt một khối khí lý tưởng trong một bình kín, thì",
+    "options": {
+      "A": "Áp suất của khối khí giảm.",
+      "B": "Áp suất của khối khí tăng.",
+      "C": "Số mol của khối khí giảm.",
+      "D": "Thể tích của khối khí tăng."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.2",
+    "chapter": 5,
+    "question": "Khi nung nóng đẳng tích một khối khí lý tưởng không đổi, thì",
+    "options": {
+      "A": "Nhiệt độ của khối khí giảm",
+      "B": "Áp suất của khối khí giảm",
+      "C": "Áp suất của khối khí tăng",
+      "D": "Số mol của khối khí tăng"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.3",
+    "chapter": 5,
+    "question": "Khi dãn đẳng áp một khối khí lý tưởng không đổi, thì",
+    "options": {
+      "A": "Thể tích của khối khí giảm.",
+      "B": "Số mol của khối khí tăng.",
+      "C": "Nhiệt độ của khối khí giảm.",
+      "D": "Nhiệt độ của khối khí tăng."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.4",
+    "chapter": 5,
+    "question": "Khi dãn đoạn nhiệt một khối khí lý tưởng không đổi, thì",
+    "options": {
+      "A": "Áp suất của hệ giảm.",
+      "B": "Thể tích của hệ giảm.",
+      "C": "Số mol của hệ tăng",
+      "D": "Nhiệt độ của hệ tăng."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.5",
+    "chapter": 5,
+    "question": "Chọn đáp án đúng. Trong quá trình biến đổi đoạn nhiệt một khối khí lý tưởng không đổi, nếu nhiệt độ của khối khí giảm thì",
+    "options": {
+      "A": "Số mol của khối khí giảm.",
+      "B": "Thể tích của khối khí tăng.",
+      "C": "thể tích của khối khí giảm.",
+      "D": "số mol của khối khí tăng."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.6",
+    "chapter": 5,
+    "question": "Tính chất nào sau đây không phải là của phân tử?",
+    "options": {
+      "A": "Các phân tử có lúc đứng yên, có lúc chuyển động.",
+      "B": "Các phân tử luôn chuyển động không ngừng.",
+      "C": "Các phân tử chuyển động càng nhanh khi nhiệt độ của vật càng cao.",
+      "D": "Các phân tử va chạm vào thành bình, gây áp suất lên thành bình."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.7",
+    "chapter": 5,
+    "question": "Nhận xét nào sau đây không đúng đối với khí lí tưởng?",
+    "options": {
+      "A": "Thể tích của các phân tử khí có thể bỏ qua.",
+      "B": "Các phân tử khí chỉ tương tác với nhau khi va chạm.",
+      "C": "Các phân tử chuyển động càng nhanh khi nhiệt độ càng cao.",
+      "D": "Khối lượng của các phân tử khí có thể bỏ qua."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.8",
+    "chapter": 5,
+    "question": "Trong quá trình biến đổi của khối khí lý tưởng từ trạng thái 1 sang trạng thái 2, đại lượng nào sau đây không phụ thuộc cách biến đổi",
+    "options": {
+      "A": "Công.",
+      "B": "Nhiệt.",
+      "C": "Độ biến thiên nội năng.",
+      "D": "Công và nhiệt."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.9",
+    "chapter": 5,
+    "question": "Đặc điểm chung của công và nhiệt trong một quá trình nhiệt động là",
+    "options": {
+      "A": "cùng phụ thuộc vào quá trình biến đổi.",
+      "B": "luôn cùng dấu trong mỗi quá trình biến đổi.",
+      "C": "luôn nhận giá trị dương trong các quá trình biến đổi.",
+      "D": "chỉ khác không khi có sự biến đổi thể tích."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.10",
+    "chapter": 5,
+    "question": "Chọn phát biểu sai. Một hệ khí lý tưởng",
+    "options": {
+      "A": "có khả năng trao đổi công và nhiệt với môi trường.",
+      "B": "không trao đổi công trong quá trình đẳng tích",
+      "C": "có nội năng không đổi nếu hệ cô lập.",
+      "D": "không trao đổi nhiệt trong quá trình đẳng nhiệt."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.11",
+    "chapter": 5,
+    "question": "Chọn phát biểu sai. Nội năng của khí lý tưởng",
+    "options": {
+      "A": "phụ thuộc nhiệt độ của hệ.",
+      "B": "không phụ thuộc thể tích.",
+      "C": "không phụ thuộc áp suất.",
+      "D": "không phụ thuộc nhiệt độ."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.12",
+    "chapter": 5,
+    "question": "Chọn phát biểu đúng. Độ biến thiên nội năng của hệ trong quá trình nhiệt động",
+    "options": {
+      "A": "phụ thuộc đường dẫn của quá trình đó.",
+      "B": "không phụ thuộc vào trạng thái đầu và cuối của hệ.",
+      "C": "bằng không khi hệ cô lập với môi trường.",
+      "D": "bằng tổng của nhiệt lượng và công mà hệ trao đổi trong quá trình đó."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.13",
+    "chapter": 5,
+    "question": "Chọn phát biểu đúng khi nói về nội năng?",
+    "options": {
+      "A": "Nội năng của chất khí lí tưởng không phụ thuộc vào nhiệt độ.",
+      "B": "Nội năng của vật là năng lượng chỉ hình thành trong quá trình vật biến đổi trạng thái.",
+      "C": "Nội năng của vật là năng lượng không chuyển hóa thành các dạng năng l- ượng khác.",
+      "D": "Nội năng của vật là tổng động năng và thế năng của các phân tử cấu tạo nên vật."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.14",
+    "chapter": 5,
+    "question": "Chọn phát biểu đúng.",
+    "options": {
+      "A": "Trong quá trình đẳng tích, công và nhiệt lượng luôn bằng nhau.",
+      "B": "Công và nhiệt lượng là một dạng của năng lượng.",
+      "C": "Công và nhiệt lượng là hàm của trạng thái.",
+      "D": "Hệ trao đổi công với môi trường khi thể tích của hệ thay đổi."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.15",
+    "chapter": 5,
+    "question": "Chọn phát biểu sai.",
+    "options": {
+      "A": "Nhiệt không thể tự động truyền từ vật lạnh hơn sang vật nóng hơn.",
+      "B": "Hệ chỉ trao đổi công với môi trường khi thể tích của hệ thay đổi.",
+      "C": "Trong một chu trình, nội năng của khí lý tưởng bằng không.",
+      "D": "Trong quá trình đẳng nhiệt, công sinh ra bằng nhiệt nhận vào."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.16",
+    "chapter": 5,
+    "question": "Câu nào không đúng khi nói về nội năng?",
+    "options": {
+      "A": "Nội năng của chất khí lí tưởng không phụ thuộc vào nhiệt độ.",
+      "B": "Nội năng của một vật có thể tăng hoặc giảm.",
+      "C": "Nội năng có thể chuyển hóa thành dạng năng lượng khác.",
+      "D": "Nội năng của vật là tổng động năng và thế năng của các phân tử cấu tạo nên vật."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.17",
+    "chapter": 5,
+    "question": "Một hệ khí lý tưởng không đổi, biến đổi đẳng tích đến trạng thái có áp suất lớn hơn. Chọn đáp án đúng khi nói về công và nhiệt lượng mà hệ trao đổi với môi trường trong quá trình trên",
+    "options": {
+      "A": "Hệ nhận nhiệt, nhận công.",
+      "B": "Hệ nhận nhiệt, sinh công.",
+      "C": "Hệ toả nhiệt, sinh công.",
+      "D": "Hệ nhận nhiệt, không trao đổi công."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.18",
+    "chapter": 5,
+    "question": "Phát biểu nào sau đây đúng?",
+    "options": {
+      "A": "Nhiệt lượng không tự truyền từ một vật lạnh sang vật nóng hơn.",
+      "B": "Nhiệt lượng là nội năng của vật và luôn tồn tại trong vật.",
+      "C": "Nhiệt lượng có thể tự truyền từ một vật nóng sang vật lạnh hơn và ngược lại.",
+      "D": "Nhiệt lượng luôn không đổi trong quá trình hệ biến đổi trạng thái."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.19",
+    "chapter": 5,
+    "question": "Chọn câu đúng.",
+    "options": {
+      "A": "Trong quá trình biến đổi trạng thái, cơ năng không thể tự chuyển hoá thành nội năng.",
+      "B": "Trong quá trình biến đổi trạng thái, quá trình truyền nhiệt là quá trình thuận nghịch.",
+      "C": "Động cơ nhiệt chỉ có thể chuyển hoá một phần nhiệt lượng nhận được thành công.",
+      "D": "Động cơ nhiệt có thể chuyển hoá hoàn toàn nhiệt lượng nhận được thành công."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.20",
+    "chapter": 5,
+    "question": "Chu trình Carnot là một chu trình gồm hai cặp quá trình thuận nghịch nào sau đây xen kẽ nhau?",
+    "options": {
+      "A": "đẳng tích và đẳng nhiệt.",
+      "B": "đẳng tích và đoạn nhiệt.",
+      "C": "đẳng nhiệt và đẳng áp.",
+      "D": "đoạn nhiệt và đẳng nhiệt."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.21",
+    "chapter": 5,
+    "question": "Chọn phát biểu sai:",
+    "options": {
+      "A": "Quá trình đẳng tích là quá trình thay đổi trạng thái của hệ nhưng thể tích cuả hệ không đổi",
+      "B": "Quá trình đẳng nhiệt là quá trình thay đổi trạng thái của hệ nhưng nhiệt độ của hệ không đổi",
+      "C": "Quá trình đẳng áp là quá trình thay đổi trạng thái của hệ nhưng áp suất của hệ không đổi",
+      "D": "Quá trình đoạn nhiệt là quá trình thay đổi trạng thái của hệ nhưng nhiệt lượng của hệ không đổi"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.22",
+    "chapter": 5,
+    "question": "Cho đồ thị phác hoạ chu trình biến đổi 2312 của khối khí trên hệ trục toạ độ OPV. Đồ thị thể hiện của biến đổi của các quá trình:",
+    "options": {
+      "A": "Giãn nở đẳng áp, hơ nóng đẳng tích rồi nén đoạn nhiệt về trạng thái ban đầu",
+      "B": "Giãn nở đẳng áp, làm lạnh đẳng tích và nén đoạn nhiệt về trạng thái ban đầu",
+      "C": "Giãn nở đẳng nhiệt, nén đẳng áp và hơ nóng đẳng tích đến trạng thái ban đầu",
+      "D": "Giãn nở đoạn nhiệt, nén đẳng áp và hơ nóng đẳng tích đến trạng thái ban đầu"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.23",
+    "chapter": 5,
+    "question": "Cho đồ thị phác hoạ chu trình biến đổi 3123 của khối khí trên hệ trục toạ độ OPV. Đồ thị thể hiện của biến đổi của các quá trình:",
+    "options": {
+      "A": "Giãn nở đẳng áp, hơ nóng đẳng tích rồi nén đoạn nhiệt về trạng thái ban đầu",
+      "B": "Giãn nở đẳng áp, làm lạnh đẳng tích rồi nén đoạn nhiệt về trạng thái ban đầu",
+      "C": "Giãn nở đẳng nhiệt, nén đẳng áp và hơ nóng đẳng tích đến trạng thái ban đầu",
+      "D": "Giãn nở đoạn nhiệt, nén đẳng áp và hơ nóng đẳng tích đến trạng thái ban đầu"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.24",
+    "chapter": 5,
+    "question": "Cho đồ thị phác hoạ chu trình biến đổi 1231 của khối khí trên hệ trục toạ độ OPV. Đồ thị thể hiện của biến đổi của các quá trình:",
+    "options": {
+      "A": "Nén đoạn nhiệt, giãn nở đẳng áp và làm lạnh đẳng tích về trạng thái ban đầu",
+      "B": "Nén đẳng áp, làm lạnh đẳng tích rồi nén đoạn nhiệt về trạng thái ban đầu",
+      "C": "Giãn nở đẳng nhiệt, nén đẳng áp và hơ nóng đẳng tích đến trạng thái ban đầu",
+      "D": "Nén đoạn nhiệt, nén đẳng áp và hơ nóng đẳng tích đến trạng thái ban đầu"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.25",
+    "chapter": 5,
+    "question": "Cho đồ thị phác hoạ chu trình biến đổi 1231 của khối khí trên hệ trục toạ độ OPV. Đồ thị thể hiện của biến đổi của các quá trình:",
+    "options": {
+      "A": "Nén đoạn nhiệt, giãn nở đẳng áp và làm lạnh đẳng tích về trạng thái ban đầu",
+      "B": "Nén đẳng áp, làm lạnh đẳng tích rồi nén đoạn nhiệt về trạng thái ban đầu",
+      "C": "Nén đẳng áp, hơ nóng đẳng tích và giãn nở đẳng nhiệt đến trạng thái ban đầu",
+      "D": "Nén đoạn nhiệt, nén đẳng áp và hơ nóng đẳng tích đến trạng thái ban đầu"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.26",
+    "chapter": 5,
+    "question": "Một khối khí lí tưởng không đổi được giữ ở nhiệt độ không đổi. Ban đầu hệ có thể tích 1 m3 và áp suất 1 atm. Nếu áp suất giảm còn 0,5 atm thì thể tích khối khí là",
+    "options": {
+      "A": "4 m3.",
+      "B": "2 m3.",
+      "C": "1 m3.",
+      "D": "0,5 m3."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.27",
+    "chapter": 5,
+    "question": "Một khối khí lý tưởng không đổi, biến đổi đẳng nhiệt từ trạng thái 1 có thể tích 25 lít và áp suất 1,5 atm sang trạng thái 2 có thể tích 50 lít. Áp suất của hệ khí ở trạng thái 2 là",
+    "options": {
+      "A": "2,5.105 Pa. B. 7,5975.104 Pa.",
+      "C": "2,5013.104 Pa.",
+      "D": "5,065.104 Pa."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.28",
+    "chapter": 5,
+    "question": "Một khối khí lí tưởng không đổi ở nhiệt độ không đổi 27oC, thể tích 80 lít, áp suất 2 atm. Nếu thể tích giảm còn 40 lít thì áp suất của khối khí là",
+    "options": {
+      "A": "2,026.105 Pa.",
+      "B": "2,026.104 Pa.",
+      "C": "4,052.104 Pa. D. 4,052.105 Pa."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.29",
+    "chapter": 5,
+    "question": "Một khối khí lí tưởng không đổi ở nhiệt độ không đổi. Nếu tăng thể tích của hệ lên 6 lần thì áp suất của hệ sẽ",
+    "options": {
+      "A": "giảm 6 lần.",
+      "B": "tăng 6 lần.",
+      "C": "giảm 3 lần.",
+      "D": "tăng 3 lần."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.30",
+    "chapter": 5,
+    "question": "Một khối khí lý tưởng không đổi, biến đổi đẳng tích từ trạng thái 1 có nhiệt độ 127 oC và áp suất 1 atm sang trạng thái 2 có áp suất 3 atm. Nhiệt độ của hệ ở trạng thái 2 là",
+    "options": {
+      "A": "927 oC.",
+      "B": "381 oC.",
+      "C": "309 oC.",
+      "D": "103 oC."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.31",
+    "chapter": 5,
+    "question": "Một khối khí lý tưởng không đổi, biến đổi đẳng tích từ trạng thái 1 có nhiệt độ 227 oC và áp suất 2 atm sang trạng thái 2 có nhiệt độ 477 oC. Áp suất của hệ ở trạng thái 2 là",
+    "options": {
+      "A": "105 Pa.",
+      "B": "3.104 Pa.",
+      "C": "104 Pa.",
+      "D": "3,039.105 Pa."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.32",
+    "chapter": 5,
+    "question": "Một khối khí lý tưởng được chứa trong bình kín. Nếu áp suất khí trong bình tăng gấp ba thì nhiệt độ của khối khí sẽ",
+    "options": {
+      "A": "giảm 9 lần.",
+      "B": "tăng 9 lần.",
+      "C": "tăng 3 lần.",
+      "D": "giảm 3 lần."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.33",
+    "chapter": 5,
+    "question": "Một khối khí lý tưởng được chứa trong bình kín, có nhiệt độ 107 oC và áp suất 3 atm. Để áp suất trong bình còn 1,5 atm thì cần phải giảm nhiệt độ xuống đến",
+    "options": {
+      "A": "-53,5 oC",
+      "B": "83 oC.",
+      "C": "-83 oC.",
+      "D": "53,5 oC."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.34",
+    "chapter": 5,
+    "question": "Một khối khí lý tưởng không đổi, biến đổi đẳng áp từ trạng thái 1 có nhiệt độ 227 oC và thể tích 10 lít sang trạng thái 2 có thể tích 25 lít. Nhiệt độ của hệ ở trạng thái 2 là",
+    "options": {
+      "A": "1250 oC.",
+      "B": "977 oC.",
+      "C": "567 oC.",
+      "D": "725 oC."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.35",
+    "chapter": 5,
+    "question": "Một khối khí lý tưởng không đổi, biến đổi đẳng áp từ trạng thái 1 có nhiệt độ 327 oC và thể tích 12 lít sang trạng thái 2 có nhiệt độ 127 oC. Thể tích của hệ ở trạng thái 2 là",
+    "options": {
+      "A": "8 lít",
+      "B": "5 lít",
+      "C": "10 lít",
+      "D": "18 lít"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.36",
+    "chapter": 5,
+    "question": "Một khối khí lý tưởng không đổi được giữ trong bình có áp suất không đổi. Nếu thể tích của khối khí tăng 6 lần thì nhiệt độ của khối khí sẽ",
+    "options": {
+      "A": "giảm 6 lần.",
+      "B": "tăng 6 lần.",
+      "C": "giảm 3 lần.",
+      "D": "tăng 3 lần."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.37",
+    "chapter": 5,
+    "question": "Một khối khí lý tưởng không đổi ở điều kiện có nhiệt độ 127 oC và thể tích 25 lít. Nếu áp suất được giữ không đổi và thể tích giảm xuống còn 10 lít thì nhiệt độ của khối khí xấp xỉ là",
+    "options": {
+      "A": "247 K.",
+      "B": "120 K.",
+      "C": "160 K.",
+      "D": "50,8 K."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.38",
+    "chapter": 5,
+    "question": "0,25 mol khí lý tưởng ở trạng thái 1 có áp suất 1 atm, thể tích 17,4 lít được nén đẳng áp đến trạng thái 2 có thể tích 5,51 lít. Nhiệt độ của hệ ở cuối quá trình đẳng áp là",
+    "options": {
+      "A": "783, 04 K",
+      "B": "387, 04 K",
+      "C": "268,7K",
+      "D": "738, 04 K"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.39",
+    "chapter": 5,
+    "question": "Một khối khí O2 không đổi được coi là khí lý tưởng, biến đổi đoạn nhiệt từ trạng thái 1 có áp suất 1,5 atm và thể tích 10 lít sang trạng thái 2 có áp suất 3 atm. Thể tích của hệ ở trạng thái 2 là",
+    "options": {
+      "A": "5 lít",
+      "B": "10,30 lít",
+      "C": "8,14 lít",
+      "D": "6,1 lít"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.40",
+    "chapter": 5,
+    "question": "Một khối khí N2 không đổi được coi là khí lý tưởng, biến đổi đoạn nhiệt từ trạng thái 1 có nhiệt độ 27 oC và thể tích 15 lít sang trạng thái 2 có thể tích 20 lít. Nhiệt độ của hệ ở trạng thái 2 là",
+    "options": {
+      "A": "87,6 K.",
+      "B": "24,1 K.",
+      "C": "302,3 K.",
+      "D": "267,4 K."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.41",
+    "chapter": 5,
+    "question": "Một khối khí N2 không đổi được coi là khí lý tưởng, biến đổi đoạn nhiệt từ trạng thái 1 có nhiệt độ 127 oC và thể tích 10 lít sang trạng thái 2 có nhiệt độ 227 oC. Thể tích của hệ ở trạng thái 2 là",
+    "options": {
+      "A": "5,72 lít.",
+      "B": "2,86 lít.",
+      "C": "3,14 lít",
+      "D": "1,62 lít."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.42",
+    "chapter": 5,
+    "question": "Một khối khí lý tưởng lưỡng nguyên tử không đổi, thực hiện một quá trình biến đổi đoạn nhiệt. Nếu thể tích giảm 2 lần thì áp suất của khối khí sẽ",
+    "options": {
+      "A": "tăng 2 lần.",
+      "B": "giảm 2,64 lần.",
+      "C": "tăng 2,64 lần. D. giảm 1,32 lần."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.43",
+    "chapter": 5,
+    "question": "Một khối khí lý tưởng đơn nguyên tử không đổi, thực hiện một quá trình biến đổi đoạn nhiệt. Nếu áp suất tăng 2 lần thì thể tích của khối khí sẽ",
+    "options": {
+      "A": "không đổi.",
+      "B": "giảm 1,64 lần.",
+      "C": "tăng 1,64 lần. D. giảm 1,52 lần."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.44",
+    "chapter": 5,
+    "question": "Một khối khí lý tưởng lưỡng nguyên tử không đổi, thực hiện một quá trình biến đổi đoạn nhiệt. Nếu thể tích tăng 2 lần thì nhiệt độ của khối khí sẽ",
+    "options": {
+      "A": "tăng 1,32 lần.",
+      "B": "giảm 1,64 lần.",
+      "C": "giảm 1,32 lần. D. không đổi."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.45",
+    "chapter": 5,
+    "question": "Một khối khí lý tưởng đa nguyên tử không đổi, thực hiện một quá trình biến đổi đoạn nhiệt. Nếu nhiệt độ giảm 2 lần thì thể tích của khối khí sẽ",
+    "options": {
+      "A": "tăng 5,66 lần.",
+      "B": "giảm 5,66 lần. C. giảm 8 lần.",
+      "D": "tăng 8 lần."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.46",
+    "chapter": 5,
+    "question": "Một hệ khí lý tưởng lưỡng nguyên tử, ở trạng thái 1 có áp suất 1,5 atm, thể tích 80 lít, được nén đoạn nhiệt đến trạng thái 2 có thể tích 40 lít. Áp suất của hệ ở trạng thái 2 bằng",
+    "options": {
+      "A": "3,69 atm",
+      "B": "3,96 atm",
+      "C": "9,36 atm",
+      "D": "9,63 atm"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.47",
+    "chapter": 5,
+    "question": "Một khối khí N2 không đổi được coi là khí lý tưởng, biến đổi đoạn nhiệt từ trạng thái 1 có áp suất 3 atm và thể tích 5 lít sang trạng thái 2 có thể tích 15 lít. Áp suất của hệ ở trạng thái 2 là",
+    "options": {
+      "A": "0,32 atm.",
+      "B": "0,64 atm.",
+      "C": "1 atm.",
+      "D": "3 atm."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.48",
+    "chapter": 5,
+    "question": "Một chất khí lý tưởng ở trạng thái ban đầu áp suất P0, được dãn đẳng nhiệt tới thể tích V2=3V1. Sau đó khí được nén đoạn nhiệt trở về thể tích ban đầu, áp suất sau khi nén là P3 = 31/3P0. Xác định bậc tự do i?",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "6",
+      "D": "8"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.49",
+    "chapter": 5,
+    "question": "Một khối khí lí tưởng không đổi ở trạng thái xác định. Nếu cả áp suất và thể tích của khối khí lí tưởng tăng 4 lần thì nhiệt độ tuyệt đối của khối khí sẽ",
+    "options": {
+      "A": "tăng 16 lần.",
+      "B": "giảm 16 lần.",
+      "C": "tăng 4 lần.",
+      "D": "giảm 4 lần."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.50",
+    "chapter": 5,
+    "question": "Một khối khí lí tưởng không đổi ở trạng thái xác định. Nếu nhiệt độ tuyệt đối tăng gấp ba, áp suất giảm một nửa thì thể tích khối khí",
+    "options": {
+      "A": "giảm 2 lần.",
+      "B": "tăng 3 lần.",
+      "C": "giảm 6 lần.",
+      "D": "tăng 6 lần."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.51",
+    "chapter": 5,
+    "question": "Một khối khí lí tưởng không đổi ở trạng thái xác định. Nếu đồng thời tăng nhiệt độ tuyệt đối và thể tích lên 5 lần thì áp suất của khối khí sẽ:",
+    "options": {
+      "A": "tăng 16 lần.",
+      "B": "không đổi",
+      "C": "giảm 4 lần.",
+      "D": "tăng 4 lần."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.52",
+    "chapter": 5,
+    "question": "Một khối khí lý tưởng không đổi, ban đầu ở trạng thái có nhiệt độ 127oC, thể tích 16 lít và áp suất 1 atm. Khối khí được biến đổi đến trạng thái có thể tích 10 lít và áp suất 2 atm. Nhiệt độ lúc này của khối khí là",
+    "options": {
+      "A": "500oC.",
+      "B": "127oC.",
+      "C": "27oC.",
+      "D": "227oC."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.53",
+    "chapter": 5,
+    "question": "Một hệ gồm 2 mol khí lý tưởng ở trạng thái có thể tích 35 lít và áp suất 3 atm. Nhiệt độ của khối khí là",
+    "options": {
+      "A": "366,98oC.",
+      "B": "631,4oC.",
+      "C": "424,4oC.",
+      "D": "271,4oC."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.54",
+    "chapter": 5,
+    "question": "4 gam khí H2 chứa trong bình kín có thể tích 2 lít ở nhiệt độ 27 oC. Áp suất khí trong bình là",
+    "options": {
+      "A": "105 Pa.",
+      "B": "2,2.105 Pa.",
+      "C": "2,5.106 Pa",
+      "D": "3.105 Pa"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.55",
+    "chapter": 5,
+    "question": "Ở điều kiện chuẩn: áp suất 1 atm và nhiệt độ 0oC, một mol khí bất kì luôn có thể tích là:",
+    "options": {
+      "A": "22,4 m3.",
+      "B": "22,4 lít",
+      "C": "1 m3.",
+      "D": "1 lít"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.56",
+    "chapter": 5,
+    "question": "Một khối khí lý tưởng đang ở nhiệt độ 27oC thì thực hiện quá trình biến đổi trạng thái đến khi nhiệt độ tăng thêm 20oC, áp suất tăng 1,5 lần, lúc này thể tích của khối khí bằng 16 lít. Thể tích ban đầu của khối khí bằng",
+    "options": {
+      "A": "24,0 lít",
+      "B": "22,5 lít",
+      "C": "30,0 lít",
+      "D": "15,0 lít"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.57",
+    "chapter": 5,
+    "question": "Một bình khí He được coi là lý tưởng, có áp suất 150 bar, thể tích 20 lít và ở nhiệt độ phòng 27oC. Biết khối lượng mol của He là 4 g/mol, 1 bar = 105 Pa. Khối lượng khí He chứa trong bình là:",
+    "options": {
+      "A": "5,35 kg",
+      "B": "481,3 kg",
+      "C": "5,35 g",
+      "D": "481,3 g"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.58",
+    "chapter": 5,
+    "question": "Một bình khí He được coi là lý tưởng, có áp suất 150 bar, thể tích 40 lít và ở nhiệt độ phòng 27oC. Biết khối lượng mol của He là 4 g/mol, 1 bar = 105 Pa. Để giảm áp suất trong bình xuống 75 bar thì phải xả bớt bao nhiêu gam khí He ra ngoài? Coi nhiệt độ không đổi trong suốt quá trình xả.",
+    "options": {
+      "A": "642 g",
+      "B": "106,96 g",
+      "C": "481,3 g",
+      "D": "321 g"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.59",
+    "chapter": 5,
+    "question": "Tiến hành bơm khí H2 vào một bình kín, có thể tích 15 lít. Vỏ bình chỉ có thể chịu được áp suất tối đa là 100 bar. Biết khối lượng mol của H2 là 2 g/mol, 1 bar = 105 Pa. Giả sử nhiệt độ khí trong bình ở nhiệt độ phòng 27oC. Khối lượng khí H2 tối đa có thể chứa trong bình là:",
+    "options": {
+      "A": "1337 kg",
+      "B": "1337 g",
+      "C": "120,34 kg",
+      "D": "120,34 g"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.60",
+    "chapter": 5,
+    "question": "Bậc tự do của phân tử khí CO2 là:",
+    "options": {
+      "A": "i = 6",
+      "B": "i = 3",
+      "C": "i = 5",
+      "D": "i = 7"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.61",
+    "chapter": 5,
+    "question": "Hệ số đoạn nhiệt của chất khí đơn nguyên tử bằng",
+    "options": {
+      "A": ".",
+      "B": ".",
+      "C": "1,4",
+      "D": "."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.62",
+    "chapter": 5,
+    "question": "Nhiệt dung mol đẳng áp của chất khí lưỡng nguyên tử xấp xỉ bằng",
+    "options": {
+      "A": "33,26 J/Mol.K.",
+      "B": "29,10 J/Mol.K",
+      "C": "20,79 J/Mol.K.",
+      "D": "24,95 J/Mol.K"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.63",
+    "chapter": 5,
+    "question": "Nhiệt dung mol đẳng tích của chất khí đơn nguyên tử xấp xỉ bằng",
+    "options": {
+      "A": "24,95 J/Mol.K.",
+      "B": "29,10 J/Mol.K",
+      "C": "20,79 J/Mol.K.",
+      "D": "12,47 J/Mol.K"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.64",
+    "chapter": 5,
+    "question": "Một hệ nhiệt động trải qua một chu trình ngược chiều kim đồng hồ. Trong mỗi chu trình, nhiệt lượng mà hệ trao đổi với môi trường có giá trị tuyệt đối là 5100 J. Công mà hệ sinh ra trong chu trình đó bằng:",
+    "options": {
+      "A": "3500 J",
+      "B": "-5100 J",
+      "C": "5100 J",
+      "D": "-3500 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.65",
+    "chapter": 5,
+    "question": "Một hệ nhiệt động trải qua một chu trình ngược chiều kim đồng hồ. Nhiệt lượng mà hệ trao đổi với môi trường có giá trị tuyệt đối là 5200 J. Công mà hệ sinh ra trong chu trình có giá trị:",
+    "options": {
+      "A": "-5200 J",
+      "B": "5200 J",
+      "C": "0 J",
+      "D": "-2500 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.66",
+    "chapter": 5,
+    "question": "Một hệ nhiệt động trải qua một chu trình biến đổi cùng chiều kim đồng hồ. Trong mỗi chu trình, nhiệt lượng mà hệ trao đổi với môi trường có giá trị tuyệt đối là 4200 J. Công mà hệ sinh ra trong chu trình đó bằng bao nhiêu?",
+    "options": {
+      "A": "2400 J.",
+      "B": "4200 J.",
+      "C": "– 4200 J.",
+      "D": "– 2400 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.67",
+    "chapter": 5,
+    "question": "Một hệ khí lý tưởng nhận từ môi trường nhiệt lượng 4900 J, làm tăng nội năng của hệ lên 2300 J. Công mà hệ sinh ra trong quá trình này là:",
+    "options": {
+      "A": "7200 J.",
+      "B": "2600 J.",
+      "C": "-5600 J",
+      "D": "-3700 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.68",
+    "chapter": 5,
+    "question": "Một hệ khí lý tưởng trải qua quá trình biến đổi đoạn nhiệt, làm nội năng của hệ tăng 4200 J. Công mà hệ sinh ra trong quá trình này là:",
+    "options": {
+      "A": "2400 J.",
+      "B": "4200 J.",
+      "C": "- 4200 J.",
+      "D": "- 2400 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.70",
+    "chapter": 5,
+    "question": "Một hệ nhiệt động trải qua một chu trình biến đổi cùng chiều kim đồng hồ. Trong mỗi chu trình, công thực hiện bởi hệ trong chu trình đó bằng 3200 J thì nhiệt lượng mà hệ nhận vào là:",
+    "options": {
+      "A": "7400 J.",
+      "B": "3200 J.",
+      "C": "- 3200 J.",
+      "D": "- 7400 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.71",
+    "chapter": 5,
+    "question": "Một hệ khí lý tưởng nhận từ môi trường nhiệt lượng 900 J, làm tăng nội năng của hệ lên 300 J. Công mà hệ sinh ra trong quá trình này là:",
+    "options": {
+      "A": "1200 J.",
+      "B": "600 J.",
+      "C": "-600 J.",
+      "D": "-1200 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.72",
+    "chapter": 5,
+    "question": "Một hệ khí lý tưởng làm tăng nội năng của hệ lên 500 J và thực hiện công lên môi trường là 800 J thì trong quá trình này hệ nhận từ môi trường nhiệt lượng là:",
+    "options": {
+      "A": "300 J.",
+      "B": "1300 J.",
+      "C": "-300 J.",
+      "D": "-1300 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.73",
+    "chapter": 5,
+    "question": "Một hệ khí lý tưởng được biến đổi đẳng áp tại áp suất 2 atm, làm thể tích của hệ giảm đi 3 lít. Công mà hệ sinh ra với môi trường trong quá trình này là:",
+    "options": {
+      "A": "-607,8 J",
+      "B": "-600 J",
+      "C": "607,8 J",
+      "D": "600 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.74",
+    "chapter": 5,
+    "question": "Một hệ khí lý tưởng được biến đổi đẳng áp tại áp suất 3 atm, làm thể tích của hệ giảm đi 2 lít. Công mà hệ nhận vào trong quá trình này là:",
+    "options": {
+      "A": "– 607,8 J.",
+      "B": "– 400 J.",
+      "C": "400 J.",
+      "D": "607,8 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.75",
+    "chapter": 5,
+    "question": "Một lượng khí N2 được biến đổi đẳng tích tại thể tích 12 lít, làm cho áp suất của hệ tăng 2 atm. Nhiệt lượng mà hệ trao đổi với môi trường trong quá trình này là",
+    "options": {
+      "A": "-3200 J",
+      "B": "6078 J",
+      "C": "3200 J",
+      "D": "-6078 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.76",
+    "chapter": 5,
+    "question": "Một hệ khí lý tưởng được biến đổi đẳng áp tại áp suất 4 atm, làm thể tích của hệ tăng thêm 4.10-3 m3. Công mà hệ sinh ra trong quá trình này là",
+    "options": {
+      "A": "810,4 J.",
+      "B": "-810,4 J.",
+      "C": "1620,8 J.",
+      "D": "-1620,8 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.77",
+    "chapter": 5,
+    "question": "Một khối khí CH4 được biến đổi đẳng áp tại áp suất 4 atm, làm thể tích của hệ tăng thêm 2.10-3 m3. Nhiệt mà hệ nhận vào trong quá trình này là:",
+    "options": {
+      "A": "3241,6 J.",
+      "B": "810,4 J.",
+      "C": "– 810,4 J.",
+      "D": "– 3241,6 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.78",
+    "chapter": 5,
+    "question": "0,25 mol khí lý tưởng ở trạng thái 1 có áp suất 1 atm, thể tích 17,4 lít được nén đẳng áp đến trạng thái 2 có thể tích 5,51 lít. Công mà hệ sinh ra trong quá trình 12 là:",
+    "options": {
+      "A": "3472 J",
+      "B": "-5672 J",
+      "C": "-1204,46 J",
+      "D": "4321 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.79",
+    "chapter": 5,
+    "question": "2 mol khí lý tưởng lưỡng nguyên tử, ở trạng thái 1 có nhiệt độ 300 K, được nung nóng đẳng tích đến trạng thái 2 có nhiệt độ 600 K. Nhiệt lượng mà hệ nhận vào trong quá trình 12 là:",
+    "options": {
+      "A": "21465,7 J",
+      "B": "12465 J",
+      "C": "-21465,3 J",
+      "D": "-12465 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.80",
+    "chapter": 5,
+    "question": "Một khối khí CO2 được coi là khí lý tưởng, biến đổi đẳng áp tại áp suất 3 atm, làm thể tích của hệ giảm đi 2 lít. Nhiệt mà hệ nhận vào trong quá trình này là:",
+    "options": {
+      "A": "– 607,8 J.",
+      "B": "– 2431,2 J.",
+      "C": "2431,2 J.",
+      "D": "607,8 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.81",
+    "chapter": 5,
+    "question": "Có 1 mol khí lý tưởng đơn nguyên tử, ở trạng thái 1 có nhiệt độ 300 K, được nén đoạn nhiệt đến trạng thái 2 có nhiệt độ 600 K. Công mà hệ sinh ra trong quá trình này là:",
+    "options": {
+      "A": "6,236 kJ.",
+      "B": "– 6,232 kJ.",
+      "C": "– 3,74 kJ.",
+      "D": "3,74 kJ."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.82",
+    "chapter": 5,
+    "question": "Có 1 mol khí lý tưởng đơn nguyên tử, ở trạng thái 1 có nhiệt độ 300 K, được biến đổi đẳng áp đến trạng thái 2 có nhiệt độ 600 K. Công mà hệ sinh ra trong quá trình này là:",
+    "options": {
+      "A": "-1247 J.",
+      "B": "1247 J.",
+      "C": "-2494 J.",
+      "D": "2494 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.83",
+    "chapter": 5,
+    "question": "Hệ gồm 12 gam khí CO2 thực hiện quá trình biến đổi đẳng áp để nhiệt độ của hệ tăng thêm 50 oC. Nhiệt lượng hệ nhận vào bằng bao nhiêu?",
+    "options": {
+      "A": "545,3J.",
+      "B": "-545,7 J",
+      "C": "-453,3 J",
+      "D": "453,3 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.84",
+    "chapter": 5,
+    "question": "Có 2 mol khí lý tưởng lưỡng nguyên tử, ở trạng thái 1 có nhiệt độ 300 K, được nung nóng đẳng tích đến trạng thái 2 có nhiệt độ 500 K. Nhiệt lượng mà hệ nhận vào trong quá trình này bằng",
+    "options": {
+      "A": "12472 J.",
+      "B": "8310 J.",
+      "C": "– 12472 J.",
+      "D": "– 8310 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.85",
+    "chapter": 5,
+    "question": "Có 2 mol khí lý tưởng đơn nguyên tử, ở trạng thái 1 có nhiệt độ 350 K, được làm lạnh đẳng tích đến trạng thái 2 có nhiệt độ 300 K. Nhiệt lượng mà hệ nhận vào trong quá trình này là",
+    "options": {
+      "A": "623,6 J.",
+      "B": "-623,25 J.",
+      "C": "-1246,5 J.",
+      "D": "1246,5 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.86",
+    "chapter": 5,
+    "question": "Có 2 mol khí lý tưởng đơn nguyên tử, ở trạng thái 1 có nhiệt độ 300 K, được biến đổi đoạn nhiệt đến trạng thái 2 có nhiệt độ 600 K. Công mà hệ sinh ra trong quá trình này là",
+    "options": {
+      "A": "7,48 kJ.",
+      "B": "-7,48 kJ.",
+      "C": "-12,47 kJ.",
+      "D": "12,47 kJ."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.87",
+    "chapter": 5,
+    "question": "Một hệ khí lý tưởng đơn nguyên tử thực hiện một quá trình biến đổi từ trạng thái có áp suất 1 atm và thể tích 8 lít đến trạng thái có áp suất 3 atm và thể tích 2 lít. Độ biến thiên nội năng của hệ bằng",
+    "options": {
+      "A": "– 303,9 J.",
+      "B": "500 J.",
+      "C": "– 500 J.",
+      "D": "303,9 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.88",
+    "chapter": 5,
+    "question": "Một hệ khí lý tưởng đa nguyên tử thực hiện một quá trình biến đổi đẳng áp từ trạng thái có áp suất 2 atm và thể tích 3 lít đến trạng thái có thể tích 10 lít. Độ biến thiên nội năng của hệ bằng",
+    "options": {
+      "A": "4255 J.",
+      "B": "-4255 J.",
+      "C": "-3500 J.",
+      "D": "3500 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.89",
+    "chapter": 5,
+    "question": "Nung nóng 160 gam khí O2 từ nhiệt độ 50 oC đến 70 oC trong điều kiện đẳng tích. Độ biến thiên nội năng của hệ là",
+    "options": {
+      "A": "1050 J",
+      "B": "1039 J",
+      "C": "2078 J",
+      "D": "1027 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.90",
+    "chapter": 5,
+    "question": "Có 44 gam khí CO2 được coi là khí lý tưởng được nung nóng trong điều kiện đẳng tích từ nhiệt độ 30 oC đến 60 oC. Độ biến thiên nội năng của hệ là",
+    "options": {
+      "A": "374 J.",
+      "B": "389,5 J.",
+      "C": "747,9 J.",
+      "D": "623,3 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.91",
+    "chapter": 5,
+    "question": "Có 2 mol khí đa nguyên tử được coi là khí lý tưởng thực hiện quá trình biến đổi đoạn nhiệt từ trạng thái có nhiệt độ 300 K đến trạng thái có nhiệt độ 320 K. Độ biến thiên nội năng của hệ là",
+    "options": {
+      "A": "498,9 J.",
+      "B": "831 J.",
+      "C": "997,2 J.",
+      "D": "1164,1 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.92",
+    "chapter": 5,
+    "question": "Một căn phòng chứa 2000 mol không khí, được làm lạnh từ 28 oC xuống 15 oC tại áp suất không đổi là 1 atm. Coi không khí là khí lý tưởng với g =1,4. Độ biến thiên nội năng của lượng khí là",
+    "options": {
+      "A": "4,5.104 J",
+      "B": "-5,4.104 J",
+      "C": "-4,5.105 J",
+      "D": "-5,4.105 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.93",
+    "chapter": 5,
+    "question": "2 mol khí lý tưởng lưỡng nguyên tử, ở trạng thái 1 có nhiệt độ 300 K, được nung nóng đẳng tích đến trạng thái 2 có nhiệt độ 600 K. Sau đó, hệ được dãn đoạn nhiệt đến trạng thái 3 rồi được nén đẳng áp về trạng thái ban đầu. Công mà hệ sinh ra trong quá trình đẳng áp 31 là:",
+    "options": {
+      "A": "- 3191 J",
+      "B": "1175,42 J",
+      "C": "9455,31 J",
+      "D": "- 6155,34 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.94",
+    "chapter": 5,
+    "question": "2 mol khí lý tưởng lưỡng nguyên tử, ở trạng thái 1 có nhiệt độ 300 K, được nung nóng đẳng tích đến trạng thái 2 có nhiệt độ 600 K. Sau đó, hệ được dãn đoạn nhiệt đến trạng thái 3 rồi được nén đẳng áp về trạng thái ban đầu. Nhiệt mà hệ tỏa ra trong quá trình đẳng áp 31 là:",
+    "options": {
+      "A": "3191 J",
+      "B": "11168,6 J",
+      "C": "-3191 J",
+      "D": "– 11168,6 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.95",
+    "chapter": 5,
+    "question": "2 mol khí lý tưởng lưỡng nguyên tử, ở trạng thái 1 có nhiệt độ 300 K, được nung nóng đẳng tích đến trạng thái 2 có nhiệt độ 600 K. Sau đó, hệ được dãn đoạn nhiệt đến trạng thái 3 rồi được nén đẳng áp về trạng thái ban đầu. Nhiệt mà hệ nhận vào trong quá trình đẳng tích 12 là:",
+    "options": {
+      "A": "12465 J",
+      "B": "4986 J",
+      "C": "0 J",
+      "D": "7977,6 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.96",
+    "chapter": 5,
+    "question": "Một hệ khí lý tưởng lưỡng nguyên tử, ở trạng thái 1 có áp suất 1,5 atm, thể tích 80 lít, được nén đoạn nhiệt đến trạng thái 2 có thể tích 40 lít. Sau đó, hệ được dãn đẳng áp tới trạng thái 3, sao cho cuối cùng khi biến đổi đẳng tích hệ sẽ trở về trạng thái ban đầu. Công mà hệ sinh ra trong quá trình đẳng áp 23 bằng",
+    "options": {
+      "A": "16040 J",
+      "B": "-27820 J",
+      "C": "51834 J",
+      "D": "-18534 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.97",
+    "chapter": 5,
+    "question": "Một hệ khí lý tưởng đơn nguyên tử, ở trạng thái 1 có áp suất 1,5 atm, thể tích 80 lít, được nén đoạn nhiệt đến trạng thái 2 có thể tích 40 lít. Sau đó, hệ được dãn đẳng áp tới trạng thái 3, sao cho cuối cùng khi biến đổi đẳng tích hệ sẽ trở về trạng thái ban đầu. Nhiệt mà hệ tỏa ra trong quá trình đẳng tích 31 bằng",
+    "options": {
+      "A": "49809,7 J",
+      "B": "39655,3 J",
+      "C": "51834 J",
+      "D": "18534 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.98",
+    "chapter": 5,
+    "question": "Một hệ khí lý tưởng đa nguyên tử, ở trạng thái 1 có áp suất 1,5 atm, thể tích 80 lít, được nén đoạn nhiệt đến trạng thái 2 có thể tích 40 lít. Sau đó, hệ được dãn đẳng áp tới trạng thái 3, sao cho cuối cùng khi biến đổi đẳng tích hệ sẽ trở về trạng thái ban đầu. Nhiệt lượng mà hệ nhận vào trong quá trình đẳng áp 23 bằng bao nhiêu?",
+    "options": {
+      "A": "23419 J",
+      "B": "56139,78 J",
+      "C": "61262,4 J",
+      "D": "33419 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.99",
+    "chapter": 5,
+    "question": "0,25 mol khí lý tưởng lưỡng nguyên tử ở trạng thái 1 có áp suất 1 atm, thể tích 17,4 lít được nén đẳng áp đến trạng thái 2 có thể tích 5,51 lít. Sau đó, hệ được nung nóng đẳng tích đến trạng thái 3 có nhiệt độ bằng nhiệt độ ban đầu. Cuối cùng, hệ được biến đổi đẳng nhiệt về trạng thái ban đầu. Công mà hệ sinh ra trong quá trình đẳng nhiệt 31 là:",
+    "options": {
+      "A": "5067,1 J",
+      "B": "2026,8 J",
+      "C": "0 J",
+      "D": "3011 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.100",
+    "chapter": 5,
+    "question": "0,25 mol khí lý tưởng lưỡng nguyên tử ở trạng thái 1 có áp suất 1 atm, thể tích 17,4 lít được nén đẳng áp đến trạng thái 2 có thể tích 5,51 lít. Sau đó, hệ được nung nóng đẳng tích đến trạng thái 3 có nhiệt độ bằng nhiệt độ ban đầu. Cuối cùng, hệ được biến đổi đẳng nhiệt về trạng thái ban đầu. Nhiệt lượng mà hệ nhận vào trong quá trình đẳng áp 12 là:",
+    "options": {
+      "A": "-4215,6 J",
+      "B": "- 3011,1 J",
+      "C": "3011,1 J",
+      "D": "4215,6 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.101",
+    "chapter": 5,
+    "question": "0,25 mol khí lý tưởng lưỡng nguyên tử ở trạng thái 1 có áp suất 1 atm, thể tích 17,4 lít được nén đẳng áp đến trạng thái 2 có thể tích 5,51 lít. Sau đó, hệ được nung nóng đẳng tích đến trạng thái 3 có nhiệt độ bằng nhiệt độ ban đầu. Cuối cùng, hệ được biến đổi đẳng nhiệt về trạng thái ban đầu. Nhiệt lượng mà hệ nhận vào trong quá trình đẳng tích 23 là:",
+    "options": {
+      "A": "1204 J",
+      "B": "2027 J",
+      "C": "3011 J",
+      "D": "0 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.102",
+    "chapter": 5,
+    "question": "0,25 mol khí lý tưởng lưỡng nguyên tử ở trạng thái 1 có áp suất 1 atm, thể tích 17,4 lít được nén đẳng áp đến trạng thái 2 có thể tích 5,51 lít. Sau đó, hệ được nung nóng đẳng tích đến trạng thái 3 có nhiệt độ bằng nhiệt độ ban đầu. Cuối cùng, hệ được biến đổi đẳng nhiệt về trạng thái ban đầu. Nhiệt lượng mà hệ nhận vào từ nguồn nóng trong một chu trình là:",
+    "options": {
+      "A": "5037,9 J",
+      "B": "2026,8 J",
+      "C": "4215,6 J",
+      "D": "3011 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.103",
+    "chapter": 5,
+    "question": "0,5 mol khí lý tưởng lưỡng nguyên tử ở trạng thái 1 có áp suất 1 atm, nhiệt độ 180,4 K. Đầu tiên, hệ khí được hơ nóng đẳng tích đến trạng thái 2 có áp suất 3 atm. Sau đó, hệ được biến đổi đẳng nhiệt đến trạng thái 3 có áp suất bằng áp suất ban đầu. Cuối cùng, hệ được biến đổi đẳng áp về trạng thái ban đầu. Nhiệt lượng mà hệ nhận vào trong quá trình biến đổi đẳng nhiệt 23 là:",
+    "options": {
+      "A": "5247J",
+      "B": "2470,4 J",
+      "C": "-2470,4 J",
+      "D": "-5247 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.104",
+    "chapter": 5,
+    "question": "0,5 mol khí lý tưởng lưỡng nguyên tử ở trạng thái 1 có áp suất 1 atm, nhiệt độ 180,4 K. Đầu tiên, hệ khí được hơ nóng đẳng tích đến trạng thái 2 có áp suất 3 atm. Sau đó, hệ được biến đổi đẳng nhiệt đến trạng thái 3 có áp suất bằng áp suất ban đầu. Cuối cùng, hệ được biến đổi đẳng áp về trạng thái ban đầu. Nhiệt lượng mà hệ nhận vào trong quá trình biến đổi đẳng tích 12 bằng bao nhiêu?",
+    "options": {
+      "A": "-3747,8 J",
+      "B": "2550,09 J",
+      "C": "-2550,09 J",
+      "D": "3747,8 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.105",
+    "chapter": 5,
+    "question": "0,5 mol khí lý tưởng lưỡng nguyên tử ở trạng thái 1 có áp suất 1 atm, nhiệt độ 180,4 K. Đầu tiên, hệ khí được hơ nóng đẳng tích đến trạng thái 2 có áp suất 3 atm. Sau đó, hệ được biến đổi đẳng nhiệt đến trạng thái 3 có áp suất bằng áp suất ban đầu. Cuối cùng, hệ được biến đổi đẳng áp về trạng thái ban đầu. Nhiệt lượng mà hệ nhận vào trong quá trình biến đổi đẳng áp 31 bằng bao nhiêu?",
+    "options": {
+      "A": "5250,09 J",
+      "B": "2550,09 J",
+      "C": "-2550,09 J",
+      "D": "-5247 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.106",
+    "chapter": 5,
+    "question": "0,5 mol khí lý tưởng lưỡng nguyên tử ở trạng thái 1 có áp suất 1 atm, nhiệt độ 180,4 K. Đầu tiên, hệ khí được hơ nóng đẳng tích đến trạng thái 2 có áp suất 3 atm. Sau đó, hệ được biến đổi đẳng nhiệt đến trạng thái 3 có áp suất bằng áp suất ban đầu. Cuối cùng, hệ được biến đổi đẳng áp về trạng thái ban đầu. Nhiệt lượng mà hệ nhận vào từ nguồn nóng trong một chu trình là:",
+    "options": {
+      "A": "3747 J",
+      "B": "4719 J",
+      "C": "2470 J",
+      "D": "6218 J"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.107",
+    "chapter": 5,
+    "question": "Một động cơ nhiệt có tác nhân là khí CO2 được xem như khí lí tưởng, khối khí này biến đổi theo chu trình hình chữ nhật abcda. Nhiệt độ cao nhất của chất khí trong chu trình là 800 K. Áp suất và thể tích của chất khí trong mỗi trạng thái là pa = pd = 3,00.105 Pa, pb = pc = 6,00.105 Pa; Va = Vb = 0,02 m3, Vc = Vd = 0,08 m3. Công thực hiện bởi động cơ trong mỗi chu trình là:",
+    "options": {
+      "A": "144 kJ.",
+      "B": "72 kJ.",
+      "C": "36 kJ.",
+      "D": "18 kJ."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.108",
+    "chapter": 5,
+    "question": "Một động cơ nhiệt có chất công tác là khí CO2 được xem như khí lí tưởng, khối khí này biến đổi theo chu trình hình chữ nhật abcda. Nhiệt độ cao nhất của chất khí trong chu trình là 800 K. Áp suất và thể tích của chất khí trong mỗi trạng thái là pa = pd = 3,00.105 Pa, pb = pc = 6,00.105 Pa; Va = Vb = 0,02 m3, Vc = Vd = 0,08 m3. Tổng nhiệt lượng mà khối khí nhận từ nguồn nóng trong mỗi chu trình là",
+    "options": {
+      "A": "162 kJ.",
+      "B": "144 kJ.",
+      "C": "18 kJ.",
+      "D": "126 kJ."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.109",
+    "chapter": 5,
+    "question": "Một động cơ nhiệt có tác nhân là khí CO2 được xem như khí lí tưởng, khối khí này biến đổi theo chu trình hình chữ nhật abcda. Nhiệt độ cao nhất của chất khí trong chu trình là 800 K. Áp suất và thể tích của chất khí trong mỗi trạng thái là pa = pd = 3,00.105 Pa, pb = pc = 6,00.105 Pa; Va = Vb = 0,02 m3, Vc = Vd = 0,08 m3. Tổng nhiệt lượng mà khối khí truyền cho nguồn lạnh trong mỗi chu trình là",
+    "options": {
+      "A": "144 kJ.",
+      "B": "-72 kJ.",
+      "C": "0 kJ.",
+      "D": "-18 kJ."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.110",
+    "chapter": 5,
+    "question": "Một động cơ nhiệt có tác nhân là 2 mol khí lý tưởng đơn nguyên tử ban đầu ở trạng thái 1 có nhiệt độ 300 K. Khối khí bị nén đẳng nhiệt đến trạng thái 2, sau đó được giãn đẳng áp đến trạng thái 3 có nhiệt độ gấp 2 lần nhiệt độ ban đầu, cuối cùng làm lạnh đẳng tích về trạng thái ban đầu. Nhiệt lượng mà khối khí nhận từ nguồn nóng trong chu trình trên là:",
+    "options": {
+      "A": "12465 J.",
+      "B": "7483,5 J.",
+      "C": "10941,6 J.",
+      "D": "3458,1 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.111",
+    "chapter": 5,
+    "question": "Một động cơ nhiệt có tác nhân là 2 mol khí lý tưởng đơn nguyên tử ban đầu ở trạng thái 1 có nhiệt độ 300 K. Khối khí bị nén đẳng nhiệt đến trạng thái 2, sau đó được giãn đẳng áp đến trạng thái 3 có nhiệt độ gấp 2 lần nhiệt độ ban đầu, cuối cùng làm lạnh đẳng tích về trạng thái ban đầu. Tổng nhiệt lượng mà khối khí truyền cho nguồn lạnh trong chu trình trên là:",
+    "options": {
+      "A": "10935J.",
+      "B": "-12472,5 J.",
+      "C": "-7483,5 J.",
+      "D": "3458,1 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.112",
+    "chapter": 5,
+    "question": "Một chất khí lý tưởng ở trạng thái ban đầu áp suất P0, được dãn đẳng nhiệt tới thể tích V2=3V1. Sau đó khí được nén đoạn nhiệt trở về thể tích ban đầu, áp suất sau khi nén là P3 = 31/3P0. Xác định bậc tự do i?",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "6",
+      "D": "8"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.113",
+    "chapter": 5,
+    "question": "Một động cơ nhiệt có hiệu suất 20%. Trong mỗi chu trình làm việc, động cơ thực hiện một công là 150 J. Tác nhân hoạt động trong động cơ đã truyền cho nguồn lạnh một nhiệt lượng là",
+    "options": {
+      "A": "343 J.",
+      "B": "412 J.",
+      "C": "600 J.",
+      "D": "309 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.114",
+    "chapter": 5,
+    "question": "Một động cơ Diesel, mỗi chu trình thực hiện công cơ học là 2200 J và nhận nhiệt lượng 6500 J từ nguồn nóng thì nhiệt lượng truyền cho nguồn lạnh trong mỗi chu trình là:",
+    "options": {
+      "A": "-8700 J.",
+      "B": "4300 J.",
+      "C": "-870 J.",
+      "D": "3400 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.115",
+    "chapter": 5,
+    "question": "Một động cơ nhiệt thực hiện một công 400 J khi nhận từ nguồn nóng một nhiệt lượng là 1 kJ. Hiệu suất của động cơ nhiệt là",
+    "options": {
+      "A": "35%.",
+      "B": "25%.",
+      "C": "45%.",
+      "D": "40%."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.116",
+    "chapter": 5,
+    "question": "Một động cơ nhiệt, trong một chu trình nhận từ nguồn nóng một nhiệt lượng 1200 J và truyền cho nguồn lạnh một nhiệt lượng 900 J. Công mà động cơ thực hiện trong mỗi chu trình là",
+    "options": {
+      "A": "900 J.",
+      "B": "600 J.",
+      "C": "300 J.",
+      "D": "1200 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.117",
+    "chapter": 5,
+    "question": "Một động cơ nhiệt có công suất là 20 kW và hiệu suất nhiệt của nó là 20%. Nhiệt lượng mà động cơ nhiệt truyền cho nguồn lạnh trong một giây là:",
+    "options": {
+      "A": "-80 J.",
+      "B": "80 kJ.",
+      "C": "800 J.",
+      "D": "-8 kJ."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.118",
+    "chapter": 5,
+    "question": "Hiệu suất của một động cơ nhiệt là 40%, khi tỏa một nhiệt lượng 480J cho nguồn lạnh, động cơ nhiệt nhận một nhiệt lượng là",
+    "options": {
+      "A": "2 kJ.",
+      "B": "800 J.",
+      "C": "-800 J.",
+      "D": "-480 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.119",
+    "chapter": 5,
+    "question": "Một động cơ nhiệt, trong mỗi chu trình hoạt động sẽ thực hiện một công 900 J khi nhận từ nguồn nóng một nhiệt lượng là 3,0 kJ. Hiệu suất của động cơ nhiệt là",
+    "options": {
+      "A": "35%.",
+      "B": "25%.",
+      "C": "40%.",
+      "D": "30%."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.120",
+    "chapter": 5,
+    "question": "Một động cơ nhiệt, trong mỗi chu trình hoạt động sẽ nhận từ nguồn nóng nhiệt lượng 3,6.104 J và đồng thời truyền cho nguồn lạnh 2,9.104 J. Hiệu suất của động cơ đó là:",
+    "options": {
+      "A": "80,56%.",
+      "B": "19,44%.",
+      "C": "47,1%.",
+      "D": "52,9%."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.121",
+    "chapter": 5,
+    "question": "Một động cơ nhiệt, trong mỗi chu trình hoạt động sẽ thực hiện một công 600 J và đồng thời truyền cho nguồn lạnh một nhiệt lượng là 1200 J. Hiệu suất của động cơ nhiệt là",
+    "options": {
+      "A": "66,7%.",
+      "B": "25,0%.",
+      "C": "50,0%.",
+      "D": "33,3%."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.122",
+    "chapter": 5,
+    "question": "Một động cơ nhiệt có hiệu suất 30%. Trong mỗi chu trình làm việc, động cơ thực hiện một công là 204 J, khi đó nhận từ nguồn nóng một nhiệt lượng là",
+    "options": {
+      "A": "476 J.",
+      "B": "680 J.",
+      "C": "612 J.",
+      "D": "1420 J."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.123",
+    "chapter": 5,
+    "question": "Một động cơ nhiệt mỗi giây nhận từ nguồn nóng nhiệt lượng 3,6.104 J và đồng thời truyền cho nguồn lạnh 3,2.104 J. Hiệu suất của động cơ đó là:",
+    "options": {
+      "A": "88,9%.",
+      "B": "11,1%.",
+      "C": "47,1%.",
+      "D": "52,9%."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.124",
+    "chapter": 5,
+    "question": "Đối với một động cơ Carnot nếu đồng thời tăng nhiệt độ tuyệt đối của nguồn nóng và nguồn lạnh lên hai lần thì hiệu suất động cơ sẽ",
+    "options": {
+      "A": "tăng hai lần.",
+      "B": "giảm hai lần.",
+      "C": "tăng hoặc giảm.",
+      "D": "không thay đổi."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.125",
+    "chapter": 5,
+    "question": "Một động cơ Carnot làm việc với hai nguồn nhiệt gồm nguồn nóng có nhiệt độ tuyệt đối T1 và nguồn lạnh có nhiệt độ tuyệt đối T2. Biết T1 = 1,7T2, hiệu suất của động cơ này bằng:",
+    "options": {
+      "A": "62,5%.",
+      "B": "41,2%.",
+      "C": "37,5%.",
+      "D": "23,1%."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.126",
+    "chapter": 5,
+    "question": "Một động cơ Carnot làm việc ở hai nguồn nhiệt, biết nhiệt độ tuyệt đối của nguồn nóng gấp 6 lần nhiệt độ tuyệt đối của nguồn lạnh. Hiệu suất của động cơ Carnot này bằng:",
+    "options": {
+      "A": "52,4%.",
+      "B": "43,6%.",
+      "C": "83,3%.",
+      "D": "16,7%."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.127",
+    "chapter": 5,
+    "question": "Một động cơ Carnot làm việc với hai nguồn nhiệt gồm nguồn nóng có nhiệt độ t1 và nguồn lạnh có nhiệt độ t2. Biết t1 = 5t2 = 100oC, hiệu suất của động cơ này bằng:",
+    "options": {
+      "A": "78,6%.",
+      "B": "80,0%.",
+      "C": "21,4%.",
+      "D": "20%."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.128",
+    "chapter": 5,
+    "question": "Một động cơ Carnot làm việc giữa hai nguồn nhiệt có nhiệt độ 150oC và 27oC. Hiệu suất của động cơ này bằng:",
+    "options": {
+      "A": "18%.",
+      "B": "82%.",
+      "C": "29,1%.",
+      "D": "70,9%."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.129",
+    "chapter": 5,
+    "question": "Một động cơ Carnot khi hoạt động với nguồn nóng có nhiệt độ 540 K thì hiệu suất là 35%. Nếu tăng nhiệt độ nguồn nóng lên đến 580 K mà vẫn giữ nguyên nhiệt độ nguồn lạnh thì hiệu suất động cơ này là",
+    "options": {
+      "A": "98,1%.",
+      "B": "41,9%.",
+      "C": "39,5%.",
+      "D": "60,5%."
+    },
+    "correct": "A"
+  },
+  {
+    "id": "5.130",
+    "chapter": 5,
+    "question": "Một động cơ Carnot có hiệu suất 25% và nhiệt độ của nguồn lạnh là 320 K. Nếu tăng nhiệt độ nguồn nóng lên 1,5 lần nhưng vẫn giữ nguyên nhiệt độ nguồn lạnh thì hiệu suất của động cơ này xấp xỉ bằng",
+    "options": {
+      "A": "50%.",
+      "B": "62,5%.",
+      "C": "44,9%.",
+      "D": "30%. MỤC LỤC CHƯƠNG I: ĐỘNG HỌC CHẤT ĐIỂM ..........................................................3 1.1 Các khái niệm cơ bản ..............................................................................3 1.2 Một vài chuyển động đơn giản ................................................................9 CHƯƠNG II: ĐỘNG LỰC HỌC CHẤT ĐIỂM .............................................. 15 2.1 Các định luật Niu tơn ............................................................................ 15 2.2 Các định luật về động lượng, momen động lượng ................................. 19 2.3 Nguyên lý tương đối Galilê ................................................................... 22 CHƯƠNG III: CƠ HỌC HỆ CHẤT ĐIỂM – VẬT RẮN ................................ 24 3.1 Khối tâm, chuyển động của khối tâm .................................................... 24 3.2 Các định luật bảo toàn ........................................................................... 27 3.3. Chuyển động của vật rắn ............................................................................. 30 CHƯƠNG IV: TRƯỜNG LỰC THẾ VÀ TRƯỜNG HẤP DẪN .................... 35 4.1 Khái niệm và tính chất của trường lực thế ............................................ 35 4.2 Công - công suất ................................................................................... 35 4.3 Động năng - định lý về động năng ......................................................... 37 4.4 Thế năng - Định luật bảo toàn cơ năng trong trường lực thế .................. 38 4.5 Trường hấp dẫn - Thế năng trong trường hấp dẫn ................................. 39 CHƯƠNG V: NHIỆT ĐỘNG LỰC HỌC ........................................................ 42 5.1 Các trạng thái vĩ mô, vi mô, các định luật thực nghiệm, phương trình trạng thái của khí lý tưởng .................................................................... 42 5.2 Phương trình cơ bản của thuyết động học phân tử ................................. 43 5.3 Nội năng của khí lý tưởng ..................................................................... 46 5.4 Nguyên lý thứ nhất nhiệt động lực học .................................................. 47 5.5 Dùng nguyên lý I để khảo sát các quá trình cân bằng của khí lý tưởng .. 49 5.6 Nguyên lý thứ hai nhiệt động lực học .................................................... 52 5.7 Chu trình CácNô thuận nghịch và định lý CácNô .................................. 54 5.8 Biểu thức định lượng của nguyên lý II .................................................. 56 5.9 Entrôpi và nguyên lý tăng entrôpi ......................................................... 57 (PHẦN ĐỌC THÊM) CHƯƠNG 6: DAO ĐỘNG VÀ SÓNG CƠ ............................................................... 60 6.1 Dao đông cơ điều hòa ............................................................................ 60 6.2 Dao động cơ tắt dần .............................................................................. 63 6.3 Dao động cưỡng bức ............................................................................. 65 6.4 Sóng cơ và các đại lượng đặc trưng ....................................................... 66 6.5 Phương trình truyền sóng ...................................................................... 68 6.6 Sự giao thoa sóng cơ – Sóng dừng ........................................................ 69 6.7 Năng lượng của sóng cơ ............................................................................... 70 NGÂN HÀNG CÂU HỎI ..................................................................................... 72"
+    },
+    "correct": "A"
+  }
+]
