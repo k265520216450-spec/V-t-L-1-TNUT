@@ -71,7 +71,7 @@
           Đăng nhập
         </button>
       </div>
-      <!-- Nút Quản Lý Đề tự động hiện khi đăng nhập -->
+      <!-- Nút Quản Lý Đề (Tàng hình với người lạ, chỉ hiện với Trần Văn Bình) -->
       <button id="manage-btn" onclick="toggleManageModal()" class="hidden bg-pink-500 hover:bg-pink-600 text-white font-bold px-3 py-1.5 rounded-xl text-xs sm:text-sm transition shadow relative z-20">
         ⚙️ Quản Lý Đề
       </button>
@@ -313,6 +313,9 @@
     firebase.initializeApp(firebaseConfig);
     const auth = firebase.auth();
     const db = firebase.firestore();
+
+    // EMAIL ĐỘC QUYỀN CỦA MÀY
+    const ADMIN_EMAIL = "k265520216450@tnut.edu.vn";
 
     const DEFAULT_QUESTIONS = [
       {
@@ -665,7 +668,6 @@
       auth.signInWithEmailAndPassword(email, pass).catch(() => {
         return auth.createUserWithEmailAndPassword(email, pass);
       }).then(() => {
-        alert("Đăng nhập thành công!");
         toggleAuthModal();
       }).catch(err => alert(err.message));
     }
@@ -673,25 +675,34 @@
     function handleGoogleAuth() {
       const provider = new firebase.auth.GoogleAuthProvider();
       auth.signInWithPopup(provider).then(() => {
-        alert("Đăng nhập Google thành công!");
         toggleAuthModal();
       }).catch(err => alert(err.message));
     }
 
-    // CỨ ĐĂNG NHẬP VÀO LÀ HIỆN NÚT QUẢN LÝ LUÔN
+    // =========================================================
+    // LÕI ẨN/HIỆN QUẢN LÝ DỰA VÀO EMAIL CỦA TRẦN VĂN BÌNH
+    // =========================================================
     auth.onAuthStateChanged(user => {
       const authStatus = document.getElementById('auth-header-status');
       const manageBtn = document.getElementById('manage-btn');
 
       if (user) {
+        // Bất kỳ ai đăng nhập cũng sẽ thấy nút Đăng Xuất (để họ chơi, lưu điểm bình thường)
         authStatus.innerHTML = `
           <button onclick="auth.signOut()" class="bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold px-3 py-1.5 rounded-xl text-xs sm:text-sm transition shadow">
             👤 Đăng xuất
           </button>
         `;
-        // Cho phép bất kỳ ai đăng nhập cũng thấy nút Quản Lý
-        manageBtn.classList.remove('hidden');
+        
+        // KIỂM TRA ĐÚNG CHUẨN EMAIL: Chỉ email của mày mới được phép hiện nút ⚙️ Quản Lý Đề
+        if (user.email && user.email.toLowerCase() === ADMIN_EMAIL.toLowerCase()) {
+          manageBtn.classList.remove('hidden');
+        } else {
+          // Các tài khoản khác đăng nhập vào thì nút tàng hình
+          manageBtn.classList.add('hidden');
+        }
       } else {
+        // Trạng thái chưa đăng nhập
         authStatus.innerHTML = `
           <button onclick="toggleAuthModal()" class="bg-pink-500 hover:bg-pink-600 text-white font-bold px-3 py-1.5 rounded-xl text-xs sm:text-sm transition shadow">
             Đăng nhập
@@ -853,8 +864,9 @@
 
     function toggleManageModal() {
       const user = auth.currentUser;
-      if (!user) {
-        alert("Mày chưa đăng nhập mà đòi vào quản lý gì hả! 🌸");
+      // Dùng hàm này chốt chặn lần nữa cho chắc cốp, nhỡ có đứa hacker F12 bật nút lên
+      if (!user || user.email.toLowerCase() !== ADMIN_EMAIL.toLowerCase()) {
+        alert("Cút ngay! Mày không phải chủ web nên đừng có mà táy máy! 🌸");
         return;
       }
 
@@ -869,8 +881,8 @@
 
     function saveCustomJSON() {
       const user = auth.currentUser;
-      if (!user) {
-        alert("Cút ngay! Chưa đăng nhập không có quyền lưu dữ liệu!");
+      if (!user || user.email.toLowerCase() !== ADMIN_EMAIL.toLowerCase()) {
+        alert("Cút ngay! Không có quyền lưu dữ liệu!");
         return;
       }
 
