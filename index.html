@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light only">
-  <title>Trắc Nghiệm Vật Lý 1 - TNUT (Ultimate Self-Contained Troll Edition)</title>
+  <title>Trắc Nghiệm Vật Lý 1 - TNUT (Super Scrambled Troll Edition)</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <style>
@@ -68,13 +68,13 @@
     <div id="setup-panel" class="bg-white/90 backdrop-blur-md rounded-3xl p-5 sm:p-8 shadow-xl border-4 border-pink-200 text-center space-y-6">
       <div class="space-y-2">
         <h2 class="text-2xl font-black text-pink-600">CHỌN CHƯƠNG ÔN TẬP 📚</h2>
-        <p class="text-sm text-gray-500 font-semibold">Ngân hàng câu hỏi Vật lý 1 TNUT đã sẵn sàng!</p>
+        <p class="text-sm text-gray-500 font-semibold">Hệ thống sẽ tự động tráo thứ tự câu hỏi và đáp án ngẫu nhiên!</p>
       </div>
 
       <div class="flex flex-col sm:flex-row justify-center items-center gap-3">
         <label for="chapter-select" class="font-bold text-pink-600">Chọn Chương:</label>
         <select id="chapter-select" class="bg-pink-50 border-2 border-pink-300 text-pink-700 text-base font-bold rounded-xl p-2.5 outline-none focus:ring-2 focus:ring-pink-400 w-full sm:w-64 relative z-20">
-          <option value="ALL">Tất Cả Các Chương (Tổng toàn bộ)</option>
+          <option value="ALL">Tất Cả Các Chương (Tráo toàn bộ)</option>
         </select>
       </div>
 
@@ -139,34 +139,25 @@
     </div>
   </div>
 
-  <!-- POPUP ĐÚNG (NÂNG CẤP THEO CHUỖI ĐÚNG) -->
+  <!-- POPUP ĐÚNG -->
   <div id="correct-popup" class="fixed inset-0 bg-black/70 backdrop-blur-md z-50 flex flex-col items-center justify-center p-4 hidden">
     <div class="bg-gradient-to-b from-pink-100 to-white rounded-3xl p-6 sm:p-8 max-w-md w-full text-center space-y-4 border-4 border-pink-400 shadow-2xl relative">
       <h2 id="correct-title" class="text-2xl sm:text-3xl font-black text-pink-600">🎉 ĐÚNG RỒI CẬU ƠI!</h2>
       
-      <!-- Đồ họa SVG Luffy Trollface độc lập (Nâng cấp khi chuỗi đúng cao) -->
       <div id="correct-svg-container" class="w-48 h-48 sm:w-56 sm:h-56 mx-auto bg-pink-50 rounded-2xl border-4 border-pink-300 overflow-hidden flex items-center justify-center shadow-inner relative">
-        <!-- SVG Luffy Trollface -->
         <svg viewBox="0 0 200 200" class="w-full h-full drop-shadow-lg">
-          <!-- Mũ rơm -->
           <ellipse cx="100" cy="75" rx="85" ry="25" fill="#e3b23c" stroke="#b8860b" stroke-width="4"/>
           <path d="M 40 75 Q 100 20 160 75 Z" fill="#f4c430" stroke="#b8860b" stroke-width="4"/>
           <path d="M 30 75 Q 100 45 170 75 L 175 85 Q 100 55 25 85 Z" fill="#e74c3c"/>
-          <!-- Khuôn mặt trollface -->
           <path d="M 60 85 Q 100 70 140 85 Q 155 130 140 165 Q 100 185 60 165 Q 45 130 60 85 Z" fill="#fdf2e9" stroke="#2c3e50" stroke-width="4"/>
-          <!-- Tóc đen lởm chởm -->
           <path d="M 60 85 L 75 105 L 90 90 L 105 110 L 120 90 L 135 105 L 145 85 Z" fill="#2c3e50"/>
-          <!-- Mắt gian xảo -->
           <ellipse cx="80" cy="115" rx="12" ry="8" fill="#fff" stroke="#2c3e50" stroke-width="3"/>
           <circle cx="83" cy="115" r="4" fill="#2c3e50"/>
           <ellipse cx="120" cy="115" rx="12" ry="8" fill="#fff" stroke="#2c3e50" stroke-width="3"/>
           <circle cx="117" cy="115" r="4" fill="#2c3e50"/>
-          <!-- Mũi -->
           <path d="M 95 125 Q 100 135 105 125 Z" fill="none" stroke="#2c3e50" stroke-width="3"/>
-          <!-- Miệng cười troll to rộng -->
           <path d="M 65 135 Q 100 130 135 135 Q 145 165 100 170 Q 55 165 65 135 Z" fill="#2c3e50"/>
           <path d="M 68 140 Q 100 138 132 140 Q 140 160 100 165 Q 60 160 68 140 Z" fill="#fff"/>
-          <!-- Răng trắng khít -->
           <line x1="82" y1="140" x2="82" y2="162" stroke="#2c3e50" stroke-width="3"/>
           <line x1="100" y1="139" x2="100" y2="165" stroke="#2c3e50" stroke-width="3"/>
           <line x1="118" y1="140" x2="118" y2="162" stroke="#2c3e50" stroke-width="3"/>
@@ -187,22 +178,16 @@
     <div id="wrong-card" class="bg-white rounded-3xl p-6 sm:p-8 max-w-md w-full text-center space-y-5 border-4 border-red-500 shadow-2xl relative overflow-hidden flex flex-col">
       <h2 id="wrong-header" class="text-2xl font-black text-red-600 relative z-10">💥 BÙM !!! SAI RỒI!</h2>
       
-      <!-- Đồ họa SVG Quỷ Đỏ Laser độc lập -->
       <div id="wrong-img-wrapper" class="w-36 h-36 mx-auto transition-transform duration-200 flex items-center justify-center pointer-events-none relative z-0">
         <svg viewBox="0 0 200 200" class="w-full h-full drop-shadow-2xl">
-          <!-- Sừng quỷ đỏ -->
           <path d="M 50 60 Q 30 10 20 5 Q 40 40 65 55 Z" fill="#e74c3c" stroke="#c0392b" stroke-width="3"/>
           <path d="M 150 60 Q 170 10 180 5 Q 160 40 135 55 Z" fill="#e74c3c" stroke="#c0392b" stroke-width="3"/>
-          <!-- Đầu trollface -->
           <path d="M 60 55 Q 100 40 140 55 Q 155 110 140 155 Q 100 180 60 155 Q 45 110 60 55 Z" fill="#fdf2e9" stroke="#2c3e50" stroke-width="4"/>
-          <!-- Mắt điên cuồng -->
           <ellipse cx="80" cy="95" rx="14" ry="10" fill="#fff" stroke="#2c3e50" stroke-width="3"/>
           <circle cx="80" cy="95" r="5" fill="#e74c3c"/>
           <ellipse cx="120" cy="95" rx="14" ry="10" fill="#fff" stroke="#2c3e50" stroke-width="3"/>
           <circle cx="120" cy="95" r="5" fill="#e74c3c"/>
-          <!-- Tia Laser đỏ bắn qua mắt -->
           <rect x="10" y="91" width="180" height="8" fill="#ff0000" opacity="0.9" filter="drop-shadow(0 0 8px red)"/>
-          <!-- Miệng cười quỷ quyệt -->
           <path d="M 60 120 Q 100 115 140 120 Q 150 160 100 165 Q 50 160 60 120 Z" fill="#2c3e50"/>
           <path d="M 64 125 Q 100 122 136 125 Q 144 155 100 160 Q 56 155 64 125 Z" fill="#fff"/>
           <line x1="80" y1="125" x2="80" y2="158" stroke="#2c3e50" stroke-width="3"/>
@@ -219,9 +204,8 @@
     </div>
   </div>
 
-  <!-- POPUP JUMPSCARE (LẦN 3: PHÓNG TO TRÀN MÀN HÌNH) -->
+  <!-- POPUP JUMPSCARE -->
   <div id="jumpscare-popup" class="fixed inset-0 bg-black z-50 flex flex-col items-center justify-between p-4 sm:p-8 hidden overflow-hidden">
-    <!-- Quỷ laser phóng to tràn màn hình nhấp nháy điên cuồng -->
     <div class="absolute inset-0 w-full h-full flex items-center justify-center opacity-95 pointer-events-none z-0">
       <svg viewBox="0 0 200 200" class="w-full h-full object-cover animate-mega-flash">
         <path d="M 50 60 Q 30 10 20 5 Q 40 40 65 55 Z" fill="#e74c3c" stroke="#c0392b" stroke-width="3"/>
@@ -272,6 +256,60 @@
 
     let streak3Osc1 = null, streak3Osc2 = null, streak3NoiseNode = null, streak3GainNode = null;
 
+    // Thuật toán xáo trộn ngẫu nhiên Fisher-Yates
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    // Hàm chuẩn bị bộ đề: Tráo câu hỏi VÀ tráo luôn đáp án A, B, C, D
+    function prepareQuizList(questionsArray) {
+      let cloned = JSON.parse(JSON.stringify(questionsArray));
+      
+      // 1. Tráo thứ tự các câu hỏi
+      shuffleArray(cloned);
+
+      // 2. Tráo thứ tự các đáp án trong từng câu
+      cloned.forEach(q => {
+        let optsArr = [];
+        if (Array.isArray(q.options)) {
+          optsArr = q.options.map((val, idx) => ({ key: String.fromCharCode(65 + idx), val: val }));
+        } else if (typeof q.options === 'object' && q.options !== null) {
+          optsArr = Object.keys(q.options).map(k => ({ key: k.toUpperCase(), val: q.options[k] }));
+        }
+
+        let originalCorrectKey = String(q.correct || 'A').toUpperCase();
+        if (typeof q.correct === 'number') {
+          originalCorrectKey = String.fromCharCode(65 + q.correct);
+        }
+        
+        let correctOptObj = optsArr.find(o => o.key === originalCorrectKey) || optsArr[0];
+        let correctVal = correctOptObj ? correctOptObj.val : '';
+
+        // Tráo mảng đáp án
+        shuffleArray(optsArr);
+
+        // Gán lại key mới (A, B, C, D) cho các đáp án đã tráo và cập nhật đáp án đúng mới
+        let newOptionsObj = {};
+        let newCorrectKey = 'A';
+        optsArr.forEach((opt, idx) => {
+          let newKey = String.fromCharCode(65 + idx);
+          newOptionsObj[newKey] = opt.val;
+          if (opt.val === correctVal) {
+            newCorrectKey = newKey;
+          }
+        });
+
+        q.shuffledOptions = newOptionsObj;
+        q.shuffledCorrect = newCorrectKey;
+      });
+
+      return cloned;
+    }
+
     function getAudioContext() {
       if (!audioCtx) {
         audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -317,7 +355,7 @@
 
     function populateChapterDropdown() {
       const select = document.getElementById('chapter-select');
-      select.innerHTML = '<option value="ALL">Tất Cả Các Chương (Tổng toàn bộ)</option>';
+      select.innerHTML = '<option value="ALL">Tất Cả Các Chương (Tráo toàn bộ)</option>';
       const chapters = [...new Set(allQuestions.map(q => q.chapter || 1))].sort((a,b) => a - b);
       chapters.forEach(ch => {
         const count = allQuestions.filter(q => (q.chapter || 1) === ch).length;
@@ -331,16 +369,20 @@
     function startQuiz() {
       getAudioContext();
       const chVal = document.getElementById('chapter-select').value;
+      let rawList = [];
       if (chVal === 'ALL') {
-        currentQuizList = [...allQuestions];
+        rawList = [...allQuestions];
       } else {
-        currentQuizList = allQuestions.filter(q => String(q.chapter || 1) === String(chVal));
+        rawList = allQuestions.filter(q => String(q.chapter || 1) === String(chVal));
       }
 
-      if (currentQuizList.length === 0) {
+      if (rawList.length === 0) {
         alert("Chương này không có câu hỏi nào!");
         return;
       }
+
+      // Xáo trộn toàn bộ câu hỏi và đáp án mỗi khi bắt đầu / làm lại
+      currentQuizList = prepareQuizList(rawList);
 
       currentQIndex = 0;
       wrongStreak = 0;
@@ -370,12 +412,7 @@
       const optionsContainer = document.getElementById('options-container');
       optionsContainer.innerHTML = '';
 
-      let formattedOpts = [];
-      if (Array.isArray(q.options)) {
-        formattedOpts = q.options.map((optVal, idx) => ({ key: String.fromCharCode(65 + idx), val: optVal, rawIdx: idx }));
-      } else if (typeof q.options === 'object' && q.options !== null) {
-        formattedOpts = Object.keys(q.options).map((k, idx) => ({ key: k.toUpperCase(), val: q.options[k], rawIdx: idx }));
-      }
+      let formattedOpts = Object.keys(q.shuffledOptions).map((k) => ({ key: k, val: q.shuffledOptions[k] }));
 
       formattedOpts.forEach(opt => {
         const btn = document.createElement('button');
@@ -390,7 +427,7 @@
       const btns = document.querySelectorAll('#options-container button');
       btns.forEach(b => b.disabled = true);
 
-      const isCorrect = checkIsCorrect(selectedOpt, q);
+      const isCorrect = selectedOpt.key.toUpperCase() === q.shuffledCorrect;
 
       if (isCorrect) {
         btnEl.classList.remove('border-pink-200');
@@ -410,22 +447,6 @@
         document.getElementById('correct-streak-count').textContent = correctStreak;
         handleWrongAnswer();
       }
-    }
-
-    function checkIsCorrect(selectedOpt, q) {
-      const selectedKey = selectedOpt.key.toUpperCase();
-      const selectedIdx = selectedOpt.rawIdx;
-      if (typeof q.correct === 'string') {
-        const cUpper = q.correct.toUpperCase().trim();
-        if (cUpper === selectedKey) return true;
-        if (cUpper === 'A' && selectedIdx === 0) return true;
-        if (cUpper === 'B' && selectedIdx === 1) return true;
-        if (cUpper === 'C' && selectedIdx === 2) return true;
-        if (cUpper === 'D' && selectedIdx === 3) return true;
-      } else if (typeof q.correct === 'number') {
-        if (q.correct === selectedIdx) return true;
-      }
-      return false;
     }
 
     function showCorrectModal() {
@@ -532,8 +553,8 @@
       correctStreak = 0;
       document.getElementById('streak-count').textContent = wrongStreak;
       document.getElementById('correct-streak-count').textContent = correctStreak;
-      currentQIndex = 0;
-      renderQuestion();
+      // Khi làm lại từ đầu sau khi ăn jumpscare, gọi lại startQuiz để tráo lại toàn bộ đề mới
+      startQuiz();
     }
 
     function playWaooSound() {
