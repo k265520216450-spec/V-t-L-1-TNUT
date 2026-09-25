@@ -3,11 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light only">
   <title>Trắc Nghiệm Vật Lý 1 - TNUT (Cute & Super Troll Edition)</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <style>
+    :root { color-scheme: light only; }
     body { font-family: 'Nunito', sans-serif; }
+    img, svg { filter: none !important; }
     
     /* Animation Nhấp nháy đổi màu tràn màn hình - Lần sai 3 */
     @keyframes megaColorFlash {
@@ -105,7 +108,7 @@
         </h3>
 
         <div id="options-container" class="grid grid-cols-1 gap-3">
-          <!-- Các đáp án sẽ render ở đây -->
+          <!-- Các đáp án -->
         </div>
       </div>
 
@@ -133,7 +136,7 @@
         <button onclick="toggleManageModal()" class="text-gray-400 hover:text-black font-bold text-xl">&times;</button>
       </div>
       <p class="text-xs text-gray-500 font-bold">
-        Trang web tự động đọc file <code class="bg-gray-100 px-1 py-0.5 rounded text-pink-600">questions.json</code> nếu đặt cùng thư mục. Hoặc mày có thể copy toàn bộ nội dung JSON dán vào ô dưới đây:
+        Dán nội dung từ file <code class="bg-gray-100 px-1 py-0.5 rounded text-pink-600">questions.json</code> vào đây:
       </p>
       <textarea id="json-input" rows="10" class="w-full bg-slate-50 border-2 border-pink-200 rounded-2xl p-3 text-xs font-mono outline-none focus:border-pink-400" placeholder="Dán nội dung JSON vào đây..."></textarea>
       <div class="flex justify-end gap-3">
@@ -148,7 +151,7 @@
     <div class="bg-gradient-to-b from-pink-100 to-white rounded-3xl p-6 sm:p-8 max-w-md w-full text-center space-y-5 border-4 border-pink-400 shadow-2xl transform animate-bounce-short">
       <h2 class="text-2xl sm:text-3xl font-black text-pink-600">🎉 ĐÚNG RỒI CẬU ƠI!</h2>
       <div class="w-48 h-48 sm:w-56 sm:h-56 mx-auto bg-pink-50 rounded-2xl border-4 border-pink-300 overflow-hidden flex items-center justify-center shadow-inner">
-        <img src="image_efd960.jpg" alt="Luffy Trollface" class="w-full h-full object-contain" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'text-6xl\'>🏴‍☠️😏</div>';">
+        <img src="./image_efd960.jpg" alt="Luffy Trollface" class="w-full h-full object-contain">
       </div>
       <p class="text-lg sm:text-xl font-black text-rose-600 tracking-wide">
         "đúng là con cak của taaa hhahaha"
@@ -164,8 +167,8 @@
     <div id="wrong-card" class="bg-white rounded-3xl p-6 sm:p-8 max-w-md w-full text-center space-y-5 border-4 border-red-500 shadow-2xl relative overflow-hidden">
       <h2 id="wrong-header" class="text-2xl font-black text-red-600">💥 BÙM !!! SAI RỒI!</h2>
       
-      <div id="wrong-img-wrapper" class="w-40 h-40 mx-auto transition-transform duration-200 flex items-center justify-center">
-        <img id="wrong-img" src="image_ef7483.png" alt="Devil Trollface" class="w-full h-full object-contain" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'text-7xl\'>😈🔥</div>';">
+      <div id="wrong-img-wrapper" class="w-48 h-48 mx-auto transition-transform duration-200 flex items-center justify-center">
+        <img id="wrong-img" src="./image_ef7483.png" alt="Devil Trollface" class="w-full h-full object-contain">
       </div>
 
       <p id="wrong-text" class="text-base sm:text-lg font-black text-red-600 leading-snug">
@@ -173,19 +176,17 @@
       </p>
 
       <div id="wrong-actions" class="flex flex-col gap-2.5 pt-2">
-        <!-- Nút bấm tùy chọn theo từng cấp độ phạt -->
+        <!-- Nút bấm tùy chọn -->
       </div>
     </div>
   </div>
 
   <!-- POPUP TRẢ LỜI SAI LẦN 3 (JUMPSCARE CỰC ĐẠI TRÀN MÀN HÌNH) -->
   <div id="jumpscare-popup" class="fixed inset-0 bg-black z-50 flex flex-col items-center justify-between p-4 sm:p-8 hidden overflow-hidden">
-    <!-- Icon khổng lồ phủ kín nền nhấp nháy liên tục -->
     <div class="absolute inset-0 w-full h-full flex items-center justify-center opacity-90 z-0">
-      <img src="image_ef7483.png" alt="Mega Devil Trollface" class="w-full h-full object-cover animate-mega-flash" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'text-[15rem] animate-mega-flash\'>👹😈</div>';">
+      <img src="./image_ef7483.png" alt="Mega Devil Trollface" class="w-full h-full object-cover animate-mega-flash">
     </div>
 
-    <!-- Nội dung cảnh báo đè lên phía trên -->
     <div class="relative z-10 w-full max-w-2xl bg-black/85 backdrop-blur-md border-4 border-red-600 rounded-3xl p-6 sm:p-8 text-center space-y-6 shadow-2xl my-auto">
       <h1 class="text-3xl sm:text-5xl font-black text-red-500 tracking-wider animate-pulse">
         ☠️ SIÊU NGU CỰC ĐẠI ☠️
@@ -204,7 +205,6 @@
   </div>
 
   <script>
-    // DỮ LIỆU CÂU HỎI MẶC ĐỊNH
     const DEFAULT_QUESTIONS = [
       {
         id: "1.1",
@@ -221,7 +221,6 @@
     let wrongStreak = 0;
     let audioCtx = null;
 
-    // Âm thanh Lần sai 3
     let streak3Osc1 = null, streak3Osc2 = null, streak3NoiseNode = null, streak3GainNode = null;
 
     function getAudioContext() {
@@ -234,7 +233,6 @@
       return audioCtx;
     }
 
-    // TẢI TỰ ĐỘNG NGUYÊN BỘ CÂU HỎI TỪ FILE questions.json
     async function initApp() {
       const saved = localStorage.getItem('tnut_physics_questions');
       if (saved) {
@@ -340,7 +338,6 @@
     }
 
     function selectOption(selectedOpt, q, btnEl) {
-      // Disable all option buttons
       const btns = document.querySelectorAll('#options-container button');
       btns.forEach(b => b.disabled = true);
 
@@ -393,7 +390,6 @@
       }
     }
 
-    // XỬ LÝ KHI CHỌN SAI
     function handleWrongAnswer() {
       if (wrongStreak === 1) {
         playBoomSound(1.5);
@@ -428,9 +424,9 @@
       
       const imgWrapper = document.getElementById('wrong-img-wrapper');
       if (styleType === 'angry') {
-        imgWrapper.className = "w-40 h-40 mx-auto animate-angry-shake flex items-center justify-center my-6";
+        imgWrapper.className = "w-48 h-48 mx-auto animate-angry-shake flex items-center justify-center my-4";
       } else {
-        imgWrapper.className = "w-40 h-40 mx-auto flex items-center justify-center";
+        imgWrapper.className = "w-48 h-48 mx-auto flex items-center justify-center";
       }
 
       const actionsDiv = document.getElementById('wrong-actions');
@@ -462,7 +458,6 @@
       renderQuestion();
     }
 
-    // WEB AUDIO API SYNTHESIZERS
     function playWaooSound() {
       const ctx = getAudioContext();
       if (!ctx) return;
@@ -599,7 +594,7 @@
           alert("✅ Đã lưu bộ câu hỏi mới thành công!");
         } else { alert("❌ Dữ liệu JSON phải là một mảng danh sách các câu hỏi!"); }
       } catch(e) {
-        alert("❌ Định dạng JSON không hợp lệ! Mày kiểm tra lại xem có thiếu dấu ngoặc không nhé.");
+        alert("❌ Định dạng JSON không hợp lệ!");
       }
     }
 
