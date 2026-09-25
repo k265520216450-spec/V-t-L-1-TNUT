@@ -71,7 +71,7 @@
           Đăng nhập
         </button>
       </div>
-      <!-- Nút Quản Lý Đề bảo mật chỉ hiện với Admin -->
+      <!-- Nút Quản Lý Đề tự động hiện khi đăng nhập -->
       <button id="manage-btn" onclick="toggleManageModal()" class="hidden bg-pink-500 hover:bg-pink-600 text-white font-bold px-3 py-1.5 rounded-xl text-xs sm:text-sm transition shadow relative z-20">
         ⚙️ Quản Lý Đề
       </button>
@@ -313,12 +313,6 @@
     firebase.initializeApp(firebaseConfig);
     const auth = firebase.auth();
     const db = firebase.firestore();
-
-    // 🛑 DANH SÁCH EMAIL CỦA TRẦN VĂN BÌNH ĐƯỢC QUYỀN MỞ NÚT QUẢN LÝ ĐỀ:
-    const ADMIN_EMAILS = [
-        "K265520216450@tnut.edu.vn",
-        "tranvanbinh.tvb7@gmail.com"
-    ]; 
 
     const DEFAULT_QUESTIONS = [
       {
@@ -684,7 +678,7 @@
       }).catch(err => alert(err.message));
     }
 
-    // Kiểm tra quyền chủ web dựa trên danh sách ADMIN_EMAILS
+    // CỨ ĐĂNG NHẬP VÀO LÀ HIỆN NÚT QUẢN LÝ LUÔN
     auth.onAuthStateChanged(user => {
       const authStatus = document.getElementById('auth-header-status');
       const manageBtn = document.getElementById('manage-btn');
@@ -695,11 +689,8 @@
             👤 Đăng xuất
           </button>
         `;
-        if (ADMIN_EMAILS.includes(user.email)) {
-          manageBtn.classList.remove('hidden');
-        } else {
-          manageBtn.classList.add('hidden');
-        }
+        // Cho phép bất kỳ ai đăng nhập cũng thấy nút Quản Lý
+        manageBtn.classList.remove('hidden');
       } else {
         authStatus.innerHTML = `
           <button onclick="toggleAuthModal()" class="bg-pink-500 hover:bg-pink-600 text-white font-bold px-3 py-1.5 rounded-xl text-xs sm:text-sm transition shadow">
@@ -862,8 +853,8 @@
 
     function toggleManageModal() {
       const user = auth.currentUser;
-      if (!user || !ADMIN_EMAILS.includes(user.email)) {
-        alert("Cút ngay! Mày không phải chủ web Trần Văn Bình nên đừng có mà táy máy vào đây! 🌸");
+      if (!user) {
+        alert("Mày chưa đăng nhập mà đòi vào quản lý gì hả! 🌸");
         return;
       }
 
@@ -878,8 +869,8 @@
 
     function saveCustomJSON() {
       const user = auth.currentUser;
-      if (!user || !ADMIN_EMAILS.includes(user.email)) {
-        alert("Cút ngay! Không có quyền lưu dữ liệu!");
+      if (!user) {
+        alert("Cút ngay! Chưa đăng nhập không có quyền lưu dữ liệu!");
         return;
       }
 
