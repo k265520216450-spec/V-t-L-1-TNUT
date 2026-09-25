@@ -314,8 +314,11 @@
     const auth = firebase.auth();
     const db = firebase.firestore();
 
-    // 🛑 ĐIỀN EMAIL CHÍNH CHỦ CỦA MÀY ĐỂ MỞ KHÓA NÚT QUẢN LÝ ĐỀ:
-    const ADMIN_EMAIL = "K265520216450@tnut.edu.vn"; 
+    // 🛑 DANH SÁCH EMAIL CỦA TRẦN VĂN BÌNH ĐƯỢC QUYỀN MỞ NÚT QUẢN LÝ ĐỀ:
+    const ADMIN_EMAILS = [
+        "K265520216450@tnut.edu.vn",
+        "tranvanbinh.tvb7@gmail.com"
+    ]; 
 
     const DEFAULT_QUESTIONS = [
       {
@@ -332,7 +335,7 @@
     let currentQIndex = 0;
     let wrongStreak = 0;
     let correctStreak = 0;
-    let sessionMaxStreak = 0; // Lưu chuỗi đúng cao nhất trong phiên làm việc
+    let sessionMaxStreak = 0;
     let audioCtx = null;
 
     let streak3Osc1 = null, streak3Osc2 = null, streak3NoiseNode = null, streak3GainNode = null;
@@ -509,7 +512,6 @@
         wrongStreak = 0;
         correctStreak++;
         
-        // Cập nhật chuỗi cao nhất và đẩy lên Firestore ngay nếu phá kỷ lục trong phiên
         if (correctStreak > sessionMaxStreak) {
           sessionMaxStreak = correctStreak;
           updateStreakToFirestore(sessionMaxStreak);
@@ -530,7 +532,6 @@
       }
     }
 
-    // Hàm đẩy chuỗi cao nhất lên Firestore theo dạng lưu max streak mỗi user
     function updateStreakToFirestore(maxStreak) {
       const user = auth.currentUser;
       if (!user) return;
@@ -683,7 +684,7 @@
       }).catch(err => alert(err.message));
     }
 
-    // Kiểm tra quyền chủ web
+    // Kiểm tra quyền chủ web dựa trên danh sách ADMIN_EMAILS
     auth.onAuthStateChanged(user => {
       const authStatus = document.getElementById('auth-header-status');
       const manageBtn = document.getElementById('manage-btn');
@@ -694,7 +695,7 @@
             👤 Đăng xuất
           </button>
         `;
-        if (user.email === ADMIN_EMAIL) {
+        if (ADMIN_EMAILS.includes(user.email)) {
           manageBtn.classList.remove('hidden');
         } else {
           manageBtn.classList.add('hidden');
@@ -709,7 +710,6 @@
       }
     });
 
-    // Mở bảng xếp hạng chuỗi
     function openLeaderboard() {
       document.getElementById('leaderboard-modal').classList.remove('hidden');
       const listEl = document.getElementById('leaderboard-list');
@@ -862,7 +862,7 @@
 
     function toggleManageModal() {
       const user = auth.currentUser;
-      if (!user || user.email !== ADMIN_EMAIL) {
+      if (!user || !ADMIN_EMAILS.includes(user.email)) {
         alert("Cút ngay! Mày không phải chủ web Trần Văn Bình nên đừng có mà táy máy vào đây! 🌸");
         return;
       }
@@ -878,7 +878,7 @@
 
     function saveCustomJSON() {
       const user = auth.currentUser;
-      if (!user || user.email !== ADMIN_EMAIL) {
+      if (!user || !ADMIN_EMAILS.includes(user.email)) {
         alert("Cút ngay! Không có quyền lưu dữ liệu!");
         return;
       }
