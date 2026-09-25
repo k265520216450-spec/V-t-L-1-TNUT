@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light only">
-  <title>Trắc Nghiệm Vật Lý 1 - TNUT (Super Scrambled Troll Edition)</title>
+  <title>Trắc Nghiệm Vật Lý 1 - TNUT (Trần Văn Bình Official)</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <style>
@@ -66,8 +66,28 @@
   <!-- Chọn Chương & Thống Kê -->
   <main class="w-full max-w-3xl my-4 z-10 relative">
     <div id="setup-panel" class="bg-white/90 backdrop-blur-md rounded-3xl p-5 sm:p-8 shadow-xl border-4 border-pink-200 text-center space-y-6">
-      <div class="space-y-2">
-        <h2 class="text-2xl font-black text-pink-600">CHỌN CHƯƠNG ÔN TẬP 📚</h2>
+      
+      <!-- PHẦN GIỚI THIỆU CHỦ WEB & ẢNH NỔI BẬT -->
+      <div class="flex flex-col sm:flex-row items-center bg-gradient-to-r from-pink-50 to-rose-50 p-5 rounded-2xl border-2 border-pink-300 shadow-md gap-5 text-left">
+        <div class="relative group shrink-0">
+          <div class="absolute -inset-1 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-300 animate-pulse"></div>
+          <div class="relative w-28 h-28 rounded-full border-4 border-white overflow-hidden shadow-lg bg-pink-100 flex items-center justify-center">
+            <!-- Ảnh chủ web -->
+            <img src="avatar.jpg" alt="Trần Văn Bình" class="w-full h-full object-cover" onerror="this.onerror=null; this.parentElement.innerHTML='<span class=\'text-4xl\'>👑</span>';">
+          </div>
+        </div>
+        <div class="space-y-1.5 text-center sm:text-left w-full">
+          <div class="inline-block bg-pink-500 text-white text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider shadow">
+            👑 CHỦ WEB CHÍNH CHỦ
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-black text-pink-600 tracking-wide">Trần Văn Bình</h2>
+          <p class="text-sm sm:text-base font-extrabold text-slate-700">Sinh viên năm nhất - Trường Đại học Kỹ thuật Công nghiệp (TNUT)</p>
+          <p class="text-xs sm:text-sm font-bold text-pink-500">Ngành: Kỹ thuật Điều khiển và Tự động hóa ⚡</p>
+        </div>
+      </div>
+
+      <div class="space-y-2 pt-2">
+        <h3 class="text-xl font-black text-pink-600">CHỌN CHƯƠNG ÔN TẬP 📚</h3>
         <p class="text-sm text-gray-500 font-semibold">Hệ thống sẽ tự động tráo thứ tự câu hỏi và đáp án ngẫu nhiên!</p>
       </div>
 
@@ -118,7 +138,7 @@
   </main>
 
   <footer class="text-center text-xs font-bold text-pink-400 my-2 z-10 relative">
-    TNUT Physics Quiz Troll © 2026 - Designed by Anh Bình Đẹp Trai 👑
+    TNUT Physics Quiz Troll © 2026 - Designed by Trần Văn Bình 👑
   </footer>
 
   <!-- MODAL QUẢN LÝ ĐỀ -->
@@ -256,7 +276,6 @@
 
     let streak3Osc1 = null, streak3Osc2 = null, streak3NoiseNode = null, streak3GainNode = null;
 
-    // Thuật toán xáo trộn ngẫu nhiên Fisher-Yates
     function shuffleArray(array) {
       for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -265,14 +284,10 @@
       return array;
     }
 
-    // Hàm chuẩn bị bộ đề: Tráo câu hỏi VÀ tráo luôn đáp án A, B, C, D
     function prepareQuizList(questionsArray) {
       let cloned = JSON.parse(JSON.stringify(questionsArray));
-      
-      // 1. Tráo thứ tự các câu hỏi
       shuffleArray(cloned);
 
-      // 2. Tráo thứ tự các đáp án trong từng câu
       cloned.forEach(q => {
         let optsArr = [];
         if (Array.isArray(q.options)) {
@@ -289,10 +304,8 @@
         let correctOptObj = optsArr.find(o => o.key === originalCorrectKey) || optsArr[0];
         let correctVal = correctOptObj ? correctOptObj.val : '';
 
-        // Tráo mảng đáp án
         shuffleArray(optsArr);
 
-        // Gán lại key mới (A, B, C, D) cho các đáp án đã tráo và cập nhật đáp án đúng mới
         let newOptionsObj = {};
         let newCorrectKey = 'A';
         optsArr.forEach((opt, idx) => {
@@ -381,7 +394,6 @@
         return;
       }
 
-      // Xáo trộn toàn bộ câu hỏi và đáp án mỗi khi bắt đầu / làm lại
       currentQuizList = prepareQuizList(rawList);
 
       currentQIndex = 0;
@@ -553,7 +565,6 @@
       correctStreak = 0;
       document.getElementById('streak-count').textContent = wrongStreak;
       document.getElementById('correct-streak-count').textContent = correctStreak;
-      // Khi làm lại từ đầu sau khi ăn jumpscare, gọi lại startQuiz để tráo lại toàn bộ đề mới
       startQuiz();
     }
 
