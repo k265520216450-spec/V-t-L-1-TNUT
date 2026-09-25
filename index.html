@@ -71,7 +71,7 @@
           Đăng nhập
         </button>
       </div>
-      <!-- Nút Quản Lý Đề bị ẩn mặc định (hidden), chỉ chủ web đăng nhập mới thấy -->
+      <!-- Nút Quản Lý Đề bị ẩn mặc định, chỉ hiện khi đúng email Admin -->
       <button id="manage-btn" onclick="toggleManageModal()" class="hidden bg-pink-500 hover:bg-pink-600 text-white font-bold px-3 py-1.5 rounded-xl text-xs sm:text-sm transition shadow relative z-20">
         ⚙️ Quản Lý Đề
       </button>
@@ -156,7 +156,7 @@
     TNUT Physics Quiz Troll © 2026 - Designed by Trần Văn Bình 👑
   </footer>
 
-  <!-- MODAL QUẢN LÝ ĐỀ (Chỉ chủ web mở được) -->
+  <!-- MODAL QUẢN LÝ ĐỀ -->
   <div id="manage-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
     <div class="bg-white rounded-3xl p-6 w-full max-w-2xl shadow-2xl border-4 border-pink-300 space-y-4">
       <div class="flex justify-between items-center border-b pb-3">
@@ -313,8 +313,9 @@
     const auth = firebase.auth();
     const db = firebase.firestore();
 
-    // 🛑 ĐIỀN EMAIL CHÍNH CHỦ CỦA MÀY VÀO ĐÂY ĐỂ ĐƯỢC QUYỀN QUẢN LÝ ĐỀ:
-    const ADMIN_EMAIL = "K265520216450@tnut.edu.vn"; // (Hoặc email gmail đăng nhập của mày)
+    // 🛑 ĐIỀN EMAIL GMAIL/TNUT THẬT MÀ MÀY DÙNG ĐỂ ĐĂNG NHẬP VÀO ĐÂY:
+    const ADMIN_EMAIL = "K265520216450@tnut.edu.vn"; 
+    // (Nếu lúc nãy mày dùng Gmail cá nhân đăng nhập Google thì đổi thành gmail cá nhân của mày vào trong ngoặc kép nhé!)
 
     const DEFAULT_QUESTIONS = [
       {
@@ -682,7 +683,7 @@
             👤 Đăng xuất
           </button>
         `;
-        // Nếu đúng email chủ web mới hiện nút quản lý
+        // Kiểm tra xem email đăng nhập có khớp với ADMIN_EMAIL không
         if (user.email === ADMIN_EMAIL) {
           manageBtn.classList.remove('hidden');
         } else {
@@ -694,7 +695,6 @@
             Đăng nhập
           </button>
         `;
-        // Khách bình thường không đăng nhập -> giấu biến nút quản lý
         manageBtn.classList.add('hidden');
       }
     });
@@ -850,10 +850,9 @@
     }
 
     function toggleManageModal() {
-      // Bảo mật lớp 2: Chặn tuyệt đối nếu không phải admin
       const user = auth.currentUser;
       if (!user || user.email !== ADMIN_EMAIL) {
-        alert("Cút ngay! Mày không phải chủ web Trần Văn Bình nên đừng có mà mơ táy máy vào đây! 🌸");
+        alert("Cút ngay! Mày không phải chủ web Trần Văn Bình nên đừng có mà táy máy vào đây! 🌸");
         return;
       }
 
