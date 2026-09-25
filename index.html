@@ -1,1 +1,1070 @@
 
+<!DOCTYPE html>
+<html lang="vi" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Vật Lý 1 - TNUT | Ôn Thi Super Cute & Troll Mode 💕</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700;800&family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        cute: ['Comfortaa', 'cursive'],
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        cutePink: {
+                            50: '#fff1f2',
+                            100: '#ffe4e6',
+                            200: '#fecdd3',
+                            300: '#fda4af',
+                            400: '#fb7185',
+                            500: '#f43f5e',
+                            600: '#e11d48',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Floating Background Hearts (GPU Accelerated) */
+        @keyframes floatHeart {
+            0% { transform: translate3d(0, 100vh, 0) scale(0.6) rotate(0deg); opacity: 0.7; }
+            100% { transform: translate3d(0, -10vh, 0) scale(1.1) rotate(360deg); opacity: 0; }
+        }
+        .heart-particle {
+            position: fixed;
+            pointer-events: none;
+            z-index: 0;
+            will-change: transform, opacity;
+            animation: floatHeart 8s linear infinite;
+        }
+
+        /* Hardware Accelerated Smooth Shakes */
+        @keyframes shakeMobileL1 {
+            0%, 100% { transform: translate3d(0, 0, 0); }
+            20% { transform: translate3d(-10px, -5px, 0) rotate(-2deg); }
+            40% { transform: translate3d(10px, 5px, 0) rotate(2deg); }
+            60% { transform: translate3d(-6px, 4px, 0); }
+            80% { transform: translate3d(6px, -4px, 0); }
+        }
+        .shake-level-1 {
+            will-change: transform;
+            animation: shakeMobileL1 0.4s ease-out;
+        }
+
+        @keyframes shakeMobileL2 {
+            0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+            15% { transform: translate3d(-15px, 10px, 0) scale(1.05) rotate(-3deg); }
+            30% { transform: translate3d(15px, -10px, 0) scale(0.97) rotate(3deg); }
+            45% { transform: translate3d(-15px, -8px, 0) scale(1.08) rotate(-4deg); }
+            60% { transform: translate3d(15px, 8px, 0) scale(0.95) rotate(4deg); }
+            75% { transform: translate3d(-8px, 5px, 0) scale(1.02); }
+        }
+        .shake-level-2 {
+            will-change: transform;
+            animation: shakeMobileL2 0.5s cubic-bezier(.36,.07,.19,.97) both;
+        }
+
+        /* Level 2 Angry Pulse (Lightweight GPU Pulse) */
+        @keyframes angryPulseL2 {
+            0%, 100% { transform: scale(1.05) rotate(-2deg); }
+            50% { transform: scale(1.28) rotate(2deg); }
+        }
+        .angry-pulse-anim {
+            will-change: transform;
+            animation: angryPulseL2 0.25s infinite ease-in-out alternate;
+        }
+
+        /* Level 3 Extreme Fullscreen Color Flashing & Pulsing */
+        @keyframes megaColorFlash {
+            0% { transform: scale(1.1) rotate(-3deg); filter: hue-rotate(0deg) contrast(200%) brightness(1.2); }
+            20% { transform: scale(1.3) rotate(3deg); filter: hue-rotate(90deg) invert(100%); }
+            40% { transform: scale(1.15) rotate(-4deg); filter: hue-rotate(180deg) saturate(500%); }
+            60% { transform: scale(1.35) rotate(4deg); filter: hue-rotate(270deg) contrast(300%); }
+            80% { transform: scale(1.2) rotate(-2deg); filter: hue-rotate(320deg) invert(80%); }
+            100% { transform: scale(1.4) rotate(2deg); filter: hue-rotate(360deg) contrast(250%) brightness(1.5); }
+        }
+        .mega-jumpscare-anim {
+            will-change: transform, filter;
+            animation: megaColorFlash 0.12s infinite linear;
+        }
+
+        /* Flashing Background */
+        @keyframes horrorFlashBg {
+            0%, 100% { background-color: #0d0000; }
+            50% { background-color: #4a0000; }
+        }
+        .horror-bg-flash {
+            animation: horrorFlashBg 0.2s infinite linear;
+        }
+
+        /* Pulsing Text Effect */
+        @keyframes textGlowPulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.85; transform: scale(1.04); }
+        }
+        .glitch-text-anim {
+            will-change: transform, opacity;
+            animation: textGlowPulse 0.4s infinite alternate;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #ffe4e6; }
+        ::-webkit-scrollbar-thumb { background: #fb7185; border-radius: 4px; }
+    </style>
+</head>
+
+<body class="bg-gradient-to-br from-pink-100 via-rose-100 to-pink-200 text-slate-800 font-cute min-h-screen relative flex flex-col justify-between selection:bg-pink-400 selection:text-white overflow-x-hidden antialiased">
+
+    <!-- Floating Background Hearts -->
+    <div id="hearts-container" class="fixed inset-0 pointer-events-none overflow-hidden -z-10"></div>
+
+    <!-- Celebration Confetti Canvas -->
+    <canvas id="confetti-canvas" class="fixed inset-0 pointer-events-none z-50"></canvas>
+
+    <header class="w-full bg-white/95 border-b-2 border-pink-200 sticky top-0 z-30 px-4 py-3 shadow-sm">
+        <div class="max-w-5xl mx-auto flex items-center justify-between">
+            <div class="flex items-center space-x-2.5 cursor-pointer" onclick="showWelcomeScreen()">
+                <div class="w-9 h-9 rounded-2xl bg-gradient-to-tr from-pink-400 to-rose-400 flex items-center justify-center text-white shadow-md shadow-pink-300/50">
+                    <i class="fa-solid fa-atom text-lg animate-spin" style="animation-duration: 10s;"></i>
+                </div>
+                <div>
+                    <h1 class="text-base sm:text-lg font-bold text-pink-600 tracking-tight leading-none">Vật Lý 1 - TNUT 💕</h1>
+                    <p class="text-[10px] text-pink-400 hidden sm:block pt-0.5">Đại Học Kỹ Thuật Công Nghiệp Thái Nguyên</p>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-2">
+                <button onclick="openHelpModal()" class="px-2.5 py-1.5 rounded-xl bg-pink-100 hover:bg-pink-200 text-pink-600 text-xs font-bold transition-all flex items-center gap-1 border border-pink-300 active:scale-95">
+                    <i class="fa-solid fa-image"></i>
+                    <span>Ảnh Troll</span>
+                </button>
+                <button onclick="openQuestionModal()" class="px-2.5 py-1.5 rounded-xl bg-pink-500 hover:bg-pink-600 text-white text-xs font-bold shadow-md shadow-pink-400/40 transition-all flex items-center gap-1 active:scale-95">
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="hidden sm:inline">Quản Lý Đề</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-1 max-w-4xl w-full mx-auto p-4 sm:p-6 flex flex-col justify-center relative z-10">
+
+        <!-- ================= WELCOME SCREEN ================= -->
+        <section id="welcome-screen" class="space-y-6 text-center my-auto">
+            <div class="bg-white/95 p-6 sm:p-10 rounded-3xl border-4 border-pink-200 shadow-xl shadow-pink-200/40 space-y-5">
+                
+                <div class="inline-block p-4 bg-pink-100 rounded-full text-pink-500 mb-1 animate-bounce">
+                    <i class="fa-solid fa-heart text-4xl"></i>
+                </div>
+
+                <h2 class="text-2xl sm:text-4xl font-extrabold text-pink-600 leading-tight">
+                    Trắc Nghiệm Vật Lý 1 TNUT <br>
+                    <span class="text-base sm:text-2xl text-rose-400 font-semibold">Giao Diện Super Cute & Siêu Troll! ✨</span>
+                </h2>
+
+                <p class="text-xs sm:text-sm text-slate-600 max-w-lg mx-auto leading-relaxed">
+                    anh em làm bài vui vẻ ko quạo nha
+                </p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 max-w-lg mx-auto text-xs font-bold text-pink-600 pt-1">
+                    <div class="p-2.5 bg-pink-50 rounded-2xl border border-pink-200"><i class="fa-solid fa-volume-high mr-1"></i> Âm "WAOOOO!" khi đúng</div>
+                    <div class="p-2.5 bg-pink-50 rounded-2xl border border-pink-200"><i class="fa-solid fa-bomb mr-1"></i> Tiếng "BÙM" khi sai</div>
+                    <div class="p-2.5 bg-pink-50 rounded-2xl border border-pink-200"><i class="fa-solid fa-skull mr-1"></i> Tăng cấp hình phạt sai</div>
+                </div>
+
+                <div class="pt-3">
+                    <button onclick="startQuiz()" class="w-full sm:w-auto px-10 py-4 rounded-2xl bg-gradient-to-r from-pink-400 via-rose-400 to-pink-500 hover:from-pink-500 hover:to-rose-500 text-white text-base font-bold shadow-lg shadow-pink-400/40 transition-all transform hover:scale-105 active:scale-95 flex items-center justify-center gap-3 mx-auto">
+                        <i class="fa-solid fa-play"></i> BẮT ĐẦU THI NGAY 💕
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= QUIZ TAKING SCREEN ================= -->
+        <section id="quiz-screen" class="hidden space-y-5">
+            
+            <!-- Top Progress & Score Bar -->
+            <div class="bg-white/95 p-3.5 sm:p-4 rounded-2xl border-2 border-pink-200 shadow-sm flex items-center justify-between gap-3">
+                <div class="flex items-center gap-2.5">
+                    <span class="w-8 h-8 rounded-xl bg-pink-100 text-pink-600 font-bold flex items-center justify-center text-xs border border-pink-300" id="current-q-num">
+                        1
+                    </span>
+                    <span class="text-xs font-bold text-pink-500">
+                        Câu <span id="q-progress-text">1/7</span>
+                    </span>
+                </div>
+
+                <!-- Progress Bar -->
+                <div class="flex-1 max-w-xs bg-pink-100 rounded-full h-2.5 border border-pink-200 overflow-hidden">
+                    <div id="progress-bar-fill" class="bg-gradient-to-r from-pink-400 to-rose-500 h-full transition-all duration-300 w-0"></div>
+                </div>
+
+                <div class="flex items-center gap-2 text-xs font-bold">
+                    <span class="text-slate-500">Đúng: <span id="score-count" class="text-emerald-500 font-extrabold text-sm">0</span></span>
+                    <span id="streak-badge" class="px-2 py-0.5 rounded-lg bg-red-100 text-red-600 text-[10px] hidden font-mono">Sai: <span id="streak-count">0</span></span>
+                </div>
+            </div>
+
+            <!-- Question Card -->
+            <div class="bg-white/95 p-5 sm:p-8 rounded-3xl border-4 border-pink-200 shadow-lg space-y-5">
+                <div class="space-y-1.5">
+                    <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-pink-100 text-pink-600 border border-pink-200">Vật Lý 1 - TNUT</span>
+                    <h3 id="question-text" class="text-base sm:text-xl font-bold text-slate-800 leading-relaxed pt-1">
+                        Đang tải nội dung câu hỏi...
+                    </h3>
+                </div>
+
+                <!-- Dynamic Answer Buttons -->
+                <div id="options-container" class="grid grid-cols-1 gap-3 pt-1"></div>
+            </div>
+        </section>
+
+        <!-- ================= RESULT SCREEN ================= -->
+        <section id="result-screen" class="hidden space-y-6 text-center my-auto">
+            <div class="bg-white/95 p-8 sm:p-10 rounded-3xl border-4 border-pink-200 shadow-xl space-y-5">
+                <div class="inline-block p-4 bg-pink-100 rounded-full text-pink-500">
+                    <i class="fa-solid fa-trophy text-4xl"></i>
+                </div>
+
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-pink-600">HOÀN THÀNH BÀI THI VẬT LÝ 1!</h2>
+                
+                <div class="p-5 bg-pink-50 rounded-2xl border border-pink-200 max-w-md mx-auto space-y-1">
+                    <div class="text-xs font-bold text-slate-500">Kết quả của bạn</div>
+                    <div id="final-score" class="text-3xl sm:text-4xl font-extrabold text-pink-600">0/0</div>
+                    <p id="final-eval-text" class="text-xs text-rose-400 font-semibold pt-1"></p>
+                </div>
+
+                <div class="flex flex-wrap items-center justify-center gap-3 pt-2">
+                    <button onclick="startQuiz()" class="px-6 py-3 rounded-2xl bg-pink-500 hover:bg-pink-600 text-white font-bold text-xs sm:text-sm shadow-md transition-all active:scale-95 flex items-center gap-2">
+                        <i class="fa-solid fa-rotate-right"></i> Làm Lại Đề Bài
+                    </button>
+                    <button onclick="showWelcomeScreen()" class="px-6 py-3 rounded-2xl bg-pink-100 hover:bg-pink-200 text-pink-600 font-bold text-xs sm:text-sm border border-pink-300 transition-all active:scale-95 flex items-center gap-2">
+                        <i class="fa-solid fa-house"></i> Trang Chủ
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= CORRECT ANSWER POPUP MODAL ================= -->
+    <div id="correct-modal" class="fixed inset-0 z-50 bg-slate-950/80 hidden flex items-center justify-center p-4">
+        <div class="bg-white p-5 sm:p-8 rounded-3xl max-w-md w-full border-4 border-emerald-400 text-center space-y-4 shadow-2xl">
+            
+            <!-- Luffy Trollface Image Container -->
+            <div class="relative w-44 h-44 sm:w-52 sm:h-52 mx-auto flex items-center justify-center">
+                <img id="correct-luffy-img"
+                     src="image_efd960.jpg" 
+                     alt="Luffy Trollface" 
+                     class="w-full h-full object-contain"
+                     onerror="this.style.display='none'; document.getElementById('luffy-svg-fallback').style.display='block';">
+
+                <!-- Luffy Strawhat Troll SVG Fallback -->
+                <div id="luffy-svg-fallback" class="hidden w-full h-full">
+                    <svg viewBox="0 0 500 500" class="w-full h-full">
+                        <path d="M 100 200 C 120 70 380 70 400 200 Z" fill="#eab308" stroke="#000" stroke-width="8"/>
+                        <path d="M 115 180 C 150 145 350 145 385 180" fill="none" stroke="#dc2626" stroke-width="26"/>
+                        <ellipse cx="250" cy="200" rx="225" ry="40" fill="#ca8a04" stroke="#000" stroke-width="8"/>
+                        <path d="M 150 200 Q 140 260 170 280 Q 200 230 220 280 Q 250 220 280 280 Q 300 230 330 280 Q 360 250 350 200 Z" fill="#000"/>
+                        <path d="M 160 250 Q 250 480 340 250 Z" fill="#fde047" stroke="#000" stroke-width="8"/>
+                        <path d="M 175 320 Q 250 440 325 320 Z" fill="#ffffff" stroke="#000" stroke-width="6"/>
+                        <path d="M 175 320 L 325 320" stroke="#000" stroke-width="6"/>
+                        <path d="M 205 320 L 205 375 M 235 320 L 235 395 M 265 320 L 265 395 M 295 320 L 295 375" stroke="#000" stroke-width="4"/>
+                        <path d="M 195 295 Q 220 270 240 295" fill="none" stroke="#000" stroke-width="8"/>
+                        <path d="M 260 295 Q 280 270 305 295" fill="none" stroke="#000" stroke-width="8"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="space-y-1.5">
+                <h3 class="text-xl sm:text-2xl font-black text-emerald-600 uppercase tracking-tight">
+                    CHÍNH XÁC CỰC ĐỈNH! 🎉
+                </h3>
+                <p id="correct-text" class="text-sm sm:text-lg font-black text-pink-600 bg-pink-100 py-2.5 px-3 rounded-2xl border-2 border-pink-300 shadow-inner leading-snug">
+                    "đúng là con cak của taaa hhahaha"
+                </p>
+            </div>
+
+            <button onclick="closeCorrectModal()" class="w-full py-3.5 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white font-extrabold text-sm shadow-md transition-all active:scale-95">
+                CÂU TIẾP THEO 💕
+            </button>
+        </div>
+    </div>
+
+    <!-- ================= PROGRESSIVE HORROR JUMPSCARE MODAL ================= -->
+    <div id="troll-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 overflow-hidden">
+        
+        <!-- Background Overlay -->
+        <div id="troll-bg-overlay" class="absolute inset-0 pointer-events-none"></div>
+
+        <div id="troll-card" class="relative w-full max-w-lg rounded-3xl p-5 sm:p-7 text-center space-y-5 z-10 flex flex-col my-auto max-h-[95vh] overflow-y-auto">
+            
+            <!-- Troll Header Text -->
+            <div class="space-y-1.5 z-20 relative">
+                <h2 id="troll-title" class="text-2xl sm:text-4xl font-black tracking-wide uppercase leading-tight">
+                    hahahah đồ nguu
+                </h2>
+                <p id="troll-subtitle" class="text-xs sm:text-sm font-bold tracking-wide leading-relaxed"></p>
+            </div>
+
+            <!-- Trollface Graphic Container -->
+            <div class="relative w-48 h-48 sm:w-56 sm:h-56 mx-auto flex items-center justify-center z-10 shrink-0">
+                
+                <div id="troll-face-wrapper" class="relative w-full h-full flex items-center justify-center">
+                    
+                    <!-- User Image -->
+                    <img id="troll-img-element"
+                         src="image_ef7483.png" 
+                         alt="Trollface Laser" 
+                         class="w-full h-full object-contain"
+                         onerror="this.style.display='none'; document.getElementById('troll-svg-fallback').style.display='block';">
+
+                    <!-- Vector SVG Fallback -->
+                    <div id="troll-svg-fallback" class="hidden w-full h-full">
+                        <svg viewBox="0 0 500 500" class="w-full h-full">
+                            <path d="M 120 180 C 80 100 40 40 100 20 C 130 50 140 100 160 140 Z" fill="#dc2626" stroke="#000" stroke-width="6"/>
+                            <path d="M 380 180 C 420 100 460 40 400 20 C 370 50 360 100 340 140 Z" fill="#dc2626" stroke="#000" stroke-width="6"/>
+                            <ellipse cx="250" cy="270" rx="170" ry="140" fill="#ffffff" stroke="#000" stroke-width="8"/>
+                            <path d="M 130 260 Q 250 400 370 260 Z" fill="#000000"/>
+                            <path d="M 140 270 L 360 270 M 180 270 L 180 320 M 220 270 L 220 340 M 260 270 L 260 340 M 300 270 L 300 320" stroke="#ffffff" stroke-width="4"/>
+                            <circle cx="180" cy="230" r="22" fill="#ef4444" stroke="#000" stroke-width="4"/>
+                            <circle cx="320" cy="230" r="22" fill="#ef4444" stroke="#000" stroke-width="4"/>
+                            <line x1="180" y1="230" x2="-50" y2="100" stroke="#ff0000" stroke-width="12"/>
+                            <line x1="320" y1="230" x2="550" y2="100" stroke="#ff0000" stroke-width="12"/>
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Retry Action Button(s) Container -->
+            <div id="troll-actions" class="pt-1 flex flex-col gap-2.5 relative z-20">
+                <!-- Dynamic buttons injected here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= KISS VIDEO OVERLAY (MAX ĐIỂM) ================= -->
+    <div id="kiss-video-modal" class="fixed inset-0 z-[100] hidden bg-black flex items-center justify-center overflow-hidden">
+        <video id="kiss-video" class="w-full h-full object-cover" muted playsinline loop>
+            <source src="kiss_video.mp4" type="video/mp4">
+        </video>
+        <button onclick="closeKissVideo()" class="absolute top-6 right-6 px-5 py-2.5 bg-pink-500 hover:bg-pink-600 text-white rounded-2xl font-bold shadow-lg border border-pink-400 z-10 transition-all active:scale-95 flex items-center gap-2">
+            <i class="fa-solid fa-xmark"></i> Bỏ Qua
+        </button>
+    </div>
+
+    <!-- ================= HELP MODAL ================= -->
+    <div id="help-modal" class="fixed inset-0 z-50 bg-slate-950/80 hidden flex items-center justify-center p-4">
+        <div class="bg-white p-5 rounded-3xl max-w-md w-full border-4 border-pink-300 space-y-3 text-slate-700">
+            <h3 class="text-base font-bold text-pink-600 flex items-center gap-2">
+                <i class="fa-solid fa-circle-info"></i> Hướng Dẫn Upload Ảnh & Video
+            </h3>
+            <div class="text-[11px] sm:text-xs space-y-2 leading-relaxed">
+                <p><strong>1. Ảnh SAI:</strong> <code class="bg-pink-100 text-pink-700 px-1 py-0.5 rounded font-mono">image_ef7483.png</code></p>
+                <p><strong>2. Ảnh ĐÚNG (Lần 1):</strong> <code class="bg-pink-100 text-pink-700 px-1 py-0.5 rounded font-mono">image_efd960.jpg</code></p>
+                <p><strong>3. Ảnh ĐÚNG (Lần 2):</strong> <code class="bg-pink-100 text-pink-700 px-1 py-0.5 rounded font-mono">image_f0d539.jpg</code></p>
+                <p><strong>4. Ảnh ĐÚNG (Lần 3+):</strong> <code class="bg-pink-100 text-pink-700 px-1 py-0.5 rounded font-mono">image_f12f3a.jpg</code></p>
+                <p><strong>5. Video Hôn (Full Điểm):</strong> Đổi tên video thành <code class="bg-pink-100 text-pink-700 px-1 py-0.5 rounded font-mono">kiss_video.mp4</code></p>
+                <p class="text-rose-500 font-bold mt-1 border-t pt-2">Hãy upload tất cả file này cùng thư mục chứa index.html!</p>
+            </div>
+            <button onclick="closeHelpModal()" class="w-full py-2.5 rounded-xl bg-pink-500 text-white font-bold text-xs active:scale-95">Đã Hiểu</button>
+        </div>
+    </div>
+
+    <!-- ================= QUESTION EDITOR MODAL ================= -->
+    <div id="question-modal" class="fixed inset-0 z-50 bg-slate-950/80 hidden flex items-center justify-center p-4">
+        <div class="bg-white p-5 rounded-3xl max-w-2xl w-full border-4 border-pink-300 space-y-3 max-h-[90vh] flex flex-col">
+            <div class="flex items-center justify-between border-b pb-2.5">
+                <h3 class="text-base font-bold text-pink-600">Quản Lý Bộ Câu Hỏi Vật Lý 1</h3>
+                <button onclick="closeQuestionModal()" class="text-slate-400 hover:text-slate-600"><i class="fa-solid fa-xmark text-lg"></i></button>
+            </div>
+            <p class="text-xs text-slate-500">Chỉnh sửa danh sách câu hỏi dạng JSON bên dưới:</p>
+            <textarea id="json-input" class="w-full flex-1 p-3 rounded-xl bg-slate-900 text-pink-300 font-mono text-xs focus:outline-none resize-none min-h-[200px]"></textarea>
+            <div class="flex items-center justify-between pt-1">
+                <button onclick="resetDefaultQuestions()" class="px-3 py-2 rounded-xl bg-rose-100 text-rose-600 text-xs font-bold active:scale-95">Mặc Định</button>
+                <div class="flex gap-2">
+                    <button onclick="closeQuestionModal()" class="px-3.5 py-2 rounded-xl bg-slate-100 text-xs font-bold active:scale-95">Hủy</button>
+                    <button onclick="saveCustomQuestions()" class="px-4 py-2 rounded-xl bg-pink-500 text-white font-bold text-xs active:scale-95">Lưu Câu Hỏi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w-full bg-white/80 border-t border-pink-200 py-2.5 text-center text-[11px] text-pink-500 font-bold relative z-10">
+        <p>Vật Lý 1 TNUT • Ultra Smooth & Troll Mode 💖</p>
+    </footer>
+
+    <script>
+        /* ================= DEFAULT TNUT PHYSICS QUESTION BANK ================= */
+        const DEFAULT_TNUT_PHYSICS_QUESTIONS = [
+            {
+                question: "Phương trình chuyển động thẳng biến đổi đều của chất điểm có dạng nào sau đây?",
+                options: [
+                    "x = x₀ + v₀t + ½at²",
+                    "x = x₀ + v₀t + at²",
+                    "v = v₀ + ½at²",
+                    "x = v₀t + at"
+                ],
+                correct: 0
+            },
+            {
+                question: "Định luật II Newton được phát biểu dưới dạng véctơ như thế nào?",
+                options: [
+                    "F = m / a",
+                    "F = m · a",
+                    "a = m · F",
+                    "F = m · v²"
+                ],
+                correct: 1
+            },
+            {
+                question: "Công của lực F làm dịch chuyển vật một đoạn s hợp với góc α được tính bằng công thức nào?",
+                options: [
+                    "A = F · s · sin(α)",
+                    "A = F · s · cos(α)",
+                    "A = F · s · tan(α)",
+                    "A = (F / s) · cos(α)"
+                ],
+                correct: 1
+            },
+            {
+                question: "Mômen động lượng L của một chất điểm quay quanh trục cố định được xác định bởi:",
+                options: [
+                    "L = I · ω",
+                    "L = I / ω",
+                    "L = m · v²",
+                    "L = ½ I · ω²"
+                ],
+                correct: 0
+            },
+            {
+                question: "Trong quá trình đẳng nhiệt của một khí lý tưởng, đại lượng nào sau đây không thay đổi?",
+                options: [
+                    "Áp suất P",
+                    "Thể tích V",
+                    "Nhiệt độ T",
+                    "Khối lượng riêng ρ"
+                ],
+                correct: 2
+            },
+            {
+                question: "Động năng quay của một vật rắn quay quanh một trục cố định có giá trị bằng:",
+                options: [
+                    "Wđ = ½ m v²",
+                    "Wđ = ½ I ω²",
+                    "Wđ = I ω²",
+                    "Wđ = ½ I ω"
+                ],
+                correct: 1
+            },
+            {
+                question: "Theo Nguyên lý thứ nhất của Nhiệt động lực học, độ biến thiên nội năng ΔU được tính bằng:",
+                options: [
+                    "ΔU = Q + A",
+                    "ΔU = Q - A",
+                    "ΔU = Q / A",
+                    "ΔU = A - Q"
+                ],
+                correct: 0
+            }
+        ];
+
+        /* ================= STATE VARIABLES ================= */
+        let questions = [];
+        let currentQIndex = 0;
+        let score = 0;
+        let wrongStreak = 0;
+        let correctStreak = 0;
+        let audioCtx = null;
+        let activeHorrorNodes = []; // Track active sound nodes for Level 3 continuous horror sound
+
+        function getAudioContext() {
+            if (!audioCtx) {
+                audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            }
+            if (audioCtx.state === 'suspended') {
+                audioCtx.resume();
+            }
+            return audioCtx;
+        }
+
+        /* Stop any ongoing continuous horror sounds */
+        function stopHorrorSound() {
+            if (activeHorrorNodes && activeHorrorNodes.length > 0) {
+                activeHorrorNodes.forEach(node => {
+                    try {
+                        if (node.stop) node.stop();
+                        if (node.disconnect) node.disconnect();
+                    } catch(e) {}
+                });
+                activeHorrorNodes = [];
+            }
+        }
+
+        /* Cheerful WAOOOO Sound Synthesizer */
+        function playWaoooSound() {
+            stopHorrorSound();
+            try {
+                const ctx = getAudioContext();
+                const now = ctx.currentTime;
+
+                const osc = ctx.createOscillator();
+                const gain = ctx.createGain();
+
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(220, now);
+                osc.frequency.exponentialRampToValueAtTime(600, now + 0.25);
+                osc.frequency.exponentialRampToValueAtTime(400, now + 0.55);
+
+                gain.gain.setValueAtTime(0.01, now);
+                gain.gain.linearRampToValueAtTime(0.3, now + 0.12);
+                gain.gain.exponentialRampToValueAtTime(0.001, now + 0.6);
+
+                osc.connect(gain);
+                gain.connect(ctx.destination);
+
+                osc.start(now);
+                osc.stop(now + 0.6);
+            } catch(e) {
+                console.error("Audio error:", e);
+            }
+        }
+
+        /* Progressive & Continuous Horror Wrong Sound Synthesizer */
+        function playProgressiveWrongSound(streak) {
+            stopHorrorSound(); // Stop previous audio loops
+            try {
+                const ctx = getAudioContext();
+                const now = ctx.currentTime;
+
+                if (streak === 1) {
+                    // STREAK 1: Boom + Low-end buzz (1.5 seconds)
+                    const duration = 1.5;
+                    const bufferSize = ctx.sampleRate * duration;
+                    const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+                    const data = buffer.getChannelData(0);
+
+                    for (let i = 0; i < bufferSize; i++) {
+                        data[i] = (Math.random() * 2 - 1) * Math.exp(-i / (bufferSize * 0.4));
+                    }
+
+                    const noise = ctx.createBufferSource();
+                    noise.buffer = buffer;
+
+                    const filter = ctx.createBiquadFilter();
+                    filter.type = 'lowpass';
+                    filter.frequency.setValueAtTime(500, now);
+                    filter.frequency.exponentialRampToValueAtTime(40, now + duration);
+
+                    const gain = ctx.createGain();
+                    gain.gain.setValueAtTime(0.6, now);
+                    gain.gain.exponentialRampToValueAtTime(0.01, now + duration);
+
+                    noise.connect(filter);
+                    filter.connect(gain);
+                    gain.connect(ctx.destination);
+
+                    noise.start(now);
+                    noise.stop(now + duration);
+
+                } else if (streak === 2) {
+                    // STREAK 2: Longer, harsh screeching rumble (3.5 seconds)
+                    const duration = 3.5;
+                    
+                    // Piercing Dissonant Oscillator
+                    const osc1 = ctx.createOscillator();
+                    const osc2 = ctx.createOscillator();
+                    const gainOsc = ctx.createGain();
+
+                    osc1.type = 'sawtooth';
+                    osc1.frequency.setValueAtTime(320, now);
+                    osc1.frequency.linearRampToValueAtTime(80, now + duration);
+
+                    osc2.type = 'square';
+                    osc2.frequency.setValueAtTime(337, now); // Dissonant tritone offset
+                    osc2.frequency.linearRampToValueAtTime(75, now + duration);
+
+                    gainOsc.gain.setValueAtTime(0.5, now);
+                    gainOsc.gain.exponentialRampToValueAtTime(0.01, now + duration);
+
+                    osc1.connect(gainOsc);
+                    osc2.connect(gainOsc);
+                    gainOsc.connect(ctx.destination);
+
+                    osc1.start(now);
+                    osc2.start(now);
+                    osc1.stop(now + duration);
+                    osc2.stop(now + duration);
+
+                    // Noise Burst
+                    const bufferSize = ctx.sampleRate * duration;
+                    const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+                    const data = buffer.getChannelData(0);
+                    for (let i = 0; i < bufferSize; i++) {
+                        data[i] = (Math.random() * 2 - 1) * Math.exp(-i / (bufferSize * 0.6));
+                    }
+                    const noise = ctx.createBufferSource();
+                    noise.buffer = buffer;
+                    const gainNoise = ctx.createGain();
+                    gainNoise.gain.setValueAtTime(0.7, now);
+                    gainNoise.gain.exponentialRampToValueAtTime(0.01, now + duration);
+
+                    noise.connect(gainNoise);
+                    gainNoise.connect(ctx.destination);
+                    noise.start(now);
+                    noise.stop(now + duration);
+
+                } else {
+                    // STREAK 3+: CONTINUOUS INFINITE PIERCING HORROR SCREECH (Keeps looping without stopping!)
+                    
+                    // 1. High frequency ear-piercing dissonant screamer (2400Hz & 2453Hz)
+                    const screamer1 = ctx.createOscillator();
+                    const screamer2 = ctx.createOscillator();
+                    screamer1.type = 'sawtooth';
+                    screamer2.type = 'square';
+                    screamer1.frequency.setValueAtTime(2400, now);
+                    screamer2.frequency.setValueAtTime(2453, now); // Dissonant beating frequencies
+
+                    // Rapid LFO Vibrato (Siren Effect)
+                    const lfo = ctx.createOscillator();
+                    const lfoGain = ctx.createGain();
+                    lfo.frequency.setValueAtTime(11, now); // 11 Hz fast wobble
+                    lfoGain.gain.setValueAtTime(350, now);
+                    lfo.connect(screamer1.frequency);
+                    lfo.connect(screamer2.frequency);
+                    lfo.start(now);
+                    activeHorrorNodes.push(lfo);
+
+                    const screamerGain = ctx.createGain();
+                    screamerGain.gain.setValueAtTime(0.85, now); // Ultra Loud & Piercing
+
+                    screamer1.connect(screamerGain);
+                    screamer2.connect(screamerGain);
+                    screamerGain.connect(ctx.destination);
+
+                    screamer1.start(now);
+                    screamer2.start(now);
+
+                    activeHorrorNodes.push(screamer1, screamer2, screamerGain);
+
+                    // 2. Continuous Screaming Harsh Noise
+                    const bufferSize = ctx.sampleRate * 3; // 3 sec loopable buffer
+                    const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+                    const data = buffer.getChannelData(0);
+                    for (let i = 0; i < bufferSize; i++) {
+                        data[i] = (Math.random() * 2 - 1);
+                    }
+
+                    const noiseSource = ctx.createBufferSource();
+                    noiseSource.buffer = buffer;
+                    noiseSource.loop = true; // Infinite Loop!
+
+                    const noiseFilter = ctx.createBiquadFilter();
+                    noiseFilter.type = 'bandpass';
+                    noiseFilter.frequency.setValueAtTime(3200, now); // Piercing high-mids
+                    noiseFilter.Q.setValueAtTime(3.0, now);
+
+                    const noiseGain = ctx.createGain();
+                    noiseGain.gain.setValueAtTime(0.75, now);
+
+                    noiseSource.connect(noiseFilter);
+                    noiseFilter.connect(noiseGain);
+                    noiseGain.connect(ctx.destination);
+
+                    noiseSource.start(now);
+                    activeHorrorNodes.push(noiseSource, noiseGain);
+
+                    // 3. Deep terrifying sub-bass rumble
+                    const subOsc = ctx.createOscillator();
+                    subOsc.type = 'sawtooth';
+                    subOsc.frequency.setValueAtTime(45, now);
+                    const subGain = ctx.createGain();
+                    subGain.gain.setValueAtTime(0.9, now);
+                    subOsc.connect(subGain);
+                    subGain.connect(ctx.destination);
+                    subOsc.start(now);
+                    activeHorrorNodes.push(subOsc, subGain);
+                }
+            } catch(e) {
+                console.error("Audio error:", e);
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            initFloatingHearts();
+        });
+
+        function initFloatingHearts() {
+            const container = document.getElementById('hearts-container');
+            const heartIcons = ['💖', '💕', '🌸', '✨'];
+            const count = window.innerWidth < 640 ? 8 : 14;
+            
+            for (let i = 0; i < count; i++) {
+                const h = document.createElement('div');
+                h.className = 'heart-particle';
+                h.innerText = heartIcons[Math.floor(Math.random() * heartIcons.length)];
+                h.style.left = `${Math.random() * 95}vw`;
+                h.style.animationDuration = `${6 + Math.random() * 5}s`;
+                h.style.animationDelay = `${Math.random() * 4}s`;
+                h.style.fontSize = `${14 + Math.random() * 14}px`;
+                container.appendChild(h);
+            }
+        }
+
+        function startQuiz() {
+            stopHorrorSound();
+            getAudioContext();
+            const saved = localStorage.getItem('tnut_physics_questions');
+            if (saved) {
+                try {
+                    questions = JSON.parse(saved);
+                } catch(e) {
+                    questions = DEFAULT_TNUT_PHYSICS_QUESTIONS;
+                }
+            } else {
+                questions = DEFAULT_TNUT_PHYSICS_QUESTIONS;
+            }
+
+            currentQIndex = 0;
+            score = 0;
+            wrongStreak = 0;
+            correctStreak = 0;
+            updateStreakBadge();
+
+            document.getElementById('welcome-screen').classList.add('hidden');
+            document.getElementById('result-screen').classList.add('hidden');
+            document.getElementById('quiz-screen').classList.remove('hidden');
+
+            renderCurrentQuestion();
+        }
+
+        function renderCurrentQuestion() {
+            const q = questions[currentQIndex];
+            document.getElementById('current-q-num').innerText = currentQIndex + 1;
+            document.getElementById('q-progress-text').innerText = `${currentQIndex + 1}/${questions.length}`;
+            document.getElementById('question-text').innerText = q.question;
+
+            const progressPct = ((currentQIndex) / questions.length) * 100;
+            document.getElementById('progress-bar-fill').style.width = `${progressPct}%`;
+            document.getElementById('score-count').innerText = score;
+
+            const container = document.getElementById('options-container');
+            container.innerHTML = '';
+
+            const prefixes = ['A', 'B', 'C', 'D'];
+            q.options.forEach((optText, index) => {
+                const btn = document.createElement('button');
+                btn.onclick = () => handleAnswerSelect(index);
+                btn.className = "group w-full p-3.5 sm:p-4 rounded-2xl bg-white border-2 border-pink-200 hover:border-pink-400 hover:bg-pink-50 text-left transition-colors duration-150 shadow-sm flex items-center justify-between active:scale-[0.98]";
+                btn.innerHTML = `
+                    <div class="flex items-center space-x-3">
+                        <span class="w-7 h-7 sm:w-8 sm:h-8 rounded-xl bg-pink-100 group-hover:bg-pink-500 text-pink-600 group-hover:text-white font-extrabold text-xs flex items-center justify-center transition-colors shrink-0">
+                            ${prefixes[index]}
+                        </span>
+                        <span class="text-xs sm:text-sm font-semibold text-slate-700 group-hover:text-pink-900">${optText}</span>
+                    </div>
+                    <i class="fa-regular fa-circle-dot text-pink-300 group-hover:text-pink-500 transition-colors shrink-0"></i>
+                `;
+                container.appendChild(btn);
+            });
+        }
+
+        function updateStreakBadge() {
+            const badge = document.getElementById('streak-badge');
+            const countElem = document.getElementById('streak-count');
+            countElem.innerText = wrongStreak;
+            if (wrongStreak > 0) badge.classList.remove('hidden');
+            else badge.classList.add('hidden');
+        }
+
+        function handleAnswerSelect(selectedIndex) {
+            const q = questions[currentQIndex];
+
+            if (selectedIndex === q.correct) {
+                // Correct Answer
+                score++;
+                wrongStreak = 0;
+                correctStreak++;
+                updateStreakBadge();
+
+                playWaoooSound();
+                triggerMiniConfetti();
+
+                showCorrectModal(correctStreak);
+            } else {
+                // Wrong Answer
+                wrongStreak++;
+                correctStreak = 0;
+                updateStreakBadge();
+
+                playProgressiveWrongSound(wrongStreak);
+                showProgressiveTrollModal(wrongStreak);
+            }
+        }
+
+        function showCorrectModal(streak) {
+            const modal = document.getElementById('correct-modal');
+            const img = document.getElementById('correct-luffy-img');
+            const text = document.getElementById('correct-text');
+            const fallback = document.getElementById('luffy-svg-fallback');
+
+            img.style.display = 'block';
+            fallback.style.display = 'none';
+
+            if (streak === 1) {
+                img.src = 'image_efd960.jpg';
+                text.innerText = '"đúng là con cak của taaa hhahaha"';
+            } else if (streak === 2) {
+                img.src = 'image_f0d539.jpg';
+                text.innerText = '"aduuu, giỏi vậy trời"';
+            } else {
+                img.src = 'image_f12f3a.jpg';
+                text.innerText = '"oke mày giỏi , tao công nhận"';
+            }
+
+            modal.classList.remove('hidden');
+        }
+
+        function closeCorrectModal() {
+            document.getElementById('correct-modal').classList.add('hidden');
+            currentQIndex++;
+            if (currentQIndex < questions.length) {
+                renderCurrentQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        function showProgressiveTrollModal(streakLevel) {
+            const modal = document.getElementById('troll-modal');
+            const bgOverlay = document.getElementById('troll-bg-overlay');
+            const card = document.getElementById('troll-card');
+            const title = document.getElementById('troll-title');
+            const subtitle = document.getElementById('troll-subtitle');
+            const imgWrapper = document.getElementById('troll-face-wrapper');
+            const imgContainer = imgWrapper.parentElement;
+            const trollImg = document.getElementById('troll-img-element');
+            const trollSvg = document.getElementById('troll-svg-fallback');
+            const actionsContainer = document.getElementById('troll-actions');
+
+            // Reset dynamic styles safely
+            card.className = "relative w-full max-w-lg rounded-3xl p-5 sm:p-7 text-center space-y-5 z-10 flex flex-col my-auto max-h-[95vh] overflow-y-auto";
+            bgOverlay.className = "absolute inset-0 pointer-events-none";
+            imgContainer.className = "relative w-48 h-48 sm:w-56 sm:h-56 mx-auto flex items-center justify-center z-10 shrink-0";
+            imgWrapper.className = "relative w-full h-full flex items-center justify-center";
+            trollImg.className = "w-full h-full object-contain";
+            trollSvg.className = "hidden w-full h-full";
+
+            if (streakLevel === 1) {
+                // STREAK LEVEL 1
+                card.classList.add('bg-slate-900', 'border-4', 'border-red-600', 'shake-level-1');
+                bgOverlay.classList.add('bg-slate-950/90');
+
+                title.innerText = "hahahah đồ nguu";
+                title.className = "text-2xl sm:text-4xl font-black text-yellow-300 tracking-wider uppercase glitch-text-anim";
+                subtitle.innerText = "SAO MÀY NGU VẬY CU CÂU NÀY MÀ CÒN ĐỂ SAI ,THÔI TAO BỐ THÍ CHO MÀY LÀM LẠI";
+                subtitle.className = "text-xs sm:text-sm text-red-400 font-bold tracking-wide";
+
+                actionsContainer.innerHTML = `
+                    <button onclick="closeTrollModal()" class="w-full py-3.5 rounded-2xl bg-red-600 hover:bg-red-700 text-white font-black text-xs sm:text-sm uppercase shadow-md border border-red-400 active:scale-95">
+                        THỬ LẠI CÂU NÀY
+                    </button>
+                `;
+
+            } else if (streakLevel === 2) {
+                // STREAK LEVEL 2
+                card.classList.add('bg-black', 'border-4', 'border-red-600', 'shake-level-2');
+                bgOverlay.classList.add('bg-red-950/90');
+
+                title.innerText = "VÃI LONNN BỐ CŨNG CHỊU MÀY RỒI THÔI";
+                title.className = "text-lg sm:text-2xl font-black text-red-500 tracking-wide uppercase glitch-text-anim";
+                subtitle.innerText = "NGU HƠN CON CHÓ";
+                subtitle.className = "text-xl sm:text-2xl text-yellow-400 font-mono tracking-wider font-black";
+
+                // Magnified angry face animation
+                imgWrapper.classList.add('angry-pulse-anim');
+
+                actionsContainer.innerHTML = `
+                    <button onclick="closeTrollModal()" class="w-full py-3 rounded-2xl bg-black text-red-400 font-black text-xs uppercase border-2 border-red-500 hover:bg-red-950 active:scale-95">
+                        ôi lỗi tôi ,tôi có mắt như mù ,cho tôi làm lại bảo đảm đúng
+                    </button>
+                    <button onclick="skipToNextQuestion()" class="w-full py-3 rounded-2xl bg-red-800 text-white font-black text-xs uppercase border border-red-400 hover:bg-red-700 active:scale-95">
+                        Thôi em chịu thua em xin anh cho em làm câu khác
+                    </button>
+                `;
+
+            } else {
+                // STREAK LEVEL 3+ FULLSCREEN JUMPSCARE
+                card.className = "relative w-full max-w-xl rounded-3xl p-5 sm:p-7 text-center space-y-6 z-30 flex flex-col my-auto bg-black/85 border-4 border-red-600 shadow-2xl backdrop-blur-sm";
+                bgOverlay.classList.add('horror-bg-flash');
+
+                // Expand icon to cover entire screen in background with color flashing animation
+                imgContainer.className = "fixed inset-0 w-full h-full z-0 flex items-center justify-center pointer-events-none overflow-hidden p-2";
+                imgWrapper.className = "relative w-full h-full flex items-center justify-center mega-jumpscare-anim";
+                trollImg.className = "w-full h-full object-cover opacity-90 scale-125";
+                trollSvg.className = "w-full h-full flex items-center justify-center scale-125 opacity-90";
+
+                title.innerText = "dcm cút mẹ đi đồ ngu";
+                title.className = "text-2xl sm:text-4xl font-black text-red-500 tracking-wider uppercase glitch-text-anim drop-shadow-[0_5px_5px_rgba(0,0,0,1)]";
+                subtitle.innerText = "mày sai 3 lần liên tiếp thì ngu ko khác gì một con chó ,thôi mày cút đi đừng làm nữa";
+                subtitle.className = "text-xs sm:text-base text-yellow-300 font-black uppercase tracking-wide bg-black/90 p-4 rounded-2xl border-2 border-red-600 shadow-xl";
+
+                actionsContainer.innerHTML = `
+                    <button onclick="resetQuizFromJumpscare()" class="w-full py-4 rounded-2xl bg-yellow-400 hover:bg-yellow-300 text-black font-black text-sm sm:text-base uppercase tracking-wider shadow-2xl border-4 border-white active:scale-95 animate-bounce relative z-30">
+                        Anh Bình đẹp trai ,em xin anh cho em làm lại
+                    </button>
+                `;
+            }
+
+            modal.classList.remove('hidden');
+        }
+
+        function closeTrollModal() {
+            stopHorrorSound();
+            document.getElementById('troll-modal').classList.add('hidden');
+        }
+
+        function skipToNextQuestion() {
+            stopHorrorSound();
+            closeTrollModal();
+            wrongStreak = 0; 
+            updateStreakBadge();
+            currentQIndex++;
+            if (currentQIndex < questions.length) {
+                renderCurrentQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        function resetQuizFromJumpscare() {
+            stopHorrorSound();
+            closeTrollModal();
+            startQuiz(); // làm lại từ đầu
+        }
+
+        function showResults() {
+            stopHorrorSound();
+            document.getElementById('quiz-screen').classList.add('hidden');
+            document.getElementById('result-screen').classList.remove('hidden');
+            document.getElementById('final-score').innerText = `${score}/${questions.length}`;
+
+            const evalElem = document.getElementById('final-eval-text');
+            const percent = (score / questions.length) * 100;
+            if (percent === 100) {
+                evalElem.innerText = "Đẳng cấp Thần Vật Lý TNUT! Bái phục bái phục! 🎉";
+                
+                // Kích hoạt Video Hôn Màn Hình nếu đạt max điểm 100%
+                document.getElementById('kiss-video-modal').classList.remove('hidden');
+                const video = document.getElementById('kiss-video');
+                if (video) {
+                    video.currentTime = 0;
+                    video.play().catch(e => console.log("Lỗi tự động phát video:", e));
+                }
+            } else if (percent >= 50) {
+                evalElem.innerText = "Khá lắm! Bạn đã sống sót qua các cú lừa Vật Lý 1! 👍";
+            } else {
+                evalElem.innerText = "Cố gắng lên! Ôn tập kĩ lại lý thuyết Cơ - Nhiệt - Điện nhé!";
+            }
+        }
+
+        function closeKissVideo() {
+            document.getElementById('kiss-video-modal').classList.add('hidden');
+            const video = document.getElementById('kiss-video');
+            if (video) {
+                video.pause();
+            }
+        }
+
+        function showWelcomeScreen() {
+            stopHorrorSound();
+            document.getElementById('quiz-screen').classList.add('hidden');
+            document.getElementById('result-screen').classList.add('hidden');
+            document.getElementById('welcome-screen').classList.remove('hidden');
+        }
+
+        function openHelpModal() { document.getElementById('help-modal').classList.remove('hidden'); }
+        function closeHelpModal() { document.getElementById('help-modal').classList.add('hidden'); }
+
+        function openQuestionModal() {
+            document.getElementById('json-input').value = JSON.stringify(questions, null, 2);
+            document.getElementById('question-modal').classList.remove('hidden');
+        }
+        function closeQuestionModal() { document.getElementById('question-modal').classList.add('hidden'); }
+
+        function saveCustomQuestions() {
+            try {
+                const parsed = JSON.parse(document.getElementById('json-input').value);
+                if (Array.isArray(parsed) && parsed.length > 0) {
+                    questions = parsed;
+                    localStorage.setItem('tnut_physics_questions', JSON.stringify(questions));
+                    closeQuestionModal();
+                    startQuiz();
+                }
+            } catch(e) {
+                console.error("Invalid JSON input");
+            }
+        }
+
+        function resetDefaultQuestions() {
+            localStorage.removeItem('tnut_physics_questions');
+            questions = DEFAULT_TNUT_PHYSICS_QUESTIONS;
+            document.getElementById('json-input').value = JSON.stringify(questions, null, 2);
+            startQuiz();
+        }
+
+        /* Fast Lightweight Confetti Burst */
+        function triggerMiniConfetti() {
+            const canvas = document.getElementById('confetti-canvas');
+            const ctx = canvas.getContext('2d');
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+
+            const particles = [];
+            const count = window.innerWidth < 640 ? 25 : 45;
+            for (let i = 0; i < count; i++) {
+                particles.push({
+                    x: canvas.width / 2,
+                    y: canvas.height / 2,
+                    vx: (Math.random() - 0.5) * 12,
+                    vy: (Math.random() - 0.5) * 12,
+                    size: Math.random() * 6 + 3,
+                    color: ['#f43f5e', '#fb7185', '#fda4af', '#facc15', '#10b981'][Math.floor(Math.random() * 5)]
+                });
+            }
+
+            let frame = 0;
+            function anim() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                particles.forEach(p => {
+                    p.x += p.vx;
+                    p.y += p.vy;
+                    ctx.fillStyle = p.color;
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                    ctx.fill();
+                });
+                frame++;
+                if (frame < 28) requestAnimationFrame(anim);
+                else ctx.clearRect(0, 0, canvas.width, canvas.height);
+            }
+            anim();
+        }
+    </script>
+</body>
+</html>
