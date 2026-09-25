@@ -7,6 +7,12 @@
   <title>Trắc Nghiệm Vật Lý 1 - TNUT (Trần Văn Bình Official)</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Firebase SDK Compat Scripts -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+
   <style>
     :root { color-scheme: light only; }
     body { font-family: 'Nunito', sans-serif; }
@@ -56,7 +62,15 @@
         <p class="text-xs sm:text-sm text-pink-400 font-bold">Ôn thi cute - Sai là ăn chửi 🎀</p>
       </div>
     </div>
-    <div class="flex items-center gap-2">
+    <div class="flex items-center gap-2 flex-wrap">
+      <button onclick="openLeaderboard()" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold px-3 py-1.5 rounded-xl text-xs sm:text-sm transition shadow">
+        🏆 BXH
+      </button>
+      <div id="auth-header-status">
+        <button onclick="toggleAuthModal()" class="bg-pink-500 hover:bg-pink-600 text-white font-bold px-3 py-1.5 rounded-xl text-xs sm:text-sm transition shadow">
+          Đăng nhập
+        </button>
+      </div>
       <button onclick="toggleManageModal()" class="bg-pink-500 hover:bg-pink-600 text-white font-bold px-3 py-1.5 rounded-xl text-xs sm:text-sm transition shadow relative z-20">
         ⚙️ Quản Lý Đề
       </button>
@@ -159,6 +173,34 @@
     </div>
   </div>
 
+  <!-- MODAL ĐĂNG NHẬP -->
+  <div id="auth-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-white rounded-3xl p-6 w-full max-w-md shadow-2xl border-4 border-pink-300 space-y-4 relative">
+      <button onclick="toggleAuthModal()" class="absolute top-4 right-4 text-gray-400 hover:text-black font-bold text-xl">&times;</button>
+      <h3 class="text-lg font-black text-pink-600 text-center">🔐 Tài Khoản Ôn Thi TNUT</h3>
+      <div class="space-y-3 pt-2">
+        <input type="email" id="auth-email" placeholder="Nhập Email sinh viên..." class="w-full bg-slate-50 border-2 border-pink-200 rounded-xl p-3 text-sm outline-none focus:border-pink-400">
+        <input type="password" id="auth-password" placeholder="Nhập Mật khẩu..." class="w-full bg-slate-50 border-2 border-pink-200 rounded-xl p-3 text-sm outline-none focus:border-pink-400">
+        <button onclick="handleEmailAuth()" class="w-full bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 rounded-xl text-sm shadow">Đăng nhập / Đăng ký bằng Email</button>
+        <div class="text-center text-xs text-gray-400">Hoặc</div>
+        <button onclick="handleGoogleAuth()" class="w-full bg-white border-2 border-gray-200 hover:bg-gray-50 text-gray-700 font-bold py-3 rounded-xl text-sm shadow flex items-center justify-center space-x-2">
+          <span>🌐 Đăng nhập nhanh bằng Google</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL BẢNG XẾP HẠNG -->
+  <div id="leaderboard-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-white rounded-3xl p-6 w-full max-w-lg shadow-2xl border-4 border-indigo-300 space-y-4 relative max-h-[80vh] overflow-y-auto">
+      <button onclick="closeLeaderboard()" class="absolute top-4 right-4 text-gray-400 hover:text-black font-bold text-xl">&times;</button>
+      <h3 class="text-lg font-black text-indigo-600 text-center">🏆 Bảng Xếp Hạng Sinh Viên TNUT</h3>
+      <div id="leaderboard-list" class="space-y-2 pt-2">
+        <p class="text-center text-sm text-gray-400">Đang tải dữ liệu...</p>
+      </div>
+    </div>
+  </div>
+
   <!-- POPUP ĐÚNG -->
   <div id="correct-popup" class="fixed inset-0 bg-black/70 backdrop-blur-md z-50 flex flex-col items-center justify-center p-4 hidden">
     <div class="bg-gradient-to-b from-pink-100 to-white rounded-3xl p-6 sm:p-8 max-w-md w-full text-center space-y-4 border-4 border-pink-400 shadow-2xl relative">
@@ -257,6 +299,19 @@
   </div>
 
   <script>
+    // Cấu hình Firebase chuẩn của mày
+    const firebaseConfig = {
+        apiKey: "AIzaSyBPQV6RVoLqCMnZp_MmUdbciPQRQukT0qg",
+        authDomain: "tnut-physics-quiz.firebaseapp.com",
+        projectId: "tnut-physics-quiz",
+        storageBucket: "tnut-physics-quiz.firebasestorage.app",
+        messagingSenderId: "514325643631",
+        appId: "1:514325643631:web:ad3a9e4a9810dd794a689a"
+    };
+    firebase.initializeApp(firebaseConfig);
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+
     const DEFAULT_QUESTIONS = [
       {
         id: "1.1",
@@ -272,6 +327,7 @@
     let currentQIndex = 0;
     let wrongStreak = 0;
     let correctStreak = 0;
+    let totalCorrectScore = 0;
     let audioCtx = null;
 
     let streak3Osc1 = null, streak3Osc2 = null, streak3NoiseNode = null, streak3GainNode = null;
@@ -399,6 +455,7 @@
       currentQIndex = 0;
       wrongStreak = 0;
       correctStreak = 0;
+      totalCorrectScore = 0;
       document.getElementById('streak-count').textContent = wrongStreak;
       document.getElementById('correct-streak-count').textContent = correctStreak;
       document.getElementById('setup-panel').classList.add('hidden');
@@ -446,6 +503,7 @@
         btnEl.classList.add('border-green-500', 'bg-green-100');
         wrongStreak = 0;
         correctStreak++;
+        totalCorrectScore++;
         document.getElementById('streak-count').textContent = wrongStreak;
         document.getElementById('correct-streak-count').textContent = correctStreak;
         playWaooSound();
@@ -493,8 +551,23 @@
         currentQIndex++;
         renderQuestion();
       } else {
-        alert("🎉 CHÚC MỪNG! BẠN ĐÃ HOÀN THÀNH TẤT CẢ CÂU HỎI TRONG CHƯƠNG NÀY!");
+        // Lưu điểm lên Firestore khi làm xong hết bài
+        saveScoreToFirestore();
+        alert(`🎉 CHÚC MỪNG! BẠN ĐÃ HOÀN THÀNH TẤT CẢ CÂU HỎI!\nĐiểm của bạn: ${totalCorrectScore} / ${currentQuizList.length}`);
         exitQuiz();
+      }
+    }
+
+    function saveScoreToFirestore() {
+      const user = auth.currentUser;
+      if (user) {
+        db.collection("leaderboard").add({
+          email: user.email,
+          name: user.displayName || user.email.split('@')[0],
+          score: totalCorrectScore,
+          total: currentQuizList.length,
+          timestamp: firebase.firestore.FieldValue.serverTimestamp()
+        }).catch(err => console.error("Lỗi lưu điểm:", err));
       }
     }
 
@@ -568,6 +641,87 @@
       startQuiz();
     }
 
+    // Firebase Auth & Leaderboard Handlers
+    function toggleAuthModal() {
+      const modal = document.getElementById('auth-modal');
+      modal.classList.toggle('hidden');
+    }
+
+    function handleEmailAuth() {
+      const email = document.getElementById('auth-email').value;
+      const pass = document.getElementById('auth-password').value;
+      if (!email || !pass) { alert("Nhập đủ email và mật khẩu đi mày!"); return; }
+
+      auth.signInWithEmailAndPassword(email, pass).catch(() => {
+        return auth.createUserWithEmailAndPassword(email, pass);
+      }).then(() => {
+        alert("Đăng nhập thành công!");
+        toggleAuthModal();
+      }).catch(err => alert(err.message));
+    }
+
+    function handleGoogleAuth() {
+      const provider = new firebase.auth.GoogleAuthProvider();
+      auth.signInWithPopup(provider).then(() => {
+        alert("Đăng nhập Google thành công!");
+        toggleAuthModal();
+      }).catch(err => alert(err.message));
+    }
+
+    auth.onAuthStateChanged(user => {
+      const authStatus = document.getElementById('auth-header-status');
+      if (user) {
+        authStatus.innerHTML = `
+          <button onclick="auth.signOut()" class="bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold px-3 py-1.5 rounded-xl text-xs sm:text-sm transition shadow">
+            👤 Đăng xuất
+          </button>
+        `;
+      } else {
+        authStatus.innerHTML = `
+          <button onclick="toggleAuthModal()" class="bg-pink-500 hover:bg-pink-600 text-white font-bold px-3 py-1.5 rounded-xl text-xs sm:text-sm transition shadow">
+            Đăng nhập
+          </button>
+        `;
+      }
+    });
+
+    function openLeaderboard() {
+      document.getElementById('leaderboard-modal').classList.remove('hidden');
+      const listEl = document.getElementById('leaderboard-list');
+      listEl.innerHTML = `<p class="text-center text-sm text-gray-400">Đang tải bảng xếp hạng...</p>`;
+
+      db.collection("leaderboard").orderBy("score", "desc").limit(10).get().then(snapshot => {
+        if (snapshot.empty) {
+          listEl.innerHTML = `<p class="text-center text-sm text-gray-400">Chưa có dữ liệu thi. Hãy là người đầu tiên lên bảng vàng!</p>`;
+          return;
+        }
+        let html = "";
+        let rank = 1;
+        snapshot.forEach(doc => {
+          let d = doc.data();
+          let medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : `📍 ${rank}`;
+          html += `
+            <div class="flex justify-between items-center p-3 bg-indigo-50/50 rounded-xl border border-indigo-100">
+              <div class="flex items-center space-x-3">
+                <span class="font-bold text-base">${medal}</span>
+                <span class="text-sm font-semibold text-gray-700">${d.name || d.email}</span>
+              </div>
+              <span class="font-extrabold text-indigo-600 text-sm">${d.score} / ${d.total} câu</span>
+            </div>
+          `;
+          rank++;
+        });
+        listEl.innerHTML = html;
+      }).catch(err => {
+        listEl.innerHTML = `<p class="text-center text-sm text-red-400">Lỗi tải BXH: ${err.message}</p>`;
+      });
+    }
+
+    function closeLeaderboard() {
+      document.getElementById('leaderboard-modal').classList.add('hidden');
+    }
+
+    // Âm thanh
     function playWaooSound() {
       const ctx = getAudioContext();
       if (!ctx) return;
